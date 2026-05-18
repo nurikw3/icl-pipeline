@@ -1,0 +1,1915 @@
+﻿id,sheet,source_text,target_text,source_lang,target_lang,type,length
+Ch 1_6_en,Ch 1,qand şı̇̄rı̇̄ndür,sugar is sweet,chg,en,phrase,2
+Ch 1_6_kk,Ch 1,qand şı̇̄rı̇̄ndür,қант тәтті,chg,kk,phrase,2
+Ch 1_6_ru,Ch 1,qand şı̇̄rı̇̄ndür,сахар сладкий,chg,ru,phrase,2
+Ch 1_6_uz,Ch 1,qand şı̇̄rı̇̄ndür,qand shirindir,chg,uz,phrase,2
+Ch 1_6_tr,Ch 1,qand şı̇̄rı̇̄ndür,şeker tatlıdır,chg,tr,phrase,2
+Ch 1_10_en,Ch 1,nān wa  süt arzāndur,bread and milk are cheap,chg,en,phrase,4
+Ch 1_10_kk,Ch 1,nān wa  süt arzāndur,нан мен сүт арзан,chg,kk,phrase,4
+Ch 1_10_ru,Ch 1,nān wa  süt arzāndur,хлеб и молоко дешевые,chg,ru,phrase,4
+Ch 1_10_uz,Ch 1,nān wa  süt arzāndur,non va sut arzondir,chg,uz,phrase,4
+Ch 1_10_tr,Ch 1,nān wa  süt arzāndur,ekmek ve süt ucuzdur,chg,tr,phrase,4
+Ch 1_12_en,Ch 1,şorpa göşt wa tuzdur,soup is meat and salt,chg,en,phrase,4
+Ch 1_12_kk,Ch 1,şorpa göşt wa tuzdur,сорпа – ет пен тұз,chg,kk,phrase,4
+Ch 1_12_ru,Ch 1,şorpa göşt wa tuzdur,суп — это мясо и соль,chg,ru,phrase,4
+Ch 1_12_uz,Ch 1,şorpa göşt wa tuzdur,sho'rva go'sht va tuzdir,chg,uz,phrase,4
+Ch 1_12_tr,Ch 1,şorpa göşt wa tuzdur,çorba et ve tuzdur,chg,tr,phrase,4
+Ch 1_26_en,Ch 1,qand mı̇̄wa emes,sugar is not fruit,chg,en,phrase,3
+Ch 1_26_kk,Ch 1,qand mı̇̄wa emes,қант жеміс емес,chg,kk,phrase,3
+Ch 1_26_ru,Ch 1,qand mı̇̄wa emes,сахар — не фрукт,chg,ru,phrase,3
+Ch 1_26_uz,Ch 1,qand mı̇̄wa emes,qand meva emas,chg,uz,phrase,3
+Ch 1_26_tr,Ch 1,qand mı̇̄wa emes,şeker meyve değil,chg,tr,phrase,3
+Ch 1_45_en,Ch 1,nān,bread,chg,en,word,1
+Ch 1_45_kk,Ch 1,nān,нан,chg,kk,word,1
+Ch 1_45_ru,Ch 1,nān,хлеб,chg,ru,word,1
+Ch 1_45_uz,Ch 1,nān,non,chg,uz,word,1
+Ch 1_45_tr,Ch 1,nān,ekmek,chg,tr,word,1
+Ch 1_71_en,Ch 1,pul,money,chg,en,word,1
+Ch 1_71_kk,Ch 1,pul,ақша,chg,kk,word,1
+Ch 1_71_ru,Ch 1,pul,деньги,chg,ru,word,1
+Ch 1_71_uz,Ch 1,pul,pul,chg,uz,word,1
+Ch 1_71_tr,Ch 1,pul,para,chg,tr,word,1
+Ch 2_1_en,Ch 2,Buqa dost émes,A bull is not a friend,chg,en,phrase,3
+Ch 2_1_kk,Ch 2,Buqa dost émes,Бұқа дос емес,chg,kk,phrase,3
+Ch 2_1_ru,Ch 2,Buqa dost émes,Бык — не друг,chg,ru,phrase,3
+Ch 2_1_uz,Ch 2,Buqa dost émes,Buqa do‘st emas,chg,uz,phrase,3
+Ch 2_1_tr,Ch 2,Buqa dost émes,Boğa dost değildir,chg,tr,phrase,3
+Ch 2_6_en,Ch 2,nān wa çay,bread and tea,chg,en,phrase,3
+Ch 2_6_kk,Ch 2,nān wa çay,нан мен шай,chg,kk,phrase,3
+Ch 2_6_ru,Ch 2,nān wa çay,хлеб и чай,chg,ru,phrase,3
+Ch 2_6_uz,Ch 2,nān wa çay,non va choy,chg,uz,phrase,3
+Ch 2_6_tr,Ch 2,nān wa çay,ekmek ve çay,chg,tr,phrase,3
+Ch 2_16_en,Ch 2,qatıq bar,There is yogurt,chg,en,phrase,2
+Ch 2_16_kk,Ch 2,qatıq bar,қатық бар,chg,kk,phrase,2
+Ch 2_16_ru,Ch 2,qatıq bar,есть катык,chg,ru,phrase,2
+Ch 2_16_uz,Ch 2,qatıq bar,qatiq bor,chg,uz,phrase,2
+Ch 2_16_tr,Ch 2,qatıq bar,katık var,chg,tr,phrase,2
+Ch 2_17_en,Ch 2,arzān dārū bar,There is cheap medicine,chg,en,phrase,3
+Ch 2_17_kk,Ch 2,arzān dārū bar,арзан дәрі бар,chg,kk,phrase,3
+Ch 2_17_ru,Ch 2,arzān dārū bar,есть дешевое лекарство,chg,ru,phrase,3
+Ch 2_17_uz,Ch 2,arzān dārū bar,arzon dori bor,chg,uz,phrase,3
+Ch 2_17_tr,Ch 2,arzān dārū bar,ucuz ilaç var,chg,tr,phrase,3
+Ch 2_24_en,Ch 2,yoq,there is no,chg,en,word,1
+Ch 2_24_kk,Ch 2,yoq,жоқ,chg,kk,word,1
+Ch 2_24_ru,Ch 2,yoq,нет,chg,ru,word,1
+Ch 2_24_uz,Ch 2,yoq,yo‘q,chg,uz,word,1
+Ch 2_24_tr,Ch 2,yoq,yok,chg,tr,word,1
+Ch 2_25_en,Ch 2,yoq,there exists not,chg,en,word,1
+Ch 2_25_ru,Ch 2,yoq,не существует,chg,ru,word,1
+Ch 2_25_tr,Ch 2,yoq,mevcut değil,chg,tr,word,1
+Ch 2_32_en,Ch 2,Mı̇̄wa göşt émes,Fruit is not meat,chg,en,phrase,3
+Ch 2_32_kk,Ch 2,Mı̇̄wa göşt émes,Жеміс ет емес,chg,kk,phrase,3
+Ch 2_32_ru,Ch 2,Mı̇̄wa göşt émes,Фрукт — не мясо,chg,ru,phrase,3
+Ch 2_32_uz,Ch 2,Mı̇̄wa göşt émes,Meva go‘sht emas,chg,uz,phrase,3
+Ch 2_32_tr,Ch 2,Mı̇̄wa göşt émes,Meyve et değildir,chg,tr,phrase,3
+Ch 2_34_en,Ch 2,O inekde dost yoq,That cow has no friends,chg,en,phrase,4
+Ch 2_34_kk,Ch 2,O inekde dost yoq,Ол сиырда дос жоқ,chg,kk,phrase,4
+Ch 2_34_ru,Ch 2,O inekde dost yoq,У той коровы нет друзей,chg,ru,phrase,4
+Ch 2_34_uz,Ch 2,O inekde dost yoq,U sigirda do‘st yo‘q,chg,uz,phrase,4
+Ch 2_34_tr,Ch 2,O inekde dost yoq,O inekte dost yok,chg,tr,phrase,4
+Ch 2_47_en,Ch 2,ol kişi,that person,chg,en,phrase,2
+Ch 2_47_kk,Ch 2,ol kişi,ол кісі,chg,kk,phrase,2
+Ch 2_47_ru,Ch 2,ol kişi,тот человек,chg,ru,phrase,2
+Ch 2_47_uz,Ch 2,ol kişi,ul kishi,chg,uz,phrase,2
+Ch 2_47_tr,Ch 2,ol kişi,o kişi,chg,tr,phrase,2
+Ch 2_48_en,Ch 2,Bu üydür,This is a house,chg,en,phrase,2
+Ch 2_48_kk,Ch 2,Bu üydür,Бұл — үй,chg,kk,phrase,2
+Ch 2_48_ru,Ch 2,Bu üydür,Это дом,chg,ru,phrase,2
+Ch 2_48_uz,Ch 2,Bu üydür,Bu uydir,chg,uz,phrase,2
+Ch 2_48_tr,Ch 2,Bu üydür,Bu evdir,chg,tr,phrase,2
+Ch 2_69_en,Ch 2,şol buqa üyde émes,This bull is not in the house,chg,en,phrase,4
+Ch 2_69_kk,Ch 2,şol buqa üyde émes,сол бұқа үйде емес,chg,kk,phrase,4
+Ch 2_69_ru,Ch 2,şol buqa üyde émes,этот бык не в доме,chg,ru,phrase,4
+Ch 2_69_uz,Ch 2,şol buqa üyde émes,shu buqa uyda emas,chg,uz,phrase,4
+Ch 2_69_tr,Ch 2,şol buqa üyde émes,şu boğa evde değil,chg,tr,phrase,4
+Ch 2_70_en,Ch 2,Toḫta bar,Toḫta is around,chg,en,phrase,2
+Ch 2_70_kk,Ch 2,Toḫta bar,Тоқта бар,chg,kk,phrase,2
+Ch 2_70_ru,Ch 2,Toḫta bar,Тохта здесь,chg,ru,phrase,2
+Ch 2_70_uz,Ch 2,Toḫta bar,To‘xta bor,chg,uz,phrase,2
+Ch 2_70_tr,Ch 2,Toḫta bar,Tohta var,chg,tr,phrase,2
+Ch 2_73_en,Ch 2,Toḫta uşbu kitābda émes,Toḫta is not in this book,chg,en,phrase,4
+Ch 2_73_kk,Ch 2,Toḫta uşbu kitābda émes,Тоқта мына кітапта емес,chg,kk,phrase,4
+Ch 2_73_ru,Ch 2,Toḫta uşbu kitābda émes,Тохта не в этой книге,chg,ru,phrase,4
+Ch 2_73_uz,Ch 2,Toḫta uşbu kitābda émes,To‘xta ushbu kitobda emas,chg,uz,phrase,4
+Ch 2_73_tr,Ch 2,Toḫta uşbu kitābda émes,Tohta bu kitapta değil,chg,tr,phrase,4
+Ch 2_80_en,Ch 2,dost,friend,chg,en,word,1
+Ch 2_80_kk,Ch 2,dost,дос,chg,kk,word,1
+Ch 2_80_ru,Ch 2,dost,друг,chg,ru,word,1
+Ch 2_80_uz,Ch 2,dost,do‘st,chg,uz,word,1
+Ch 2_80_tr,Ch 2,dost,dost,chg,tr,word,1
+Ch 2_88_en,Ch 2,mākiyān,hen,chg,en,word,1
+Ch 2_88_kk,Ch 2,mākiyān,тауық,chg,kk,word,1
+Ch 2_88_ru,Ch 2,mākiyān,курица,chg,ru,word,1
+Ch 2_88_uz,Ch 2,mākiyān,makiyon,chg,uz,word,1
+Ch 2_88_tr,Ch 2,mākiyān,tavuk,chg,tr,word,1
+Ch 2_98_en,Ch 2,bala,child,chg,en,word,1
+Ch 2_98_kk,Ch 2,bala,бала,chg,kk,word,1
+Ch 2_98_ru,Ch 2,bala,ребенок,chg,ru,word,1
+Ch 2_98_uz,Ch 2,bala,bola,chg,uz,word,1
+Ch 2_98_tr,Ch 2,bala,çocuk,chg,tr,word,1
+Ch 2_101_en,Ch 2,ḫoraz,rooster,chg,en,word,1
+Ch 2_101_kk,Ch 2,ḫoraz,қораз,chg,kk,word,1
+Ch 2_101_ru,Ch 2,ḫoraz,петух,chg,ru,word,1
+Ch 2_101_uz,Ch 2,ḫoraz,xo‘roz,chg,uz,word,1
+Ch 2_101_tr,Ch 2,ḫoraz,horoz,chg,tr,word,1
+Ch 3_9_en,Ch 3,darwāzalar,gates,chg,en,word,1
+Ch 3_9_kk,Ch 3,darwāzalar,дарбазалар,chg,kk,word,1
+Ch 3_9_ru,Ch 3,darwāzalar,ворота,chg,ru,word,1
+Ch 3_9_uz,Ch 3,darwāzalar,darvozalar,chg,uz,word,1
+Ch 3_9_tr,Ch 3,darwāzalar,kapılar,chg,tr,word,1
+Ch 3_17_en,Ch 3,érkektin,from a man,chg,en,word,1
+Ch 3_17_kk,Ch 3,érkektin,еркектен,chg,kk,word,1
+Ch 3_17_ru,Ch 3,érkektin,от мужчины,chg,ru,word,1
+Ch 3_17_uz,Ch 3,érkektin,erkakdan,chg,uz,word,1
+Ch 3_17_tr,Ch 3,érkektin,erkekten,chg,tr,word,1
+Ch 3_24_en,Ch 3,Bazārdın mı̇̄wa aladur,She gets fruit from the market,chg,en,phrase,3
+Ch 3_24_kk,Ch 3,Bazārdın mı̇̄wa aladur,Базардан жеміс алады,chg,kk,phrase,3
+Ch 3_24_ru,Ch 3,Bazārdın mı̇̄wa aladur,Она берет фрукты с рынка,chg,ru,phrase,3
+Ch 3_24_uz,Ch 3,Bazārdın mı̇̄wa aladur,Bozordan meva oladi,chg,uz,phrase,3
+Ch 3_24_tr,Ch 3,Bazārdın mı̇̄wa aladur,Pazardan meyve alıyor,chg,tr,phrase,3
+Ch 3_29_en,Ch 3,éşekke,for the donkey,chg,en,word,1
+Ch 3_29_kk,Ch 3,éşekke,есекке,chg,kk,word,1
+Ch 3_29_ru,Ch 3,éşekke,ослу,chg,ru,word,1
+Ch 3_29_uz,Ch 3,éşekke,eshakka,chg,uz,word,1
+Ch 3_29_tr,Ch 3,éşekke,eşeğe,chg,tr,word,1
+Ch 3_37_en,Ch 3,Balalarǧa aş beredür,He gives children rice,chg,en,phrase,3
+Ch 3_37_kk,Ch 3,Balalarǧa aş beredür,Балаларға ас береді,chg,kk,phrase,3
+Ch 3_37_ru,Ch 3,Balalarǧa aş beredür,Он дает детям еду,chg,ru,phrase,3
+Ch 3_37_uz,Ch 3,Balalarǧa aş beredür,Bolalarga osh beradi,chg,uz,phrase,3
+Ch 3_37_tr,Ch 3,Balalarǧa aş beredür,Çocuklara aş veriyor,chg,tr,phrase,3
+Ch 3_38_en,Ch 3,soyadur,he slaughters,chg,en,word,1
+Ch 3_38_kk,Ch 3,soyadur,сояды,chg,kk,word,1
+Ch 3_38_ru,Ch 3,soyadur,режет,chg,ru,word,1
+Ch 3_38_uz,Ch 3,soyadur,soyadi,chg,uz,word,1
+Ch 3_38_tr,Ch 3,soyadur,kesiyor,chg,tr,word,1
+Ch 3_39_en,Ch 3,soyadur,she slaughters,chg,en,word,1
+Ch 3_40_en,Ch 3,soyadur,it slaughters,chg,en,word,1
+Ch 3_43_en,Ch 3,Ādamnıñ balası,a man's child,chg,en,phrase,2
+Ch 3_43_kk,Ch 3,Ādamnıñ balası,Адамның баласы,chg,kk,phrase,2
+Ch 3_43_ru,Ch 3,Ādamnıñ balası,Ребенок человека,chg,ru,phrase,2
+Ch 3_43_uz,Ch 3,Ādamnıñ balası,Odamning bolasi,chg,uz,phrase,2
+Ch 3_43_tr,Ch 3,Ādamnıñ balası,Adamın çocuğu,chg,tr,phrase,2
+Ch 3_45_en,Ch 3,ʿArabistānnıñ yolları,the roads of Arabia,chg,en,phrase,2
+Ch 3_45_kk,Ch 3,ʿArabistānnıñ yolları,Арабияның жолдары,chg,kk,phrase,2
+Ch 3_45_ru,Ch 3,ʿArabistānnıñ yolları,Дороги Аравии,chg,ru,phrase,2
+Ch 3_45_uz,Ch 3,ʿArabistānnıñ yolları,Arabistonning yo'llari,chg,uz,phrase,2
+Ch 3_45_tr,Ch 3,ʿArabistānnıñ yolları,Arabistan'ın yolları,chg,tr,phrase,2
+Ch 3_54_en,Ch 3,yoldın,from a road,chg,en,word,1
+Ch 3_54_kk,Ch 3,yoldın,жолдан,chg,kk,word,1
+Ch 3_54_ru,Ch 3,yoldın,с дороги,chg,ru,word,1
+Ch 3_54_uz,Ch 3,yoldın,yo'ldan,chg,uz,word,1
+Ch 3_54_tr,Ch 3,yoldın,yoldan,chg,tr,word,1
+Ch 3_55_en,Ch 3,yoldın,from the road,chg,en,word,1
+Ch 3_56_en,Ch 3,yollarǧa,to the roads,chg,en,word,1
+Ch 3_56_kk,Ch 3,yollarǧa,жолдарға,chg,kk,word,1
+Ch 3_56_ru,Ch 3,yollarǧa,к дорогам,chg,ru,word,1
+Ch 3_56_uz,Ch 3,yollarǧa,yo'llarga,chg,uz,word,1
+Ch 3_56_tr,Ch 3,yollarǧa,yollara,chg,tr,word,1
+Ch 3_57_en,Ch 3,yolǧa,to a road,chg,en,word,1
+Ch 3_57_kk,Ch 3,yolǧa,жолға,chg,kk,word,1
+Ch 3_57_ru,Ch 3,yolǧa,к дороге,chg,ru,word,1
+Ch 3_57_uz,Ch 3,yolǧa,yo'lga,chg,uz,word,1
+Ch 3_57_tr,Ch 3,yolǧa,yola,chg,tr,word,1
+Ch 3_58_en,Ch 3,yolǧa,to the road,chg,en,word,1
+Ch 3_60_en,Ch 3,yolnı,the road,chg,en,word,1
+Ch 3_60_kk,Ch 3,yolnı,жолды,chg,kk,word,1
+Ch 3_60_ru,Ch 3,yolnı,дорогу,chg,ru,word,1
+Ch 3_60_uz,Ch 3,yolnı,yo'lni,chg,uz,word,1
+Ch 3_60_tr,Ch 3,yolnı,yolu,chg,tr,word,1
+Ch 3_70_en,Ch 3,sözdin,from a word,chg,en,word,1
+Ch 3_70_kk,Ch 3,sözdin,сөзден,chg,kk,word,1
+Ch 3_70_ru,Ch 3,sözdin,от слова,chg,ru,word,1
+Ch 3_70_uz,Ch 3,sözdin,so'zdan,chg,uz,word,1
+Ch 3_70_tr,Ch 3,sözdin,sözden,chg,tr,word,1
+Ch 3_71_en,Ch 3,sözdin,from the word,chg,en,word,1
+Ch 3_85_en,Ch 3,bazār,market,chg,en,word,1
+Ch 3_85_kk,Ch 3,bazār,базар,chg,kk,word,1
+Ch 3_85_ru,Ch 3,bazār,базар,chg,ru,word,1
+Ch 3_85_uz,Ch 3,bazār,bozor,chg,uz,word,1
+Ch 3_85_tr,Ch 3,bazār,pazar,chg,tr,word,1
+Ch 3_99_en,Ch 3,yaman,bad,chg,en,word,1
+Ch 3_99_kk,Ch 3,yaman,жаман,chg,kk,word,1
+Ch 3_99_ru,Ch 3,yaman,плохой,chg,ru,word,1
+Ch 3_99_uz,Ch 3,yaman,yomon,chg,uz,word,1
+Ch 3_99_tr,Ch 3,yaman,kötü,chg,tr,word,1
+Ch 3_100_en,Ch 3,yaman,evil,chg,en,word,1
+Ch 3_100_ru,Ch 3,yaman,зло,chg,ru,word,1
+Ch 3_100_uz,Ch 3,yaman,yomonlik,chg,uz,word,1
+Ch 3_108_en,Ch 3,al,to take,chg,en,word,1
+Ch 3_108_kk,Ch 3,al,ал,chg,kk,word,1
+Ch 3_108_ru,Ch 3,al,бери,chg,ru,word,1
+Ch 3_108_uz,Ch 3,al,ol,chg,uz,word,1
+Ch 3_108_tr,Ch 3,al,al,chg,tr,word,1
+Ch 3_109_en,Ch 3,al,to get,chg,en,word,1
+Ch 3_109_ru,Ch 3,al,получай,chg,ru,word,1
+Ch 3_111_en,Ch 3,bay,wealthy person,chg,en,word,1
+Ch 3_111_kk,Ch 3,bay,бай,chg,kk,word,1
+Ch 3_111_ru,Ch 3,bay,богач,chg,ru,word,1
+Ch 3_111_uz,Ch 3,bay,boy,chg,uz,word,1
+Ch 3_111_tr,Ch 3,bay,zengin,chg,tr,word,1
+Ch 4_1_en,Ch 4,Kölde sawuq suw bar mu?,Is there cold water in the pond?,chg,en,sentence,5
+Ch 4_1_kk,Ch 4,Kölde sawuq suw bar mu?,Көлде суық су бар ма?,chg,kk,sentence,5
+Ch 4_1_ru,Ch 4,Kölde sawuq suw bar mu?,Есть ли в озере холодная вода?,chg,ru,sentence,5
+Ch 4_1_uz,Ch 4,Kölde sawuq suw bar mu?,Ko'lda sovuq suv bormi?,chg,uz,sentence,5
+Ch 4_1_tr,Ch 4,Kölde sawuq suw bar mu?,Gölde soğuk su var mı?,chg,tr,sentence,5
+Ch 4_14_en,Ch 4,sen,you,chg,en,word,1
+Ch 4_14_kk,Ch 4,sen,сен,chg,kk,word,1
+Ch 4_14_ru,Ch 4,sen,ты,chg,ru,word,1
+Ch 4_14_uz,Ch 4,sen,sen,chg,uz,word,1
+Ch 4_14_tr,Ch 4,sen,sen,chg,tr,word,1
+Ch 4_15_en,Ch 4,o,he,chg,en,word,1
+Ch 4_15_kk,Ch 4,o,ол,chg,kk,word,1
+Ch 4_15_ru,Ch 4,o,он,chg,ru,word,1
+Ch 4_15_uz,Ch 4,o,u,chg,uz,word,1
+Ch 4_15_tr,Ch 4,o,o,chg,tr,word,1
+Ch 4_16_en,Ch 4,o,she,chg,en,word,1
+Ch 4_16_ru,Ch 4,o,она,chg,ru,word,1
+Ch 4_17_en,Ch 4,o,it,chg,en,word,1
+Ch 4_17_ru,Ch 4,o,оно,chg,ru,word,1
+Ch 4_23_en,Ch 4,bizler,we,chg,en,word,1
+Ch 4_23_kk,Ch 4,bizler,біздер,chg,kk,word,1
+Ch 4_23_ru,Ch 4,bizler,мы,chg,ru,word,1
+Ch 4_23_uz,Ch 4,bizler,bizlar,chg,uz,word,1
+Ch 4_23_tr,Ch 4,bizler,bizler,chg,tr,word,1
+Ch 4_24_en,Ch 4,"O bay emes, mollādur",He is not a rich man; he is a mullah.,chg,en,phrase,4
+Ch 4_24_kk,Ch 4,"O bay emes, mollādur","Ол бай емес, молда",chg,kk,phrase,4
+Ch 4_24_ru,Ch 4,"O bay emes, mollādur","Он не богач, он мулла",chg,ru,phrase,4
+Ch 4_24_uz,Ch 4,"O bay emes, mollādur","U boy emas, mulladir",chg,uz,phrase,4
+Ch 4_24_tr,Ch 4,"O bay emes, mollādur","O zengin değil, molladır",chg,tr,phrase,4
+Ch 4_34_en,Ch 4,Men bay,I am a wealthy man,chg,en,phrase,2
+Ch 4_34_kk,Ch 4,Men bay,Мен баймын,chg,kk,phrase,2
+Ch 4_34_ru,Ch 4,Men bay,Я богач,chg,ru,phrase,2
+Ch 4_34_uz,Ch 4,Men bay,Men boyman,chg,uz,phrase,2
+Ch 4_34_tr,Ch 4,Men bay,Ben zenginim,chg,tr,phrase,2
+Ch 4_60_en,Ch 4,ata,father,chg,en,word,1
+Ch 4_60_kk,Ch 4,ata,әке,chg,kk,word,1
+Ch 4_60_ru,Ch 4,ata,отец,chg,ru,word,1
+Ch 4_60_uz,Ch 4,ata,ota,chg,uz,word,1
+Ch 4_60_tr,Ch 4,ata,baba,chg,tr,word,1
+Ch 4_67_en,Ch 4,dünyā,world,chg,en,word,1
+Ch 4_67_kk,Ch 4,dünyā,дүние,chg,kk,word,1
+Ch 4_67_ru,Ch 4,dünyā,мир,chg,ru,word,1
+Ch 4_67_uz,Ch 4,dünyā,dunyo,chg,uz,word,1
+Ch 4_67_tr,Ch 4,dünyā,dünya,chg,tr,word,1
+Ch 4_70_en,Ch 4,köñli aq,kind,chg,en,phrase,2
+Ch 4_70_kk,Ch 4,köñli aq,ақкөңіл,chg,kk,phrase,2
+Ch 4_70_ru,Ch 4,köñli aq,добросердечный,chg,ru,phrase,2
+Ch 4_70_uz,Ch 4,köñli aq,ko'ngli oq,chg,uz,phrase,2
+Ch 4_70_tr,Ch 4,köñli aq,iyi kalpli,chg,tr,phrase,2
+Ch 4_79_en,Ch 4,ḫudā,God,chg,en,word,1
+Ch 4_79_kk,Ch 4,ḫudā,Құдай,chg,kk,word,1
+Ch 4_79_ru,Ch 4,ḫudā,Бог,chg,ru,word,1
+Ch 4_79_uz,Ch 4,ḫudā,Xudo,chg,uz,word,1
+Ch 4_79_tr,Ch 4,ḫudā,Allah,chg,tr,word,1
+Ch 5_15_en,Ch 5,qılmaymen mü,Do I not do it?,chg,en,phrase,2
+Ch 5_15_kk,Ch 5,qılmaymen mü,қылмаймын ба?,chg,kk,phrase,2
+Ch 5_15_ru,Ch 5,qılmaymen mü,не делаю ли я?,chg,ru,phrase,2
+Ch 5_15_uz,Ch 5,qılmaymen mü,qilmaymanmi?,chg,uz,phrase,2
+Ch 5_15_tr,Ch 5,qılmaymen mü,yapmaz mıyım?,chg,tr,phrase,2
+Ch 5_19_en,Ch 5,qısqa ḫaṭ,short missive,chg,en,phrase,2
+Ch 5_19_kk,Ch 5,qısqa ḫaṭ,қысқа хат,chg,kk,phrase,2
+Ch 5_19_ru,Ch 5,qısqa ḫaṭ,короткое письмо,chg,ru,phrase,2
+Ch 5_19_uz,Ch 5,qısqa ḫaṭ,qisqa xat,chg,uz,phrase,2
+Ch 5_19_tr,Ch 5,qısqa ḫaṭ,kısa mektup,chg,tr,phrase,2
+Ch 5_20_en,Ch 5,égiz tam,high wall,chg,en,phrase,2
+Ch 5_20_kk,Ch 5,égiz tam,биік дуал,chg,kk,phrase,2
+Ch 5_20_ru,Ch 5,égiz tam,высокая стена,chg,ru,phrase,2
+Ch 5_20_uz,Ch 5,égiz tam,baland devor,chg,uz,phrase,2
+Ch 5_20_tr,Ch 5,égiz tam,yüksek duvar,chg,tr,phrase,2
+Ch 5_23_en,Ch 5,"Oqı bar, ammā yarı yoq","He has an arrow, but no bow.",chg,en,sentence,5
+Ch 5_23_kk,Ch 5,"Oqı bar, ammā yarı yoq","оғы бар, бірақ садағы жоқ",chg,kk,sentence,5
+Ch 5_23_ru,Ch 5,"Oqı bar, ammā yarı yoq","у него есть стрела, но нет лука",chg,ru,sentence,5
+Ch 5_23_uz,Ch 5,"Oqı bar, ammā yarı yoq","o'qi bor, ammo yoyi yo'q",chg,uz,sentence,5
+Ch 5_23_tr,Ch 5,"Oqı bar, ammā yarı yoq",oku var ama yayı yok,chg,tr,sentence,5
+Ch 5_45_en,Ch 5,şor-daryā,salt sea,chg,en,word,1
+Ch 5_45_kk,Ch 5,şor-daryā,тұзды теңіз,chg,kk,word,1
+Ch 5_45_ru,Ch 5,şor-daryā,соленое море,chg,ru,word,1
+Ch 5_45_uz,Ch 5,şor-daryā,sho'rdaryo,chg,uz,word,1
+Ch 5_45_tr,Ch 5,şor-daryā,tuzlu deniz,chg,tr,word,1
+Ch 5_51_en,Ch 5,keñ,wide,chg,en,word,1
+Ch 5_51_kk,Ch 5,keñ,кең,chg,kk,word,1
+Ch 5_51_ru,Ch 5,keñ,широкий,chg,ru,word,1
+Ch 5_51_uz,Ch 5,keñ,keng,chg,uz,word,1
+Ch 5_51_tr,Ch 5,keñ,geniş,chg,tr,word,1
+Ch 5_52_en,Ch 5,keñ,broad,chg,en,word,1
+Ch 5_52_ru,Ch 5,keñ,обширный,chg,ru,word,1
+Ch 5_52_tr,Ch 5,keñ,enli,chg,tr,word,1
+Ch 5_56_en,Ch 5,iste-,to seek,chg,en,word,1
+Ch 5_56_kk,Ch 5,iste-,іздеу,chg,kk,word,1
+Ch 5_56_ru,Ch 5,iste-,искать,chg,ru,word,1
+Ch 5_56_uz,Ch 5,iste-,izlamoq,chg,uz,word,1
+Ch 5_56_tr,Ch 5,iste-,aramak,chg,tr,word,1
+Ch 5_60_en,Ch 5,taş,stone,chg,en,word,1
+Ch 5_60_kk,Ch 5,taş,тас,chg,kk,word,1
+Ch 5_60_ru,Ch 5,taş,камень,chg,ru,word,1
+Ch 5_60_uz,Ch 5,taş,tosh,chg,uz,word,1
+Ch 5_60_tr,Ch 5,taş,taş,chg,tr,word,1
+Ch 5_69_en,Ch 5,qısqa,short,chg,en,word,1
+Ch 5_69_kk,Ch 5,qısqa,қысқа,chg,kk,word,1
+Ch 5_69_ru,Ch 5,qısqa,короткий,chg,ru,word,1
+Ch 5_69_uz,Ch 5,qısqa,qisqa,chg,uz,word,1
+Ch 5_69_tr,Ch 5,qısqa,kısa,chg,tr,word,1
+Ch 6_3_en,Ch 6,onıñ,his,chg,en,word,1
+Ch 6_3_kk,Ch 6,onıñ,оның,chg,kk,word,1
+Ch 6_3_ru,Ch 6,onıñ,его,chg,ru,word,1
+Ch 6_3_uz,Ch 6,onıñ,uning,chg,uz,word,1
+Ch 6_3_tr,Ch 6,onıñ,onun,chg,tr,word,1
+Ch 6_4_en,Ch 6,onıñ,her,chg,en,word,1
+Ch 6_4_ru,Ch 6,onıñ,её,chg,ru,word,1
+Ch 6_5_en,Ch 6,onıñ,its,chg,en,word,1
+Ch 6_10_en,Ch 6,sizlerniñ,your,chg,en,word,1
+Ch 6_10_kk,Ch 6,sizlerniñ,сіздердің,chg,kk,word,1
+Ch 6_10_ru,Ch 6,sizlerniñ,ваш,chg,ru,word,1
+Ch 6_10_uz,Ch 6,sizlerniñ,sizlarning,chg,uz,word,1
+Ch 6_10_tr,Ch 6,sizlerniñ,sizin,chg,tr,word,1
+Ch 6_15_en,Ch 6,aṭları,her horses,chg,en,word,1
+Ch 6_15_kk,Ch 6,aṭları,оның аттары,chg,kk,word,1
+Ch 6_15_ru,Ch 6,aṭları,её лошади,chg,ru,word,1
+Ch 6_15_uz,Ch 6,aṭları,uning otlari,chg,uz,word,1
+Ch 6_15_tr,Ch 6,aṭları,onun atları,chg,tr,word,1
+Ch 6_20_en,Ch 6,Başıñda saç bar,You have hair on your head.,chg,en,phrase,3
+Ch 6_20_kk,Ch 6,Başıñda saç bar,Басыңда шаш бар,chg,kk,phrase,3
+Ch 6_20_ru,Ch 6,Başıñda saç bar,У тебя на голове есть волосы,chg,ru,phrase,3
+Ch 6_20_uz,Ch 6,Başıñda saç bar,Boshingda soch bor,chg,uz,phrase,3
+Ch 6_20_tr,Ch 6,Başıñda saç bar,Başında saç var,chg,tr,phrase,3
+Ch 6_29_en,Ch 6,sözüm,my word,chg,en,word,1
+Ch 6_29_kk,Ch 6,sözüm,сөзім,chg,kk,word,1
+Ch 6_29_ru,Ch 6,sözüm,мое слово,chg,ru,word,1
+Ch 6_29_uz,Ch 6,sözüm,so'zim,chg,uz,word,1
+Ch 6_29_tr,Ch 6,sözüm,sözüm,chg,tr,word,1
+Ch 6_37_en,Ch 6,üyimiz,our house,chg,en,word,1
+Ch 6_37_kk,Ch 6,üyimiz,үйіміз,chg,kk,word,1
+Ch 6_37_ru,Ch 6,üyimiz,наш дом,chg,ru,word,1
+Ch 6_37_uz,Ch 6,üyimiz,uyimiz,chg,uz,word,1
+Ch 6_37_tr,Ch 6,üyimiz,evimiz,chg,tr,word,1
+Ch 6_39_en,Ch 6,barduq,we gave,chg,en,word,1
+Ch 6_39_kk,Ch 6,barduq,бердік,chg,kk,word,1
+Ch 6_39_ru,Ch 6,barduq,мы дали,chg,ru,word,1
+Ch 6_39_uz,Ch 6,barduq,bérdik,chg,uz,word,1
+Ch 6_39_tr,Ch 6,barduq,vérdik,chg,tr,word,1
+Ch 6_40_en,Ch 6,bardıñız,you gave,chg,en,word,1
+Ch 6_40_kk,Ch 6,bardıñız,бердіңіз,chg,kk,word,1
+Ch 6_40_ru,Ch 6,bardıñız,вы дали,chg,ru,word,1
+Ch 6_40_uz,Ch 6,bardıñız,bérdingiz,chg,uz,word,1
+Ch 6_40_tr,Ch 6,bardıñız,vérdiniz,chg,tr,word,1
+Ch 6_42_en,Ch 6,bérdiñ,you gave,chg,en,word,1
+Ch 6_42_kk,Ch 6,bérdiñ,бердің,chg,kk,word,1
+Ch 6_42_ru,Ch 6,bérdiñ,ты дал,chg,ru,word,1
+Ch 6_42_uz,Ch 6,bérdiñ,bérding,chg,uz,word,1
+Ch 6_42_tr,Ch 6,bérdiñ,vérdin,chg,tr,word,1
+Ch 6_43_en,Ch 6,bérdi,he gave,chg,en,word,1
+Ch 6_43_kk,Ch 6,bérdi,берді,chg,kk,word,1
+Ch 6_43_ru,Ch 6,bérdi,он дал,chg,ru,word,1
+Ch 6_43_uz,Ch 6,bérdi,bérdi,chg,uz,word,1
+Ch 6_43_tr,Ch 6,bérdi,vérdi,chg,tr,word,1
+Ch 6_44_en,Ch 6,bérdi,she gave,chg,en,word,1
+Ch 6_44_ru,Ch 6,bérdi,она дала,chg,ru,word,1
+Ch 6_45_en,Ch 6,bérdi,it gave,chg,en,word,1
+Ch 6_45_ru,Ch 6,bérdi,оно дало,chg,ru,word,1
+Ch 6_46_en,Ch 6,bérdi,they gave,chg,en,word,1
+Ch 6_46_ru,Ch 6,bérdi,они дали,chg,ru,word,1
+Ch 6_46_tr,Ch 6,bérdi,vérdiler,chg,tr,word,1
+Ch 6_47_en,Ch 6,turdum,I stood,chg,en,word,1
+Ch 6_47_kk,Ch 6,turdum,тұрдым,chg,kk,word,1
+Ch 6_47_ru,Ch 6,turdum,я стоял,chg,ru,word,1
+Ch 6_47_uz,Ch 6,turdum,turdim,chg,uz,word,1
+Ch 6_47_tr,Ch 6,turdum,durdum,chg,tr,word,1
+Ch 6_59_en,Ch 6,kördüñler,you saw,chg,en,word,1
+Ch 6_59_kk,Ch 6,kördüñler,көрдіңдер,chg,kk,word,1
+Ch 6_59_ru,Ch 6,kördüñler,вы видели,chg,ru,word,1
+Ch 6_59_uz,Ch 6,kördüñler,ko'rdinglar,chg,uz,word,1
+Ch 6_59_tr,Ch 6,kördüñler,gördünüz,chg,tr,word,1
+Ch 6_80_en,Ch 6,demediñ,You did not say.,chg,en,word,1
+Ch 6_80_kk,Ch 6,demediñ,демедің,chg,kk,word,1
+Ch 6_80_ru,Ch 6,demediñ,ты не сказал,chg,ru,word,1
+Ch 6_80_uz,Ch 6,demediñ,demading,chg,uz,word,1
+Ch 6_80_tr,Ch 6,demediñ,demedin,chg,tr,word,1
+Ch 6_86_en,Ch 6,istemeduq mu,Did we not seek?,chg,en,phrase,2
+Ch 6_86_kk,Ch 6,istemeduq mu,іздемедік пе?,chg,kk,phrase,2
+Ch 6_86_ru,Ch 6,istemeduq mu,мы не искали?,chg,ru,phrase,2
+Ch 6_86_uz,Ch 6,istemeduq mu,izlamadikmi?,chg,uz,phrase,2
+Ch 6_86_tr,Ch 6,istemeduq mu,aramadık mı?,chg,tr,phrase,2
+Ch 6_91_en,Ch 6,bermedi mü,Did they not give?,chg,en,phrase,2
+Ch 6_91_kk,Ch 6,bermedi mü,бермеді ме?,chg,kk,phrase,2
+Ch 6_91_ru,Ch 6,bermedi mü,они не дали?,chg,ru,phrase,2
+Ch 6_91_uz,Ch 6,bermedi mü,bermadimi?,chg,uz,phrase,2
+Ch 6_91_tr,Ch 6,bermedi mü,vermediler mi?,chg,tr,phrase,2
+Ch 6_95_en,Ch 6,Onıñ öz işi bar,She has her own affairs,chg,en,phrase,4
+Ch 6_95_kk,Ch 6,Onıñ öz işi bar,Оның өз ісі бар,chg,kk,phrase,4
+Ch 6_95_ru,Ch 6,Onıñ öz işi bar,У нее есть свои дела,chg,ru,phrase,4
+Ch 6_95_uz,Ch 6,Onıñ öz işi bar,Uning o'z ishi bor,chg,uz,phrase,4
+Ch 6_95_tr,Ch 6,Onıñ öz işi bar,Onun kendi işi var,chg,tr,phrase,4
+Ch 6_96_en,Ch 6,Onıñ öz işi bar,She has her own work,chg,en,phrase,4
+Ch 6_96_kk,Ch 6,Onıñ öz işi bar,Оның өз жұмысы бар,chg,kk,phrase,4
+Ch 6_96_ru,Ch 6,Onıñ öz işi bar,У нее есть своя работа,chg,ru,phrase,4
+Ch 6_97_en,Ch 6,Onıñ öz işi bar,She has her own business,chg,en,phrase,4
+Ch 6_97_kk,Ch 6,Onıñ öz işi bar,Оның өз шаруасы бар,chg,kk,phrase,4
+Ch 6_97_ru,Ch 6,Onıñ öz işi bar,У нее есть свой бизнес,chg,ru,phrase,4
+Ch 6_111_en,Ch 6,"Men özüm Tācikdurmen, Türk emes","I am a Tajik myself, not a Turk.",chg,en,sentence,5
+Ch 6_111_kk,Ch 6,"Men özüm Tācikdurmen, Türk emes","Мен өзім тәжікпін, түрік емеспін",chg,kk,sentence,5
+Ch 6_111_ru,Ch 6,"Men özüm Tācikdurmen, Türk emes","Я сам таджик, не тюрок",chg,ru,sentence,5
+Ch 6_111_uz,Ch 6,"Men özüm Tācikdurmen, Türk emes","Men o'zim tojikman, turk emasman",chg,uz,sentence,5
+Ch 6_111_tr,Ch 6,"Men özüm Tācikdurmen, Türk emes","Ben kendim Tacik'im, Türk değilim",chg,tr,sentence,5
+Ch 6_116_en,Ch 6,Başı taz boldı,He went bald.,chg,en,phrase,3
+Ch 6_116_kk,Ch 6,Başı taz boldı,Басы таз болды,chg,kk,phrase,3
+Ch 6_116_ru,Ch 6,Başı taz boldı,Он облысел,chg,ru,phrase,3
+Ch 6_116_uz,Ch 6,Başı taz boldı,Boshi kal bo'ldi,chg,uz,phrase,3
+Ch 6_116_tr,Ch 6,Başı taz boldı,Başı kel oldu,chg,tr,phrase,3
+Ch 6_128_en,Ch 6,Bāqı̇̄,Baqi,chg,en,word,1
+Ch 6_128_kk,Ch 6,Bāqı̇̄,Бақи,chg,kk,word,1
+Ch 6_128_ru,Ch 6,Bāqı̇̄,Баки,chg,ru,word,1
+Ch 6_128_uz,Ch 6,Bāqı̇̄,Boqi,chg,uz,word,1
+Ch 6_128_tr,Ch 6,Bāqı̇̄,Baki,chg,tr,word,1
+Ch 6_135_en,Ch 6,ḫan,Khan,chg,en,word,1
+Ch 6_135_kk,Ch 6,ḫan,ханым,chg,kk,word,1
+Ch 6_135_ru,Ch 6,ḫan,госпожа,chg,ru,word,1
+Ch 6_135_uz,Ch 6,ḫan,xonim,chg,uz,word,1
+Ch 6_135_tr,Ch 6,ḫan,hanım,chg,tr,word,1
+Ch 6_136_en,Ch 6,ḫan,Miss,chg,en,word,1
+Ch 6_136_kk,Ch 6,ḫan,ахун,chg,kk,word,1
+Ch 6_136_ru,Ch 6,ḫan,господин,chg,ru,word,1
+Ch 6_136_uz,Ch 6,ḫan,oxund,chg,uz,word,1
+Ch 6_136_tr,Ch 6,ḫan,ahund,chg,tr,word,1
+Ch 6_152_en,Ch 6,hawā,weather,chg,en,word,1
+Ch 6_152_kk,Ch 6,hawā,ауа,chg,kk,word,1
+Ch 6_152_ru,Ch 6,hawā,воздух,chg,ru,word,1
+Ch 6_152_uz,Ch 6,hawā,havo,chg,uz,word,1
+Ch 6_152_tr,Ch 6,hawā,hava,chg,tr,word,1
+Ch 6_153_en,Ch 6,hawā,air,chg,en,word,1
+Ch 6_153_ru,Ch 6,hawā,климат,chg,ru,word,1
+Ch 6_153_tr,Ch 6,hawā,iklim,chg,tr,word,1
+Ch 6_154_en,Ch 6,hawā,climate,chg,en,word,1
+Ch 6_154_kk,Ch 6,hawā,көлік,chg,kk,word,1
+Ch 6_154_ru,Ch 6,hawā,вьючное животное,chg,ru,word,1
+Ch 6_154_uz,Ch 6,hawā,ulov,chg,uz,word,1
+Ch 6_154_tr,Ch 6,hawā,binek,chg,tr,word,1
+Ch 7_8_en,Ch 7,yıl,year,chg,en,word,1
+Ch 7_8_kk,Ch 7,yıl,жыл,chg,kk,word,1
+Ch 7_8_ru,Ch 7,yıl,год,chg,ru,word,1
+Ch 7_8_uz,Ch 7,yıl,yil,chg,uz,word,1
+Ch 7_8_tr,Ch 7,yıl,yıl,chg,tr,word,1
+Ch 7_9_en,Ch 7,ér-,to be,chg,en,word,1
+Ch 7_9_kk,Ch 7,ér-,е- (бол-),chg,kk,word,1
+Ch 7_9_ru,Ch 7,ér-,быть,chg,ru,word,1
+Ch 7_9_uz,Ch 7,ér-,e- (bo'l-),chg,uz,word,1
+Ch 7_9_tr,Ch 7,ér-,i- (ol-),chg,tr,word,1
+Ch 7_43_en,Ch 7,Yaʿqūb,the man's name Ya'qub,chg,en,word,1
+Ch 7_43_kk,Ch 7,Yaʿqūb,Жақып,chg,kk,word,1
+Ch 7_43_ru,Ch 7,Yaʿqūb,Якуб,chg,ru,word,1
+Ch 7_43_uz,Ch 7,Yaʿqūb,Yaqub,chg,uz,word,1
+Ch 7_43_tr,Ch 7,Yaʿqūb,Yakup,chg,tr,word,1
+Ch 7_56_en,Ch 7,ḥudūd-ı arbaʿa,the four limits,chg,en,phrase,2
+Ch 7_56_kk,Ch 7,ḥudūd-ı arbaʿa,төрт шек,chg,kk,phrase,2
+Ch 7_56_ru,Ch 7,ḥudūd-ı arbaʿa,четыре границы,chg,ru,phrase,2
+Ch 7_56_uz,Ch 7,ḥudūd-ı arbaʿa,hududi arba,chg,uz,phrase,2
+Ch 7_56_tr,Ch 7,ḥudūd-ı arbaʿa,hudud-u erba,chg,tr,phrase,2
+Ch 7_57_en,Ch 7,ḥudūd-ı arbaʿa,the boundaries of a parcel of land,chg,en,phrase,2
+Ch 7_57_kk,Ch 7,ḥudūd-ı arbaʿa,жер телімінің шекаралары,chg,kk,phrase,2
+Ch 7_57_ru,Ch 7,ḥudūd-ı arbaʿa,границы участка земли,chg,ru,phrase,2
+Ch 7_57_uz,Ch 7,ḥudūd-ı arbaʿa,yerning hududi arba'si,chg,uz,phrase,2
+Ch 7_57_tr,Ch 7,ḥudūd-ı arbaʿa,arazi sınırları,chg,tr,phrase,2
+Ch 7_60_en,Ch 7,mülk,property,chg,en,word,1
+Ch 7_60_kk,Ch 7,mülk,мүлік,chg,kk,word,1
+Ch 7_60_ru,Ch 7,mülk,собственность,chg,ru,word,1
+Ch 7_60_uz,Ch 7,mülk,mulk,chg,uz,word,1
+Ch 7_60_tr,Ch 7,mülk,mülk,chg,tr,word,1
+Ch 7_71_en,Ch 7,qır,a low earthen dyke separating fields,chg,en,word,1
+Ch 7_71_kk,Ch 7,qır,қыр,chg,kk,word,1
+Ch 7_71_ru,Ch 7,qır,межа,chg,ru,word,1
+Ch 7_71_uz,Ch 7,qır,qir,chg,uz,word,1
+Ch 7_71_tr,Ch 7,qır,kır,chg,tr,word,1
+Ch 7_77_en,Ch 7,yüz,one hundred,chg,en,word,1
+Ch 7_77_kk,Ch 7,yüz,жүз,chg,kk,word,1
+Ch 7_77_ru,Ch 7,yüz,сто,chg,ru,word,1
+Ch 7_77_uz,Ch 7,yüz,yuz,chg,uz,word,1
+Ch 7_77_tr,Ch 7,yüz,yüz,chg,tr,word,1
+Ch 7_87_en,Ch 7,beşinçi,fifth,chg,en,word,1
+Ch 7_87_kk,Ch 7,beşinçi,бесінші,chg,kk,word,1
+Ch 7_87_ru,Ch 7,beşinçi,пятый,chg,ru,word,1
+Ch 7_87_uz,Ch 7,beşinçi,beshinchi,chg,uz,word,1
+Ch 7_87_tr,Ch 7,beşinçi,beşinci,chg,tr,word,1
+Ch 7_108_en,Ch 7,sen émes érdiñ,you were not,chg,en,phrase,3
+Ch 7_108_kk,Ch 7,sen émes érdiñ,сен емес едің,chg,kk,phrase,3
+Ch 7_108_ru,Ch 7,sen émes érdiñ,ты не был,chg,ru,phrase,3
+Ch 7_108_uz,Ch 7,sen émes érdiñ,sen emas eding,chg,uz,phrase,3
+Ch 7_108_tr,Ch 7,sen émes érdiñ,sen değil idin,chg,tr,phrase,3
+Ch 7_113_en,Ch 7,şol zamānda siz tola kiçik érdiñiz mü,"At that time, were you very young?",chg,en,sentence,7
+Ch 7_113_kk,Ch 7,şol zamānda siz tola kiçik érdiñiz mü,Сол заманда сіз тым кіші едіңіз бе,chg,kk,sentence,7
+Ch 7_113_ru,Ch 7,şol zamānda siz tola kiçik érdiñiz mü,В то время вы были очень маленьким?,chg,ru,sentence,7
+Ch 7_113_uz,Ch 7,şol zamānda siz tola kiçik érdiñiz mü,Shu zamonda siz to'la kichik edingizmi,chg,uz,sentence,7
+Ch 7_113_tr,Ch 7,şol zamānda siz tola kiçik érdiñiz mü,Şu zamanda siz çok küçük müydünüz,chg,tr,sentence,7
+Ch 7_114_en,Ch 7,Tola kiçik émes érdim,I was not very young.,chg,en,phrase,4
+Ch 7_114_kk,Ch 7,Tola kiçik émes érdim,Тым кіші емес едім,chg,kk,phrase,4
+Ch 7_114_ru,Ch 7,Tola kiçik émes érdim,Я не был очень маленьким,chg,ru,phrase,4
+Ch 7_114_uz,Ch 7,Tola kiçik émes érdim,To'la kichik emas edim,chg,uz,phrase,4
+Ch 7_114_tr,Ch 7,Tola kiçik émes érdim,Çok küçük değil idim,chg,tr,phrase,4
+Ch 7_116_en,Ch 7,anam ki Ḫıṭāydın keldi,my mother who came from China,chg,en,phrase,4
+Ch 7_116_kk,Ch 7,anam ki Ḫıṭāydın keldi,Қытайдан келген анам,chg,kk,phrase,4
+Ch 7_116_ru,Ch 7,anam ki Ḫıṭāydın keldi,"моя мать, которая пришла из Китая",chg,ru,phrase,4
+Ch 7_116_uz,Ch 7,anam ki Ḫıṭāydın keldi,Xitoydan kelgan onam,chg,uz,phrase,4
+Ch 7_116_tr,Ch 7,anam ki Ḫıṭāydın keldi,Hıtay'dan gelen annem,chg,tr,phrase,4
+Ch 7_117_en,Ch 7,Bāqı̇̄ Āḫūnd ki keyin öz yurtıǧa yandı,Baqi Akhund who later returned to his own land,chg,en,sentence,7
+Ch 7_117_kk,Ch 7,Bāqı̇̄ Āḫūnd ki keyin öz yurtıǧa yandı,Кейін өз жұртына қайтқан Бақи ахун,chg,kk,sentence,7
+Ch 7_117_ru,Ch 7,Bāqı̇̄ Āḫūnd ki keyin öz yurtıǧa yandı,"Баки Ахунд, который позже вернулся в свою страну",chg,ru,sentence,7
+Ch 7_117_uz,Ch 7,Bāqı̇̄ Āḫūnd ki keyin öz yurtıǧa yandı,Keyin o'z yurtiga qaytgan Boqi Oxund,chg,uz,sentence,7
+Ch 7_117_tr,Ch 7,Bāqı̇̄ Āḫūnd ki keyin öz yurtıǧa yandı,Sonra öz yurduna dönen Baki Ahund,chg,tr,sentence,7
+Ch 7_127_en,Ch 7,Men ki Kuçalıq Toḫta Mı̇̄rābdurmen,"I, Tokhta Mirab of Kucha,",chg,en,sentence,5
+Ch 7_127_kk,Ch 7,Men ki Kuçalıq Toḫta Mı̇̄rābdurmen,"Мен, Кучалық Тоқта Мирабпын",chg,kk,sentence,5
+Ch 7_127_ru,Ch 7,Men ki Kuçalıq Toḫta Mı̇̄rābdurmen,"Я, Тохта Мираб из Кучи",chg,ru,sentence,5
+Ch 7_127_uz,Ch 7,Men ki Kuçalıq Toḫta Mı̇̄rābdurmen,Menki Kuchalik To'xta Mirobdirman,chg,uz,sentence,5
+Ch 7_127_tr,Ch 7,Men ki Kuçalıq Toḫta Mı̇̄rābdurmen,Ben ki Kuçalı Tohta Mirab'ım,chg,tr,sentence,5
+Ch 7_128_en,Ch 7,ayttım ki,said that …,chg,en,phrase,2
+Ch 7_128_kk,Ch 7,ayttım ki,айттым кі,chg,kk,phrase,2
+Ch 7_128_ru,Ch 7,ayttım ki,"я сказал, что",chg,ru,phrase,2
+Ch 7_128_uz,Ch 7,ayttım ki,aytdimki,chg,uz,phrase,2
+Ch 7_128_tr,Ch 7,ayttım ki,dédim ki,chg,tr,phrase,2
+Ch 7_140_en,Ch 7,beş miñ āṭlıǧ kişi,five thousand mounted men,chg,en,phrase,4
+Ch 7_140_kk,Ch 7,beş miñ āṭlıǧ kişi,бес мың атты кісі,chg,kk,phrase,4
+Ch 7_140_ru,Ch 7,beş miñ āṭlıǧ kişi,пять тысяч всадников,chg,ru,phrase,4
+Ch 7_140_uz,Ch 7,beş miñ āṭlıǧ kişi,besh ming otliq kishi,chg,uz,phrase,4
+Ch 7_140_tr,Ch 7,beş miñ āṭlıǧ kişi,beş bin atlı kişi,chg,tr,phrase,4
+Ch 7_157_en,Ch 7,Atam Sizler neme iş qılasızlar dép,"My father said to them, “What are you doing?”",chg,en,sentence,6
+Ch 7_157_kk,Ch 7,Atam Sizler neme iş qılasızlar dép,"Атам: ""Сіздер не іс қыласыздар?"" деп",chg,kk,sentence,6
+Ch 7_157_ru,Ch 7,Atam Sizler neme iş qılasızlar dép,"Мой отец, сказав: ""Что вы делаете?""",chg,ru,sentence,6
+Ch 7_157_uz,Ch 7,Atam Sizler neme iş qılasızlar dép,"Otam ""Sizlar nima ish qilasizlar"" deb",chg,uz,sentence,6
+Ch 7_157_tr,Ch 7,Atam Sizler neme iş qılasızlar dép,"Atam ""Sizler ne iş kılarsınız"" deyip",chg,tr,sentence,6
+Ch 7_159_en,Ch 7,tapşurup aldım,I collected …,chg,en,phrase,2
+Ch 7_159_kk,Ch 7,tapşurup aldım,қабылдап алдым,chg,kk,phrase,2
+Ch 7_159_ru,Ch 7,tapşurup aldım,я получил,chg,ru,phrase,2
+Ch 7_159_uz,Ch 7,tapşurup aldım,topshirib oldim,chg,uz,phrase,2
+Ch 7_159_tr,Ch 7,tapşurup aldım,teslim aldım,chg,tr,phrase,2
+Ch 7_169_en,Ch 7,Men ki çoñ Eriq kentidin Yaʿqūb Baynıñ oǧlı Muḥammad Baydurmen iqrār-ı şärʿı̇̄ qıldım ki,"I, Yaʿqub Bay, son of Muḥammad Bay of the town of Big Ditch, made a legal declaration.",chg,en,sentence,14
+Ch 7_169_kk,Ch 7,Men ki çoñ Eriq kentidin Yaʿqūb Baynıñ oǧlı Muḥammad Baydurmen iqrār-ı şärʿı̇̄ qıldım ki,"Мен, Чоң Арық кентінен Жақып байдың ұлы Мұхаммед баймын, шариғи иқрар қылдым кі",chg,kk,sentence,14
+Ch 7_169_ru,Ch 7,Men ki çoñ Eriq kentidin Yaʿqūb Baynıñ oǧlı Muḥammad Baydurmen iqrār-ı şärʿı̇̄ qıldım ki,"Я, Мухаммад Бай, сын Якуба Бая из города Чон-Арык, совершил шариатское признание в том, что",chg,ru,sentence,14
+Ch 7_169_uz,Ch 7,Men ki çoñ Eriq kentidin Yaʿqūb Baynıñ oǧlı Muḥammad Baydurmen iqrār-ı şärʿı̇̄ qıldım ki,"Menki Cho'ng Ariq kentidan Yaqub Boyning o'g'li Muhammad Boydurman, shar'iy iqror qildimki",chg,uz,sentence,14
+Ch 7_169_tr,Ch 7,Men ki çoñ Eriq kentidin Yaʿqūb Baynıñ oǧlı Muḥammad Baydurmen iqrār-ı şärʿı̇̄ qıldım ki,"Ben ki Çon Arık kentinden Yakup Bay'ın oğlu Muhammed Bay'ım, şer'i ikrar kıldım ki",chg,tr,sentence,14
+Ch 7_174_en,Ch 7,ḥadd-i şarq Niyāz Bibiniñ mülkiǧa mutaṣṣıl fāṣıl tam,"To the east, it abuts Niyaz Bibi’s property boundary wall.",chg,en,sentence,8
+Ch 7_174_kk,Ch 7,ḥadd-i şarq Niyāz Bibiniñ mülkiǧa mutaṣṣıl fāṣıl tam,Шығыс шегі Нияз бибінің мүлкіне жапсарлас бөлуші там,chg,kk,sentence,8
+Ch 7_174_ru,Ch 7,ḥadd-i şarq Niyāz Bibiniñ mülkiǧa mutaṣṣıl fāṣıl tam,"Восточная граница прилегает к собственности Нияз Биби, разделитель - стена",chg,ru,sentence,8
+Ch 7_174_uz,Ch 7,ḥadd-i şarq Niyāz Bibiniñ mülkiǧa mutaṣṣıl fāṣıl tam,Haddi sharq Niyoz Bibining mulkiga muttasil fosil tom,chg,uz,sentence,8
+Ch 7_174_tr,Ch 7,ḥadd-i şarq Niyāz Bibiniñ mülkiǧa mutaṣṣıl fāṣıl tam,"Şark haddi Niyaz Bibi'nin mülküne muttasıl, fasıl (ayırıcı) tam (duvar)",chg,tr,sentence,8
+Ch 8_7_en,Ch 8,cämādiü'l-āḫir,the month of Jumada al-Akhir,chg,en,word,1
+Ch 8_7_kk,Ch 8,cämādiü'l-āḫir,Жүмәдәл-ахир,chg,kk,word,1
+Ch 8_7_ru,Ch 8,cämādiü'l-āḫir,Джумада аль-ахира,chg,ru,word,1
+Ch 8_7_uz,Ch 8,cämādiü'l-āḫir,Jumodiloxir,chg,uz,word,1
+Ch 8_7_tr,Ch 8,cämādiü'l-āḫir,Cemaziyelahir,chg,tr,word,1
+Ch 8_8_en,Ch 8,saḥar,early morning,chg,en,word,1
+Ch 8_8_kk,Ch 8,saḥar,сәске,chg,kk,word,1
+Ch 8_8_ru,Ch 8,saḥar,раннее утро,chg,ru,word,1
+Ch 8_8_uz,Ch 8,saḥar,sahar,chg,uz,word,1
+Ch 8_8_tr,Ch 8,saḥar,seher,chg,tr,word,1
+Ch 8_15_en,Ch 8,Tungan,Dungan,chg,en,word,1
+Ch 8_15_kk,Ch 8,Tungan,дүнген,chg,kk,word,1
+Ch 8_15_ru,Ch 8,Tungan,дунган,chg,ru,word,1
+Ch 8_15_uz,Ch 8,Tungan,dungan,chg,uz,word,1
+Ch 8_15_tr,Ch 8,Tungan,Dungan,chg,tr,word,1
+Ch 8_16_en,Ch 8,Tungan,Hui,chg,en,word,1
+Ch 8_17_en,Ch 8,Tungan,Sino-Muslim,chg,en,word,1
+Ch 8_18_en,Ch 8,Tungan,Chinese-speaking Muslim,chg,en,word,1
+Ch 8_36_en,Ch 8,bāq,remainder,chg,en,word,1
+Ch 8_36_kk,Ch 8,bāq,қалғаны,chg,kk,word,1
+Ch 8_36_ru,Ch 8,bāq,остальные,chg,ru,word,1
+Ch 8_36_uz,Ch 8,bāq,boqiysi,chg,uz,word,1
+Ch 8_36_tr,Ch 8,bāq,kalanı,chg,tr,word,1
+Ch 8_44_en,Ch 8,Paynaf,Paynap,chg,en,word,1
+Ch 8_44_kk,Ch 8,Paynaf,Пайнап,chg,kk,word,1
+Ch 8_44_ru,Ch 8,Paynaf,Пайнап,chg,ru,word,1
+Ch 8_44_uz,Ch 8,Paynaf,Paynap,chg,uz,word,1
+Ch 8_44_tr,Ch 8,Paynaf,Paynap,chg,tr,word,1
+Ch 8_47_en,Ch 8,...-ǧa ot yaq-,to set … on fire,chg,en,phrase,3
+Ch 8_47_kk,Ch 8,...-ǧa ot yaq-,...-қа от қою,chg,kk,phrase,3
+Ch 8_47_ru,Ch 8,...-ǧa ot yaq-,поджигать ...,chg,ru,phrase,3
+Ch 8_47_uz,Ch 8,...-ǧa ot yaq-,...-ga o't qo'ymoq,chg,uz,phrase,3
+Ch 8_47_tr,Ch 8,...-ǧa ot yaq-,...-i ateşe vermek,chg,tr,phrase,3
+Ch 8_49_en,Ch 8,hücūm,attack,chg,en,word,1
+Ch 8_49_kk,Ch 8,hücūm,шабуыл,chg,kk,word,1
+Ch 8_49_ru,Ch 8,hücūm,атака,chg,ru,word,1
+Ch 8_49_uz,Ch 8,hücūm,hujum,chg,uz,word,1
+Ch 8_49_tr,Ch 8,hücūm,hücum,chg,tr,word,1
+Ch 8_56_en,Ch 8,öltür-,to kill,chg,en,word,1
+Ch 8_56_kk,Ch 8,öltür-,өлтіру,chg,kk,word,1
+Ch 8_56_ru,Ch 8,öltür-,убивать,chg,ru,word,1
+Ch 8_56_uz,Ch 8,öltür-,o'ldirmoq,chg,uz,word,1
+Ch 8_56_tr,Ch 8,öltür-,öldürmek,chg,tr,word,1
+Ch 8_62_en,Ch 8,beş atar,five-shooter pistol,chg,en,phrase,2
+Ch 8_62_kk,Ch 8,beş atar,бес атар,chg,kk,phrase,2
+Ch 8_62_ru,Ch 8,beş atar,пятизарядный пистолет,chg,ru,phrase,2
+Ch 8_62_uz,Ch 8,beş atar,besh otar,chg,uz,phrase,2
+Ch 8_62_tr,Ch 8,beş atar,beşli,chg,tr,phrase,2
+Ch 8_73_en,Ch 8,yaralan-,to be wounded,chg,en,word,1
+Ch 8_73_kk,Ch 8,yaralan-,жаралану,chg,kk,word,1
+Ch 8_73_ru,Ch 8,yaralan-,быть раненым,chg,ru,word,1
+Ch 8_73_uz,Ch 8,yaralan-,yaralanmoq,chg,uz,word,1
+Ch 8_73_tr,Ch 8,yaralan-,yaralanmak,chg,tr,word,1
+Ch 8_77_en,Ch 8,ʿAskerler ṭarafıdın öltürüldiler,They were killed by soldiers.,chg,en,phrase,3
+Ch 8_77_kk,Ch 8,ʿAskerler ṭarafıdın öltürüldiler,Сарбаздар тарапынан өлтірілді.,chg,kk,phrase,3
+Ch 8_77_ru,Ch 8,ʿAskerler ṭarafıdın öltürüldiler,Они были убиты солдатами.,chg,ru,phrase,3
+Ch 8_77_uz,Ch 8,ʿAskerler ṭarafıdın öltürüldiler,Askarlar tomonidan o'ldirildilar.,chg,uz,phrase,3
+Ch 8_77_tr,Ch 8,ʿAskerler ṭarafıdın öltürüldiler,Askerler tarafından öldürüldüler.,chg,tr,phrase,3
+Ch 8_79_en,Ch 8,şimāldın yanǧan mollālar,The mullahs returned from the north.,chg,en,phrase,3
+Ch 8_79_kk,Ch 8,şimāldın yanǧan mollālar,Солтүстіктен оралған молдалар.,chg,kk,phrase,3
+Ch 8_79_ru,Ch 8,şimāldın yanǧan mollālar,"Муллы, вернувшиеся с севера.",chg,ru,phrase,3
+Ch 8_79_uz,Ch 8,şimāldın yanǧan mollālar,Shimoldan qaytgan mullalar.,chg,uz,phrase,3
+Ch 8_79_tr,Ch 8,şimāldın yanǧan mollālar,Kuzeyden dönen mollalar.,chg,tr,phrase,3
+Ch 8_80_en,Ch 8,ʿaskerler atılǧandın keyin,after the soldiers were shot,chg,en,phrase,3
+Ch 8_80_kk,Ch 8,ʿaskerler atılǧandın keyin,Сарбаздар атылғаннан кейін.,chg,kk,phrase,3
+Ch 8_80_ru,Ch 8,ʿaskerler atılǧandın keyin,"После того, как солдаты были застрелены.",chg,ru,phrase,3
+Ch 8_80_uz,Ch 8,ʿaskerler atılǧandın keyin,Askarlar otilgandan keyin.,chg,uz,phrase,3
+Ch 8_80_tr,Ch 8,ʿaskerler atılǧandın keyin,Askerler vurulduktan sonra.,chg,tr,phrase,3
+Ch 8_96_en,Ch 8,nätı̇̄ce,result,chg,en,word,1
+Ch 8_96_kk,Ch 8,nätı̇̄ce,нәтиже,chg,kk,word,1
+Ch 8_96_ru,Ch 8,nätı̇̄ce,результат,chg,ru,word,1
+Ch 8_96_uz,Ch 8,nätı̇̄ce,natija,chg,uz,word,1
+Ch 8_96_tr,Ch 8,nätı̇̄ce,netice,chg,tr,word,1
+Ch 8_109_en,Ch 8,yarlıq,command,chg,en,word,1
+Ch 8_109_kk,Ch 8,yarlıq,жарлық,chg,kk,word,1
+Ch 8_109_ru,Ch 8,yarlıq,указ,chg,ru,word,1
+Ch 8_109_uz,Ch 8,yarlıq,yorliq,chg,uz,word,1
+Ch 8_109_tr,Ch 8,yarlıq,yarlık,chg,tr,word,1
+Ch 8_110_en,Ch 8,yarlıq,proclamation,chg,en,word,1
+Ch 8_110_kk,Ch 8,yarlıq,жариялау,chg,kk,word,1
+Ch 8_110_ru,Ch 8,yarlıq,провозглашение,chg,ru,word,1
+Ch 8_110_uz,Ch 8,yarlıq,e'lon,chg,uz,word,1
+Ch 8_110_tr,Ch 8,yarlıq,ferman,chg,tr,word,1
+Ch 8_113_en,Ch 8,Tazǧun,Tazghun,chg,en,word,1
+Ch 8_113_kk,Ch 8,Tazǧun,Тазғұн,chg,kk,word,1
+Ch 8_113_ru,Ch 8,Tazǧun,Тазгун,chg,ru,word,1
+Ch 8_113_uz,Ch 8,Tazǧun,Tazg'un,chg,uz,word,1
+Ch 8_113_tr,Ch 8,Tazǧun,Tazgun,chg,tr,word,1
+Ch 8_114_en,Ch 8,uruş-,to fight with one another,chg,en,word,1
+Ch 8_114_kk,Ch 8,uruş-,соғысу,chg,kk,word,1
+Ch 8_114_ru,Ch 8,uruş-,сражаться друг с другом,chg,ru,word,1
+Ch 8_114_uz,Ch 8,uruş-,urushmoq,chg,uz,word,1
+Ch 8_114_tr,Ch 8,uruş-,savaşmak,chg,tr,word,1
+Ch 8_120_en,Ch 8,fawquʾl-ʿāda,extraordinary,chg,en,word,1
+Ch 8_120_kk,Ch 8,fawquʾl-ʿāda,төтенше,chg,kk,word,1
+Ch 8_120_ru,Ch 8,fawquʾl-ʿāda,чрезвычайный,chg,ru,word,1
+Ch 8_120_uz,Ch 8,fawquʾl-ʿāda,favqulodda,chg,uz,word,1
+Ch 8_120_tr,Ch 8,fawquʾl-ʿāda,fevkalade,chg,tr,word,1
+Ch 8_121_en,Ch 8,mäclis,meeting,chg,en,word,1
+Ch 8_121_kk,Ch 8,mäclis,мәжіліс,chg,kk,word,1
+Ch 8_121_ru,Ch 8,mäclis,собрание,chg,ru,word,1
+Ch 8_121_uz,Ch 8,mäclis,majlis,chg,uz,word,1
+Ch 8_121_tr,Ch 8,mäclis,meclis,chg,tr,word,1
+Ch 8_133_en,Ch 8,Yekşenbih wāqıʿası,The Sunday Incident,chg,en,phrase,2
+Ch 8_133_kk,Ch 8,Yekşenbih wāqıʿası,Жексенбі оқиғасы,chg,kk,phrase,2
+Ch 8_133_ru,Ch 8,Yekşenbih wāqıʿası,Воскресный инцидент,chg,ru,phrase,2
+Ch 8_133_uz,Ch 8,Yekşenbih wāqıʿası,Yakshanba voqeasi,chg,uz,phrase,2
+Ch 8_133_tr,Ch 8,Yekşenbih wāqıʿası,Pazar Vakası,chg,tr,phrase,2
+Ch 8_134_en,Ch 8,18nçi cämādiü'l-āḫir yekşenbih saḥarda keçe ǧaflatdın faydalanıp tört yüz qadar Tungan fırqası çıqıp kiçik çet yollar birlä Aṭ Bāzārıǧa qadar keldi,"On Sunday, the eighteenth of Jumada al-Akhira, in the early morning, taking advantage of the inattention of people at night, about four hundred Dungan soldiers came out and, by means of back roads, came all the way to the Horse Market.",chg,en,sentence,21
+Ch 8_134_kk,Ch 8,18nçi cämādiü'l-āḫir yekşenbih saḥarda keçe ǧaflatdın faydalanıp tört yüz qadar Tungan fırqası çıqıp kiçik çet yollar birlä Aṭ Bāzārıǧa qadar keldi,"18-ші Жүмәдәл-ахир жексенбі сәскеде, түндегі ғапылдықтан пайдаланып, төрт жүзге жуық дүнген тобы шығып, кіші шет жолдармен Ат Базарына дейін келді.",chg,kk,sentence,21
+Ch 8_134_ru,Ch 8,18nçi cämādiü'l-āḫir yekşenbih saḥarda keçe ǧaflatdın faydalanıp tört yüz qadar Tungan fırqası çıqıp kiçik çet yollar birlä Aṭ Bāzārıǧa qadar keldi,"В воскресенье, 18-го Джумада аль-ахира, рано утром, воспользовавшись ночной беспечностью, около четырехсот дунган вышли и по небольшим окраинным дорогам дошли до Конного базара.",chg,ru,sentence,21
+Ch 8_134_uz,Ch 8,18nçi cämādiü'l-āḫir yekşenbih saḥarda keçe ǧaflatdın faydalanıp tört yüz qadar Tungan fırqası çıqıp kiçik çet yollar birlä Aṭ Bāzārıǧa qadar keldi,"18-Jumodiloxir yakshanba saharda, kecha g'aflatdan foydalanib, to'rt yuzga yaqin dungan firqasi chiqib, kichik chet yo'llar bilan Ot Bozoriga qadar keldi.",chg,uz,sentence,21
+Ch 8_134_tr,Ch 8,18nçi cämādiü'l-āḫir yekşenbih saḥarda keçe ǧaflatdın faydalanıp tört yüz qadar Tungan fırqası çıqıp kiçik çet yollar birlä Aṭ Bāzārıǧa qadar keldi,"18 Cemaziyelahir Pazar günü seher vaktinde, gece gafletinden faydalanıp dört yüz kadar Dungan fırkası çıkıp küçük sapa yollarla At Pazarı'na kadar geldi.",chg,tr,sentence,21
+Ch 8_138_en,Ch 8,Aṭ Bāzārıda qalǧanları Paynafda bir neçe ʿimāratlerge ot yaqıp turǧan ḥālda Tişük Darwāza ṭarafdın ʿaskerlerimiz yetip kelip hücūm başlap ondın ziyādasını atıp bāqı̇̄si qaçıp ʿaskerler ṭarafdın arqadın taʿqı̇̄b etildi,"While those who remained in the Horse Market were setting fire to several buildings in Paynap, our soldiers arrived from the Tishuk Gate, began an attack, shot more than ten of them, and so the rest of them fled and were pursued by the soldiers.",chg,en,sentence,29
+Ch 8_138_kk,Ch 8,Aṭ Bāzārıda qalǧanları Paynafda bir neçe ʿimāratlerge ot yaqıp turǧan ḥālda Tişük Darwāza ṭarafdın ʿaskerlerimiz yetip kelip hücūm başlap ondın ziyādasını atıp bāqı̇̄si qaçıp ʿaskerler ṭarafdın arqadın taʿqı̇̄b etildi,"Ат Базарында қалғандары Пайнапта бірнеше ғимаратқа от қойып тұрған халде, Тесік Дарбаза тарапынан сарбаздарымыз жетіп келіп, шабуыл бастап, оннан астамын атып, қалғаны қашып, сарбаздар тарапынан арқадан қуғындалды.",chg,kk,sentence,29
+Ch 8_138_ru,Ch 8,Aṭ Bāzārıda qalǧanları Paynafda bir neçe ʿimāratlerge ot yaqıp turǧan ḥālda Tişük Darwāza ṭarafdın ʿaskerlerimiz yetip kelip hücūm başlap ondın ziyādasını atıp bāqı̇̄si qaçıp ʿaskerler ṭarafdın arqadın taʿqı̇̄b etildi,"В то время как оставшиеся на Конном базаре поджигали несколько зданий в Пайнапе, наши солдаты прибыли со стороны ворот Тишук, начали атаку, застрелили более десяти из них, а остальные бежали и преследовались солдатами с тыла.",chg,ru,sentence,29
+Ch 8_138_uz,Ch 8,Aṭ Bāzārıda qalǧanları Paynafda bir neçe ʿimāratlerge ot yaqıp turǧan ḥālda Tişük Darwāza ṭarafdın ʿaskerlerimiz yetip kelip hücūm başlap ondın ziyādasını atıp bāqı̇̄si qaçıp ʿaskerler ṭarafdın arqadın taʿqı̇̄b etildi,"Ot Bozorida qolganlari Paynapda bir necha imoratlarga o't yoqib turgan holda, Teshik Darvoza tarafidan askarlarimiz yetib kelib, hujum boshlab, o'ndan ziyodasini otib, boqiysi qochib, askarlar tomonidan orqadan ta'qib etildi.",chg,uz,sentence,29
+Ch 8_138_tr,Ch 8,Aṭ Bāzārıda qalǧanları Paynafda bir neçe ʿimāratlerge ot yaqıp turǧan ḥālda Tişük Darwāza ṭarafdın ʿaskerlerimiz yetip kelip hücūm başlap ondın ziyādasını atıp bāqı̇̄si qaçıp ʿaskerler ṭarafdın arqadın taʿqı̇̄b etildi,"At Pazarı'nda kalanları Paynap'ta birkaç binayı ateşe verir haldeyken, Deşik Kapı tarafından askerlerimiz yetişip gelip hücuma başlayıp, ondan fazlasını vurup, kalanı kaçıp askerler tarafından arkadan takip edildi.",chg,tr,sentence,29
+Ch 9_1_en,Ch 9,wāqıʿāt,events,chg,en,word,1
+Ch 9_1_kk,Ch 9,wāqıʿāt,оқиғалар,chg,kk,word,1
+Ch 9_1_ru,Ch 9,wāqıʿāt,события,chg,ru,word,1
+Ch 9_1_uz,Ch 9,wāqıʿāt,voqealar,chg,uz,word,1
+Ch 9_1_tr,Ch 9,wāqıʿāt,olaylar,chg,tr,word,1
+Ch 9_18_en,Ch 9,suwla-,to lock,chg,en,word,1
+Ch 9_18_kk,Ch 9,suwla-,қамау,chg,kk,word,1
+Ch 9_18_ru,Ch 9,suwla-,запирать,chg,ru,word,1
+Ch 9_18_uz,Ch 9,suwla-,qamamoq,chg,uz,word,1
+Ch 9_18_tr,Ch 9,suwla-,kilitlemek,chg,tr,word,1
+Ch 9_19_en,Ch 9,suwla-,to shut,chg,en,word,1
+Ch 9_19_kk,Ch 9,suwla-,жабу,chg,kk,word,1
+Ch 9_19_ru,Ch 9,suwla-,закрывать,chg,ru,word,1
+Ch 9_19_uz,Ch 9,suwla-,yopmoq,chg,uz,word,1
+Ch 9_19_tr,Ch 9,suwla-,kapatmak,chg,tr,word,1
+Ch 9_20_en,Ch 9,suwla-,to lock in,chg,en,word,1
+Ch 9_20_kk,Ch 9,suwla-,қамап қою,chg,kk,word,1
+Ch 9_20_ru,Ch 9,suwla-,запереть внутри,chg,ru,word,1
+Ch 9_20_uz,Ch 9,suwla-,qamab qo‘ymoq,chg,uz,word,1
+Ch 9_20_tr,Ch 9,suwla-,içeri kapatmak,chg,tr,word,1
+Ch 9_33_uz,Ch 9,öltür-,o‘ldirmoq,chg,uz,word,1
+Ch 9_34_en,Ch 9,öltür-,to cause death,chg,en,word,1
+Ch 9_34_ru,Ch 9,öltür-,причинять смерть,chg,ru,word,1
+Ch 9_34_uz,Ch 9,öltür-,o‘limiga sabab bo‘lmoq,chg,uz,word,1
+Ch 9_34_tr,Ch 9,öltür-,ölmesine sebep olmak,chg,tr,word,1
+Ch 9_52_en,Ch 9,öt-,to cross,chg,en,word,1
+Ch 9_52_kk,Ch 9,öt-,өту,chg,kk,word,1
+Ch 9_52_ru,Ch 9,öt-,пересекать,chg,ru,word,1
+Ch 9_52_uz,Ch 9,öt-,o‘tmoq,chg,uz,word,1
+Ch 9_52_tr,Ch 9,öt-,geçmek,chg,tr,word,1
+Ch 9_53_en,Ch 9,öt-,to pass,chg,en,word,1
+Ch 9_53_ru,Ch 9,öt-,проходить,chg,ru,word,1
+Ch 9_54_en,Ch 9,körgüz-,to show,chg,en,word,1
+Ch 9_54_kk,Ch 9,körgüz-,көрсету,chg,kk,word,1
+Ch 9_54_ru,Ch 9,körgüz-,показывать,chg,ru,word,1
+Ch 9_54_uz,Ch 9,körgüz-,ko‘rsatmoq,chg,uz,word,1
+Ch 9_54_tr,Ch 9,körgüz-,göstermek,chg,tr,word,1
+Ch 9_78_en,Ch 9,qorqun,fear,chg,en,word,1
+Ch 9_78_kk,Ch 9,qorqun,қорқыныш,chg,kk,word,1
+Ch 9_78_ru,Ch 9,qorqun,страх,chg,ru,word,1
+Ch 9_78_uz,Ch 9,qorqun,qo‘rquv,chg,uz,word,1
+Ch 9_78_tr,Ch 9,qorqun,korku,chg,tr,word,1
+Ch 9_79_en,Ch 9,cān,life,chg,en,word,1
+Ch 9_79_kk,Ch 9,cān,жан,chg,kk,word,1
+Ch 9_79_ru,Ch 9,cān,жизнь,chg,ru,word,1
+Ch 9_79_uz,Ch 9,cān,jon,chg,uz,word,1
+Ch 9_79_tr,Ch 9,cān,can,chg,tr,word,1
+Ch 9_80_en,Ch 9,cān,person,chg,en,word,1
+Ch 9_80_ru,Ch 9,cān,человек,chg,ru,word,1
+Ch 9_101_en,Ch 9,munıñdın,from this,chg,en,word,1
+Ch 9_101_kk,Ch 9,munıñdın,бұдан,chg,kk,word,1
+Ch 9_101_ru,Ch 9,munıñdın,от этого,chg,ru,word,1
+Ch 9_101_uz,Ch 9,munıñdın,bundan,chg,uz,word,1
+Ch 9_101_tr,Ch 9,munıñdın,bundan,chg,tr,word,1
+Ch 9_102_en,Ch 9,munuñǧa,towards this,chg,en,word,1
+Ch 9_102_kk,Ch 9,munuñǧa,бұған,chg,kk,word,1
+Ch 9_102_ru,Ch 9,munuñǧa,к этому,chg,ru,word,1
+Ch 9_102_uz,Ch 9,munuñǧa,bunga,chg,uz,word,1
+Ch 9_102_tr,Ch 9,munuñǧa,buna,chg,tr,word,1
+Ch 9_106_en,Ch 9,"Ursam, ölmeydür.","If I hit him, he will not die.",chg,en,phrase,2
+Ch 9_106_kk,Ch 9,"Ursam, ölmeydür.","Ұрсам, өлмейді.",chg,kk,phrase,2
+Ch 9_106_ru,Ch 9,"Ursam, ölmeydür.","Если я ударю, он не умрет.",chg,ru,phrase,2
+Ch 9_106_uz,Ch 9,"Ursam, ölmeydür.","Ursam, o‘lmaydi.",chg,uz,phrase,2
+Ch 9_106_tr,Ch 9,"Ursam, ölmeydür.","Vurursam, ölmez.",chg,tr,phrase,2
+Ch 9_107_en,Ch 9,"Üydin çıqsam, on tört mılṭıqlıq Tunganlar meni baǧlap taǧarǧa qoydılar.","When I left the house, fourteen rifle-toting Dungans tied me up and put me in a bag.",chg,en,sentence,10
+Ch 9_107_kk,Ch 9,"Üydin çıqsam, on tört mılṭıqlıq Tunganlar meni baǧlap taǧarǧa qoydılar.","Үйден шықсам, он төрт мылтықты дүнгендер мені байлап, қапқа салды.",chg,kk,sentence,10
+Ch 9_107_ru,Ch 9,"Üydin çıqsam, on tört mılṭıqlıq Tunganlar meni baǧlap taǧarǧa qoydılar.","Когда я вышел из дома, четырнадцать вооруженных дунган связали меня и посадили в мешок.",chg,ru,sentence,10
+Ch 9_107_uz,Ch 9,"Üydin çıqsam, on tört mılṭıqlıq Tunganlar meni baǧlap taǧarǧa qoydılar.","Uydan chiqsam, o‘n to‘rt miltiqli tunganlar meni bog‘lab tag‘orga qo‘ydilar.",chg,uz,sentence,10
+Ch 9_107_tr,Ch 9,"Üydin çıqsam, on tört mılṭıqlıq Tunganlar meni baǧlap taǧarǧa qoydılar.","Evden çıksam, on dört tüfekli Tunganlar beni bağlayıp çuvala koydular.",chg,tr,sentence,10
+Ch 9_113_en,Ch 9,taşlasañ,When you tossed,chg,en,word,1
+Ch 9_113_kk,Ch 9,taşlasañ,тастасаң,chg,kk,word,1
+Ch 9_113_ru,Ch 9,taşlasañ,когда ты бросил,chg,ru,word,1
+Ch 9_113_uz,Ch 9,taşlasañ,tashlasang,chg,uz,word,1
+Ch 9_113_tr,Ch 9,taşlasañ,atsan,chg,tr,word,1
+Ch 9_114_en,Ch 9,taşlasañ,If you toss,chg,en,word,1
+Ch 9_114_ru,Ch 9,taşlasañ,если ты бросишь,chg,ru,word,1
+Ch 9_153_en,Ch 9,"Toḫta Āḫūn Ḫocanı Bulaq Başıǧa alıp barıp, üyge solap qoyup",Tokhta Akhund Khwaja was taken to Bulaq Beshi and locked up in a house.,chg,en,sentence,10
+Ch 9_153_kk,Ch 9,"Toḫta Āḫūn Ḫocanı Bulaq Başıǧa alıp barıp, üyge solap qoyup","Тоқта ахун қожаны Бұлақ басына алып барып, үйге қамап қойып",chg,kk,sentence,10
+Ch 9_153_ru,Ch 9,"Toḫta Āḫūn Ḫocanı Bulaq Başıǧa alıp barıp, üyge solap qoyup",Тохта-ахун Ходжу отвели в Булак-Баши и заперли в доме,chg,ru,sentence,10
+Ch 9_153_uz,Ch 9,"Toḫta Āḫūn Ḫocanı Bulaq Başıǧa alıp barıp, üyge solap qoyup","To‘xta oxun xo‘jani Buloqboshiga olib borib, uyga solib qo‘yib",chg,uz,sentence,10
+Ch 9_153_tr,Ch 9,"Toḫta Āḫūn Ḫocanı Bulaq Başıǧa alıp barıp, üyge solap qoyup","Tohta Ahun Hoca'yı Bulakbaşı'na alıp varıp, eve kapatıp koyup",chg,tr,sentence,10
+Ch 9_154_en,Ch 9,neççen kündin keyin Qāż ʿAskar Qutluq Bāçkı̇̄rni neççen ādamlar birlän bu yérdin keçede kélip,"A few days later, Chief Judge Qutluq Bachkir came to this place with a few people.",chg,en,sentence,14
+Ch 9_154_kk,Ch 9,neççen kündin keyin Qāż ʿAskar Qutluq Bāçkı̇̄rni neççen ādamlar birlän bu yérdin keçede kélip,Бірнеше күннен кейін қазы әскер Құтлық Бәчкір бірнеше адамдармен бұл жерге кешкісін келіп,chg,kk,sentence,14
+Ch 9_154_ru,Ch 9,neççen kündin keyin Qāż ʿAskar Qutluq Bāçkı̇̄rni neççen ādamlar birlän bu yérdin keçede kélip,Через несколько дней кази-аскер Кутлук Бачкир с несколькими людьми пришел в это место ночью,chg,ru,sentence,14
+Ch 9_154_uz,Ch 9,neççen kündin keyin Qāż ʿAskar Qutluq Bāçkı̇̄rni neççen ādamlar birlän bu yérdin keçede kélip,Necha kundan keyin qozi askar Qutluq Bachkir necha odamlar bilan bu yerdan kechada kelib,chg,uz,sentence,14
+Ch 9_154_tr,Ch 9,neççen kündin keyin Qāż ʿAskar Qutluq Bāçkı̇̄rni neççen ādamlar birlän bu yérdin keçede kélip,Nice günden sonra Kazasker Kutluk Baçkir nice adamlar ile bu yerden gecede gelip,chg,tr,sentence,14
+Ch 9_157_en,Ch 9,andın bu yurt talaşadurǧanlarnıñ hämmäsi tügep,Then all of those who were fighting over this land were finished,chg,en,sentence,6
+Ch 9_157_kk,Ch 9,andın bu yurt talaşadurǧanlarnıñ hämmäsi tügep,Содан кейін бұл жұрт таласатындардың барлығы түгесіліп,chg,kk,sentence,6
+Ch 9_157_ru,Ch 9,andın bu yurt talaşadurǧanlarnıñ hämmäsi tügep,"Затем все те, кто боролся за эту страну, погибли",chg,ru,sentence,6
+Ch 9_157_uz,Ch 9,andın bu yurt talaşadurǧanlarnıñ hämmäsi tügep,Undan keyin bu yurt talashadiganlarning hammasi tugab,chg,uz,sentence,6
+Ch 9_157_tr,Ch 9,andın bu yurt talaşadurǧanlarnıñ hämmäsi tügep,Ondan sonra bu yurt dalaşanlarının hepsi tükenip,chg,tr,sentence,6
+Ch 9_163_en,Ch 9,"bu ḫabar Sulṭānǧa yetip, bu yérdin ʿasker buyrup","When news of this reached the Sultan, he ordered soldiers from there.",chg,en,sentence,8
+Ch 9_163_kk,Ch 9,"bu ḫabar Sulṭānǧa yetip, bu yérdin ʿasker buyrup","бұл хабар Сұлтанға жетіп, бұл жерден әскер бұйырып",chg,kk,sentence,8
+Ch 9_163_ru,Ch 9,"bu ḫabar Sulṭānǧa yetip, bu yérdin ʿasker buyrup","когда эта весть дошла до Султана, он приказал отправить отсюда войско",chg,ru,sentence,8
+Ch 9_163_uz,Ch 9,"bu ḫabar Sulṭānǧa yetip, bu yérdin ʿasker buyrup","bu xabar Sultonga yetib, bu yerdan askar buyurib",chg,uz,sentence,8
+Ch 9_163_tr,Ch 9,"bu ḫabar Sulṭānǧa yetip, bu yérdin ʿasker buyrup","bu haber Sultan'a yetip, bu yerden asker buyurup",chg,tr,sentence,8
+Ch 9_165_en,Ch 9,"Bu barǧan ʿasker qaytıp kelip turǧanda, Nilḫadın ḫabar keldi","While those soldiers who had gone were returning, news came from Nilkha.",chg,en,sentence,9
+Ch 9_165_kk,Ch 9,"Bu barǧan ʿasker qaytıp kelip turǧanda, Nilḫadın ḫabar keldi","Бұл барған әскер қайтып келіп тұрғанда, Нилхыдан хабар келді",chg,kk,sentence,9
+Ch 9_165_ru,Ch 9,"Bu barǧan ʿasker qaytıp kelip turǧanda, Nilḫadın ḫabar keldi","Когда ушедшее войско возвращалось, пришла весть из Нилха",chg,ru,sentence,9
+Ch 9_165_uz,Ch 9,"Bu barǧan ʿasker qaytıp kelip turǧanda, Nilḫadın ḫabar keldi","Bu borgan askar qaytib kelib turganda, Nilxadan xabar keldi",chg,uz,sentence,9
+Ch 9_165_tr,Ch 9,"Bu barǧan ʿasker qaytıp kelip turǧanda, Nilḫadın ḫabar keldi","Bu varan asker dönüp gelip durduğunda, Nilha'dan haber geldi",chg,tr,sentence,9
+Ch 9_182_en,Ch 9,dāyimuʾl-awqāt,all of the time,chg,en,word,1
+Ch 9_182_kk,Ch 9,dāyimuʾl-awqāt,әрдайым,chg,kk,word,1
+Ch 9_182_ru,Ch 9,dāyimuʾl-awqāt,постоянно,chg,ru,word,1
+Ch 9_182_uz,Ch 9,dāyimuʾl-awqāt,doimul-avqot,chg,uz,word,1
+Ch 9_182_tr,Ch 9,dāyimuʾl-awqāt,daimül-evkat,chg,tr,word,1
+Ch 9_183_en,Ch 9,qawm,a group of people,chg,en,word,1
+Ch 9_183_kk,Ch 9,qawm,қауым,chg,kk,word,1
+Ch 9_183_ru,Ch 9,qawm,народ,chg,ru,word,1
+Ch 9_183_uz,Ch 9,qawm,qavm,chg,uz,word,1
+Ch 9_183_tr,Ch 9,qawm,kavim,chg,tr,word,1
+Ch 10_3_en,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,"In the Name of God, the Compassionate, the Merciful",chg,en,word,1
+Ch 10_3_kk,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,бисмилләһир-рахманир-рахим,chg,kk,word,1
+Ch 10_3_ru,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,"во имя Аллаха, Милостивого, Милосердного",chg,ru,word,1
+Ch 10_3_uz,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,bismillahir-rohmanir-rohim,chg,uz,word,1
+Ch 10_3_tr,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,bismillahirrahmanirrahim,chg,tr,word,1
+Ch 10_7_en,Ch 10,wa alihi wa aṣḥābihi äcmaʿı̇̄n,and upon all his family and companions,chg,en,sentence,5
+Ch 10_7_kk,Ch 10,wa alihi wa aṣḥābihi äcmaʿı̇̄n,уә әлиһи уә асхабиһи әжмаин,chg,kk,sentence,5
+Ch 10_7_ru,Ch 10,wa alihi wa aṣḥābihi äcmaʿı̇̄n,"и роду его, и всем сподвижникам его",chg,ru,sentence,5
+Ch 10_7_uz,Ch 10,wa alihi wa aṣḥābihi äcmaʿı̇̄n,va olihi va as'hobihi ajmain,chg,uz,sentence,5
+Ch 10_7_tr,Ch 10,wa alihi wa aṣḥābihi äcmaʿı̇̄n,ve alihi ve ashabihî ecmain,chg,tr,sentence,5
+Ch 10_25_en,Ch 10,körürsen,you see,chg,en,word,1
+Ch 10_25_kk,Ch 10,körürsen,көресің,chg,kk,word,1
+Ch 10_25_ru,Ch 10,körürsen,видишь,chg,ru,word,1
+Ch 10_25_uz,Ch 10,körürsen,ko'rursan,chg,uz,word,1
+Ch 10_25_tr,Ch 10,körürsen,görürsün,chg,tr,word,1
+Ch 10_44_en,Ch 10,mānǧa daʿwat qılur érdiler,he would often call them to the faith,chg,en,phrase,4
+Ch 10_44_kk,Ch 10,mānǧa daʿwat qılur érdiler,иманға дағват қылар еді,chg,kk,phrase,4
+Ch 10_44_ru,Ch 10,mānǧa daʿwat qılur érdiler,он часто призывал их к вере,chg,ru,phrase,4
+Ch 10_44_uz,Ch 10,mānǧa daʿwat qılur érdiler,imonga da'vat qilur edilar,chg,uz,phrase,4
+Ch 10_44_tr,Ch 10,mānǧa daʿwat qılur érdiler,imana davet ederlérdi,chg,tr,phrase,4
+Ch 10_50_kk,Ch 10,"Pādişāh “émdi bizge ol payǧambarnı ibarsün,” dédi.","Патша: «Енді бізге ол пайғамбарды жіберсін», – деді.",chg,kk,sentence,7
+Ch 10_50_ru,Ch 10,"Pādişāh “émdi bizge ol payǧambarnı ibarsün,” dédi.",Падишах сказал: «Пусть теперь отправят к нам этого пророка».,chg,ru,sentence,7
+Ch 10_50_uz,Ch 10,"Pādişāh “émdi bizge ol payǧambarnı ibarsün,” dédi.","Podishoh: “Endi bizga ul payg'ambarni yuborsun”, - dédi.",chg,uz,sentence,7
+Ch 10_50_tr,Ch 10,"Pādişāh “émdi bizge ol payǧambarnı ibarsün,” dédi.","Padişah: ""Şimdi bize o peygamberi göndersin"" dédi.",chg,tr,sentence,7
+Ch 10_62_en,Ch 10,Sözleriǧa éşitmegin.,Do not listen to his words.,chg,en,phrase,2
+Ch 10_62_kk,Ch 10,Sözleriǧa éşitmegin.,сөздеріне есітпегін.,chg,kk,phrase,2
+Ch 10_62_ru,Ch 10,Sözleriǧa éşitmegin.,не слушай его слов.,chg,ru,phrase,2
+Ch 10_62_uz,Ch 10,Sözleriǧa éşitmegin.,so'zlariga eshitmagin.,chg,uz,phrase,2
+Ch 10_62_tr,Ch 10,Sözleriǧa éşitmegin.,sözlerini işitme.,chg,tr,phrase,2
+Ch 10_71_en,Ch 10,här,each,chg,en,word,1
+Ch 10_71_kk,Ch 10,här,әр,chg,kk,word,1
+Ch 10_71_ru,Ch 10,här,каждый,chg,ru,word,1
+Ch 10_71_uz,Ch 10,här,har,chg,uz,word,1
+Ch 10_71_tr,Ch 10,här,her,chg,tr,word,1
+Ch 10_72_en,Ch 10,här,every,chg,en,word,1
+Ch 10_72_ru,Ch 10,här,всякий,chg,ru,word,1
+Ch 10_78_en,Ch 10,cännät,Heaven,chg,en,word,1
+Ch 10_78_kk,Ch 10,cännät,жәннат,chg,kk,word,1
+Ch 10_78_ru,Ch 10,cännät,Рай,chg,ru,word,1
+Ch 10_78_uz,Ch 10,cännät,jannat,chg,uz,word,1
+Ch 10_78_tr,Ch 10,cännät,cennet,chg,tr,word,1
+Ch 10_79_en,Ch 10,cännät,Paradise,chg,en,word,1
+Ch 10_79_ru,Ch 10,cännät,Парадиз,chg,ru,word,1
+Ch 10_84_en,Ch 10,tére,skin,chg,en,word,1
+Ch 10_84_kk,Ch 10,tére,тері,chg,kk,word,1
+Ch 10_84_ru,Ch 10,tére,кожа,chg,ru,word,1
+Ch 10_84_uz,Ch 10,tére,teri,chg,uz,word,1
+Ch 10_84_tr,Ch 10,tére,deri,chg,tr,word,1
+Ch 10_85_en,Ch 10,tére,leather,chg,en,word,1
+Ch 10_85_ru,Ch 10,tére,шкура,chg,ru,word,1
+Ch 10_86_en,Ch 10,dam,bellows,chg,en,word,1
+Ch 10_86_kk,Ch 10,dam,дем,chg,kk,word,1
+Ch 10_86_ru,Ch 10,dam,меха,chg,ru,word,1
+Ch 10_86_uz,Ch 10,dam,dam,chg,uz,word,1
+Ch 10_86_tr,Ch 10,dam,dem/nefes,chg,tr,word,1
+Ch 10_87_en,Ch 10,dam,breath,chg,en,word,1
+Ch 10_87_ru,Ch 10,dam,дыхание,chg,ru,word,1
+Ch 10_110_en,Ch 10,Seni ahangarlik käsb qılmaqǧa buyurdılar.,He ordered you to make blacksmithing a profession.,chg,en,sentence,5
+Ch 10_110_kk,Ch 10,Seni ahangarlik käsb qılmaqǧa buyurdılar.,Сені аһәнгерлік кәсіп қылмаққа бұйырды.,chg,kk,sentence,5
+Ch 10_110_ru,Ch 10,Seni ahangarlik käsb qılmaqǧa buyurdılar.,Он повелел тебе сделать кузнечное дело профессией.,chg,ru,sentence,5
+Ch 10_110_uz,Ch 10,Seni ahangarlik käsb qılmaqǧa buyurdılar.,Seni ohangarlik kasb qilmoqg'a buyurdilar.,chg,uz,sentence,5
+Ch 10_110_tr,Ch 10,Seni ahangarlik käsb qılmaqǧa buyurdılar.,Seni ahengerlik kesb kılmaya buyurdular.,chg,tr,sentence,5
+Ch 10_112_en,Ch 10,Qaçmaq asandur;,Fleeing is easy;,chg,en,phrase,2
+Ch 10_112_kk,Ch 10,Qaçmaq asandur;,Қашпақ оңай тұр;,chg,kk,phrase,2
+Ch 10_112_ru,Ch 10,Qaçmaq asandur;,Бежать легко;,chg,ru,phrase,2
+Ch 10_112_uz,Ch 10,Qaçmaq asandur;,Qochmoq osondur;,chg,uz,phrase,2
+Ch 10_112_tr,Ch 10,Qaçmaq asandur;,Kaçmak asandır;,chg,tr,phrase,2
+Ch 10_116_en,Ch 10,maña,to me,chg,en,word,1
+Ch 10_116_kk,Ch 10,maña,маған,chg,kk,word,1
+Ch 10_116_ru,Ch 10,maña,мне,chg,ru,word,1
+Ch 10_116_uz,Ch 10,maña,menga,chg,uz,word,1
+Ch 10_116_tr,Ch 10,maña,bana,chg,tr,word,1
+Ch 10_122_en,Ch 10,saña,to you,chg,en,word,1
+Ch 10_122_kk,Ch 10,saña,саған,chg,kk,word,1
+Ch 10_122_ru,Ch 10,saña,тебе,chg,ru,word,1
+Ch 10_122_uz,Ch 10,saña,senga,chg,uz,word,1
+Ch 10_122_tr,Ch 10,saña,sana,chg,tr,word,1
+Ch 10_126_en,Ch 10,sendin,from you,chg,en,word,1
+Ch 10_126_kk,Ch 10,sendin,сенен,chg,kk,word,1
+Ch 10_126_ru,Ch 10,sendin,от тебя,chg,ru,word,1
+Ch 10_126_uz,Ch 10,sendin,sendan,chg,uz,word,1
+Ch 10_126_tr,Ch 10,sendin,senden,chg,tr,word,1
+Ch 10_136_en,Ch 10,unıñda,on him,chg,en,word,1
+Ch 10_136_kk,Ch 10,unıñda,оныңда,chg,kk,word,1
+Ch 10_136_ru,Ch 10,unıñda,на нем (вариант),chg,ru,word,1
+Ch 10_136_uz,Ch 10,unıñda,uningda,chg,uz,word,1
+Ch 10_136_tr,Ch 10,unıñda,onun da,chg,tr,word,1
+Ch 10_149_en,Ch 10,sizde,on you,chg,en,word,1
+Ch 10_149_kk,Ch 10,sizde,сізде,chg,kk,word,1
+Ch 10_149_ru,Ch 10,sizde,на вас,chg,ru,word,1
+Ch 10_149_uz,Ch 10,sizde,sizda,chg,uz,word,1
+Ch 10_149_tr,Ch 10,sizde,sizde,chg,tr,word,1
+Ch 10_151_en,Ch 10,sizdin,from you,chg,en,word,1
+Ch 10_151_kk,Ch 10,sizdin,сізден,chg,kk,word,1
+Ch 10_151_ru,Ch 10,sizdin,от вас,chg,ru,word,1
+Ch 10_151_uz,Ch 10,sizdin,sizdan,chg,uz,word,1
+Ch 10_151_tr,Ch 10,sizdin,sizden,chg,tr,word,1
+Ch 10_156_en,Ch 10,sizlerniñ,yours (plural),chg,en,word,1
+Ch 10_156_ru,Ch 10,sizlerniñ,ваш (множ.),chg,ru,word,1
+Ch 10_156_tr,Ch 10,sizlerniñ,sizlerin,chg,tr,word,1
+Ch 10_161_en,Ch 10,olarda,on them,chg,en,word,1
+Ch 10_161_kk,Ch 10,olarda,оларда,chg,kk,word,1
+Ch 10_161_ru,Ch 10,olarda,на них,chg,ru,word,1
+Ch 10_161_uz,Ch 10,olarda,ularda,chg,uz,word,1
+Ch 10_161_tr,Ch 10,olarda,onlarda,chg,tr,word,1
+Ch 10_167_en,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,"In the Name of God, the Compassionate and the Merciful.",chg,en,word,1
+Ch 10_167_kk,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Бисмилләһир-рахманир-рахим,chg,kk,word,1
+Ch 10_167_ru,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,"Во имя Аллаха, Милостивого, Милосердного.",chg,ru,word,1
+Ch 10_167_uz,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Bismillahir-rohmanir-rohim.,chg,uz,word,1
+Ch 10_167_tr,Ch 10,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Bismillahirrahmanirrahim.,chg,tr,word,1
+Ch 10_174_en,Ch 10,Nāgāh ǧamkı̇̄n bolup olturup édiler.,"Suddenly, he became tired and sat down.",chg,en,sentence,5
+Ch 10_174_kk,Ch 10,Nāgāh ǧamkı̇̄n bolup olturup édiler.,Нагәһ ғамгин болып отырып еділер.,chg,kk,sentence,5
+Ch 10_174_ru,Ch 10,Nāgāh ǧamkı̇̄n bolup olturup édiler.,Вдруг он опечалился и сел.,chg,ru,sentence,5
+Ch 10_174_uz,Ch 10,Nāgāh ǧamkı̇̄n bolup olturup édiler.,Nogoh g'amgin bo'lib o'turib edilar.,chg,uz,sentence,5
+Ch 10_174_tr,Ch 10,Nāgāh ǧamkı̇̄n bolup olturup édiler.,Birden gamgin olup oturdular.,chg,tr,sentence,5
+Ch 10_179_en,Ch 10,"émdi qawmıñnı ı̇̄mānǧa daʿwat qılmaǧıl,” dédi,","Now stop calling your people to the faith,",chg,en,sentence,6
+Ch 10_179_kk,Ch 10,"émdi qawmıñnı ı̇̄mānǧa daʿwat qılmaǧıl,” dédi,","енді қауымыңды иманға дағват қылмағын», – деді,",chg,kk,sentence,6
+Ch 10_179_ru,Ch 10,"émdi qawmıñnı ı̇̄mānǧa daʿwat qılmaǧıl,” dédi,","теперь не призывай свой народ к вере», — сказал он,",chg,ru,sentence,6
+Ch 10_179_uz,Ch 10,"émdi qawmıñnı ı̇̄mānǧa daʿwat qılmaǧıl,” dédi,","endi qavmingni imonga da'vat qilmag'il”, dédi,",chg,uz,sentence,6
+Ch 10_179_tr,Ch 10,"émdi qawmıñnı ı̇̄mānǧa daʿwat qılmaǧıl,” dédi,","şimdi kavmini imana davet kılma"" dédi,",chg,tr,sentence,6
+Ch 10_188_en,Ch 10,"şol sāʾatda färmān boldı ki, “Ay, Cäbrāʾı̇̄l!","At that time, He said, ""Oh, Jibra'il!",chg,en,sentence,7
+Ch 10_188_kk,Ch 10,"şol sāʾatda färmān boldı ki, “Ay, Cäbrāʾı̇̄l!","Сол сағатта перман болды кі: «Ей, Жәбірейіл!",chg,kk,sentence,7
+Ch 10_188_ru,Ch 10,"şol sāʾatda färmān boldı ki, “Ay, Cäbrāʾı̇̄l!","В тот час вышло повеление: «О, Джабраил!",chg,ru,sentence,7
+Ch 10_188_uz,Ch 10,"şol sāʾatda färmān boldı ki, “Ay, Cäbrāʾı̇̄l!","Shul soatda farmon bo'ldiki, “Ey, Jabroil!",chg,uz,sentence,7
+Ch 10_188_tr,Ch 10,"şol sāʾatda färmān boldı ki, “Ay, Cäbrāʾı̇̄l!","Şu saatte ferman oldu ki: ""Ey Cebrail!",chg,tr,sentence,7
+Ch 10_197_en,Ch 10,"wa yänä färmān boldı ki, “Dam basǧıl,” dép","When He said, ""Blow!""",chg,en,sentence,8
+Ch 10_197_kk,Ch 10,"wa yänä färmān boldı ki, “Dam basǧıl,” dép","Және перман болды кі: «Дем басғын», – деп",chg,kk,sentence,8
+Ch 10_197_ru,Ch 10,"wa yänä färmān boldı ki, “Dam basǧıl,” dép","И снова вышло повеление: «Раздувай [меха]», — сказав",chg,ru,sentence,8
+Ch 10_197_uz,Ch 10,"wa yänä färmān boldı ki, “Dam basǧıl,” dép","Va yana farmon bo'ldiki, “Dam bosg'il”, deb",chg,uz,sentence,8
+Ch 10_197_tr,Ch 10,"wa yänä färmān boldı ki, “Dam basǧıl,” dép","Ve gene ferman oldu ki: ""Dem bas/körükle,"" deyip",chg,tr,sentence,8
+Ch 11_3_en,Ch 11,wilāyat,country,chg,en,word,1
+Ch 11_3_kk,Ch 11,wilāyat,уәлаят,chg,kk,word,1
+Ch 11_3_ru,Ch 11,wilāyat,вилаят,chg,ru,word,1
+Ch 11_3_uz,Ch 11,wilāyat,viloyat,chg,uz,word,1
+Ch 11_3_tr,Ch 11,wilāyat,vilayet,chg,tr,word,1
+Ch 11_11_en,Ch 11,kanāra,edge,chg,en,word,1
+Ch 11_11_kk,Ch 11,kanāra,шет,chg,kk,word,1
+Ch 11_11_ru,Ch 11,kanāra,край,chg,ru,word,1
+Ch 11_11_uz,Ch 11,kanāra,chet,chg,uz,word,1
+Ch 11_11_tr,Ch 11,kanāra,kenar,chg,tr,word,1
+Ch 11_12_en,Ch 11,wāqiʿ bol-,to be located,chg,en,phrase,2
+Ch 11_12_kk,Ch 11,wāqiʿ bol-,орналасқан болу,chg,kk,phrase,2
+Ch 11_12_ru,Ch 11,wāqiʿ bol-,находиться,chg,ru,phrase,2
+Ch 11_12_uz,Ch 11,wāqiʿ bol-,voqe boʻlmoq,chg,uz,phrase,2
+Ch 11_12_tr,Ch 11,wāqiʿ bol-,bulunmak,chg,tr,phrase,2
+Ch 11_13_en,Ch 11,wāqiʿ bol-,to be,chg,en,phrase,2
+Ch 11_13_kk,Ch 11,wāqiʿ bol-,болу,chg,kk,phrase,2
+Ch 11_13_ru,Ch 11,wāqiʿ bol-,быть,chg,ru,phrase,2
+Ch 11_13_uz,Ch 11,wāqiʿ bol-,boʻlmoq,chg,uz,phrase,2
+Ch 11_13_tr,Ch 11,wāqiʿ bol-,olmak,chg,tr,phrase,2
+Ch 11_19_en,Ch 11,sarḥadd,border,chg,en,word,1
+Ch 11_19_kk,Ch 11,sarḥadd,шекара,chg,kk,word,1
+Ch 11_19_ru,Ch 11,sarḥadd,граница,chg,ru,word,1
+Ch 11_19_uz,Ch 11,sarḥadd,sarhad,chg,uz,word,1
+Ch 11_19_tr,Ch 11,sarḥadd,sınır,chg,tr,word,1
+Ch 11_20_en,Ch 11,şimāl,north,chg,en,word,1
+Ch 11_20_kk,Ch 11,şimāl,солтүстік,chg,kk,word,1
+Ch 11_20_ru,Ch 11,şimāl,север,chg,ru,word,1
+Ch 11_20_uz,Ch 11,şimāl,shimol,chg,uz,word,1
+Ch 11_20_tr,Ch 11,şimāl,kuzey,chg,tr,word,1
+Ch 11_21_en,Ch 11,egerçe,although,chg,en,word,1
+Ch 11_21_kk,Ch 11,egerçe,егер де,chg,kk,word,1
+Ch 11_21_ru,Ch 11,egerçe,хотя,chg,ru,word,1
+Ch 11_21_uz,Ch 11,egerçe,garchi,chg,uz,word,1
+Ch 11_21_tr,Ch 11,egerçe,gerçi,chg,tr,word,1
+Ch 11_23_en,Ch 11,mis̱l-i,like,chg,en,word,1
+Ch 11_23_kk,Ch 11,mis̱l-i,сияқты,chg,kk,word,1
+Ch 11_23_ru,Ch 11,mis̱l-i,как,chg,ru,word,1
+Ch 11_23_uz,Ch 11,mis̱l-i,misli,chg,uz,word,1
+Ch 11_23_tr,Ch 11,mis̱l-i,gibi,chg,tr,word,1
+Ch 11_24_en,Ch 11,mis̱l-i,as,chg,en,word,1
+Ch 11_24_kk,Ch 11,mis̱l-i,ретінде,chg,kk,word,1
+Ch 11_24_ru,Ch 11,mis̱l-i,в качестве,chg,ru,word,1
+Ch 11_24_uz,Ch 11,mis̱l-i,kabi,chg,uz,word,1
+Ch 11_24_tr,Ch 11,mis̱l-i,olarak,chg,tr,word,1
+Ch 11_25_en,Ch 11,mis̱l-i,such as,chg,en,word,1
+Ch 11_25_ru,Ch 11,mis̱l-i,такой как,chg,ru,word,1
+Ch 11_48_en,Ch 11,bilä,with,chg,en,word,1
+Ch 11_48_kk,Ch 11,bilä,-мен,chg,kk,word,1
+Ch 11_48_ru,Ch 11,bilä,с,chg,ru,word,1
+Ch 11_48_uz,Ch 11,bilä,bilan,chg,uz,word,1
+Ch 11_48_tr,Ch 11,bilä,ile,chg,tr,word,1
+Ch 11_49_en,Ch 11,bilä,by means of,chg,en,word,1
+Ch 11_49_kk,Ch 11,bilä,арқылы,chg,kk,word,1
+Ch 11_49_ru,Ch 11,bilä,посредством,chg,ru,word,1
+Ch 11_49_tr,Ch 11,bilä,vasıtasıyla,chg,tr,word,1
+Ch 11_50_en,Ch 11,bilä,through,chg,en,word,1
+Ch 11_50_ru,Ch 11,bilä,через,chg,ru,word,1
+Ch 11_50_uz,Ch 11,bilä,orqali,chg,uz,word,1
+Ch 11_50_tr,Ch 11,bilä,yoluyla,chg,tr,word,1
+Ch 11_61_en,Ch 11,tamām,complete,chg,en,word,1
+Ch 11_61_kk,Ch 11,tamām,толық,chg,kk,word,1
+Ch 11_61_ru,Ch 11,tamām,полный,chg,ru,word,1
+Ch 11_61_uz,Ch 11,tamām,tamom,chg,uz,word,1
+Ch 11_61_tr,Ch 11,tamām,tamam,chg,tr,word,1
+Ch 11_65_en,Ch 11,qat-,join,chg,en,word,1
+Ch 11_65_kk,Ch 11,qat-,қосу,chg,kk,word,1
+Ch 11_65_ru,Ch 11,qat-,добавлять,chg,ru,word,1
+Ch 11_65_uz,Ch 11,qat-,qoʻshmoq,chg,uz,word,1
+Ch 11_65_tr,Ch 11,qat-,katmak,chg,tr,word,1
+Ch 11_66_en,Ch 11,qat-,connect,chg,en,word,1
+Ch 11_66_kk,Ch 11,qat-,жалғау,chg,kk,word,1
+Ch 11_66_ru,Ch 11,qat-,соединять,chg,ru,word,1
+Ch 11_66_tr,Ch 11,qat-,birleştirmek,chg,tr,word,1
+Ch 11_71_en,Ch 11,qılıpdursen,it is said that you did,chg,en,word,1
+Ch 11_71_kk,Ch 11,qılıpdursen,қылыпсың,chg,kk,word,1
+Ch 11_71_ru,Ch 11,qılıpdursen,"говорят, ты сделал",chg,ru,word,1
+Ch 11_71_uz,Ch 11,qılıpdursen,qilibsan,chg,uz,word,1
+Ch 11_71_tr,Ch 11,qılıpdursen,yapmışsın,chg,tr,word,1
+Ch 11_77_en,Ch 11,şimāl,northern,chg,en,word,1
+Ch 11_77_ru,Ch 11,şimāl,северный,chg,ru,word,1
+Ch 11_77_uz,Ch 11,şimāl,shimoliy,chg,uz,word,1
+Ch 11_87_en,Ch 11,Kāşǧarda çoñ mescid bar édi,there was a large mosque in Kashgar,chg,en,sentence,5
+Ch 11_87_kk,Ch 11,Kāşǧarda çoñ mescid bar édi,Қашқарда үлкен мешіт бар еді,chg,kk,sentence,5
+Ch 11_87_ru,Ch 11,Kāşǧarda çoñ mescid bar édi,в Кашгаре была большая мечеть,chg,ru,sentence,5
+Ch 11_87_uz,Ch 11,Kāşǧarda çoñ mescid bar édi,Qashqarda katta masjid bor edi,chg,uz,sentence,5
+Ch 11_87_tr,Ch 11,Kāşǧarda çoñ mescid bar édi,Kaşgar'da büyük bir cami vardı,chg,tr,sentence,5
+Ch 11_91_en,Ch 11,Sayḥūn suwı   sawuq émes édi,the Jaxartes waters were not cold,chg,en,sentence,5
+Ch 11_91_kk,Ch 11,Sayḥūn suwı   sawuq émes édi,Сейхун суы суық емес еді,chg,kk,sentence,5
+Ch 11_91_ru,Ch 11,Sayḥūn suwı   sawuq émes édi,воды Сейхуна не были холодными,chg,ru,sentence,5
+Ch 11_91_uz,Ch 11,Sayḥūn suwı   sawuq émes édi,Sayhun suvi sovuq emas edi,chg,uz,sentence,5
+Ch 11_91_tr,Ch 11,Sayḥūn suwı   sawuq émes édi,Seyhun suyu soğuk değildi,chg,tr,sentence,5
+Ch 11_109_en,Ch 11,daǧı,also,chg,en,word,1
+Ch 11_109_kk,Ch 11,daǧı,тағы,chg,kk,word,1
+Ch 11_109_ru,Ch 11,daǧı,также,chg,ru,word,1
+Ch 11_109_uz,Ch 11,daǧı,dagʻi,chg,uz,word,1
+Ch 11_109_tr,Ch 11,daǧı,dahi,chg,tr,word,1
+Ch 11_110_en,Ch 11,daǧı,more,chg,en,word,1
+Ch 11_110_ru,Ch 11,daǧı,более,chg,ru,word,1
+Ch 11_110_uz,Ch 11,daǧı,yana,chg,uz,word,1
+Ch 11_110_tr,Ch 11,daǧı,daha,chg,tr,word,1
+Ch 11_111_en,Ch 11,canūb ṭarafdegi,that which is on the south side,chg,en,phrase,2
+Ch 11_111_kk,Ch 11,canūb ṭarafdegi,оңтүстік тараптағы,chg,kk,phrase,2
+Ch 11_111_ru,Ch 11,canūb ṭarafdegi,находящийся на южной стороне,chg,ru,phrase,2
+Ch 11_111_uz,Ch 11,canūb ṭarafdegi,janub tarafdagi,chg,uz,phrase,2
+Ch 11_111_tr,Ch 11,canūb ṭarafdegi,güney taraftaki,chg,tr,phrase,2
+Ch 11_115_en,Ch 11,wāfir,abundant,chg,en,word,1
+Ch 11_115_kk,Ch 11,wāfir,мол,chg,kk,word,1
+Ch 11_115_ru,Ch 11,wāfir,обильный,chg,ru,word,1
+Ch 11_115_uz,Ch 11,wāfir,vofir,chg,uz,word,1
+Ch 11_115_tr,Ch 11,wāfir,bol,chg,tr,word,1
+Ch 11_122_en,Ch 11,naşpatı,pear,chg,en,word,1
+Ch 11_122_kk,Ch 11,naşpatı,алмұрт,chg,kk,word,1
+Ch 11_122_ru,Ch 11,naşpatı,груша,chg,ru,word,1
+Ch 11_122_uz,Ch 11,naşpatı,nok,chg,uz,word,1
+Ch 11_122_tr,Ch 11,naşpatı,armut,chg,tr,word,1
+Ch 11_125_en,Ch 11,Keş qorǧanı,the fortress of Kesh,chg,en,phrase,2
+Ch 11_125_kk,Ch 11,Keş qorǧanı,Кеш қорғаны,chg,kk,phrase,2
+Ch 11_125_ru,Ch 11,Keş qorǧanı,крепость Кеш,chg,ru,phrase,2
+Ch 11_125_uz,Ch 11,Keş qorǧanı,Kesh qoʻrgʻoni,chg,uz,phrase,2
+Ch 11_125_tr,Ch 11,Keş qorǧanı,Keş kalesi,chg,tr,phrase,2
+Ch 11_130_en,Ch 11,uluǧ,great,chg,en,word,1
+Ch 11_130_kk,Ch 11,uluǧ,ұлы,chg,kk,word,1
+Ch 11_130_ru,Ch 11,uluǧ,великий,chg,ru,word,1
+Ch 11_130_uz,Ch 11,uluǧ,ulugʻ,chg,uz,word,1
+Ch 11_130_tr,Ch 11,uluǧ,ulu,chg,tr,word,1
+Ch 11_133_en,Ch 11,ʿacab,remarkable,chg,en,word,1
+Ch 11_133_kk,Ch 11,ʿacab,ғажап,chg,kk,word,1
+Ch 11_133_ru,Ch 11,ʿacab,удивительный,chg,ru,word,1
+Ch 11_133_uz,Ch 11,ʿacab,ajab,chg,uz,word,1
+Ch 11_133_tr,Ch 11,ʿacab,acayip,chg,tr,word,1
+Ch 11_139_en,Ch 11,rāh,road,chg,en,word,1
+Ch 11_139_kk,Ch 11,rāh,жол,chg,kk,word,1
+Ch 11_139_ru,Ch 11,rāh,дорога,chg,ru,word,1
+Ch 11_139_uz,Ch 11,rāh,yoʻl,chg,uz,word,1
+Ch 11_139_tr,Ch 11,rāh,yol,chg,tr,word,1
+Ch 11_156_en,Ch 11,sémiz,fat,chg,en,word,1
+Ch 11_156_kk,Ch 11,sémiz,семіз,chg,kk,word,1
+Ch 11_156_ru,Ch 11,sémiz,жирный,chg,ru,word,1
+Ch 11_156_uz,Ch 11,sémiz,semiz,chg,uz,word,1
+Ch 11_156_tr,Ch 11,sémiz,semiz,chg,tr,word,1
+Ch 11_157_en,Ch 11,tüget-,to finish,chg,en,word,1
+Ch 11_157_kk,Ch 11,tüget-,бітіру,chg,kk,word,1
+Ch 11_157_ru,Ch 11,tüget-,заканчивать,chg,ru,word,1
+Ch 11_157_uz,Ch 11,tüget-,tugatmoq,chg,uz,word,1
+Ch 11_157_tr,Ch 11,tüget-,tüketmek,chg,tr,word,1
+Ch 11_160_en,Ch 11,Türk,Turk,chg,en,word,1
+Ch 11_160_kk,Ch 11,Türk,Түрік,chg,kk,word,1
+Ch 11_160_ru,Ch 11,Türk,Тюрок,chg,ru,word,1
+Ch 11_160_uz,Ch 11,Türk,Turk,chg,uz,word,1
+Ch 11_160_tr,Ch 11,Türk,Türk,chg,tr,word,1
+Ch 11_163_en,Ch 11,Türk,the Turkic language,chg,en,word,1
+Ch 11_163_kk,Ch 11,Türk,түркі тілі,chg,kk,word,1
+Ch 11_163_ru,Ch 11,Türk,тюркский язык,chg,ru,word,1
+Ch 11_163_uz,Ch 11,Türk,turkiy til,chg,uz,word,1
+Ch 11_163_tr,Ch 11,Türk,Türkçe,chg,tr,word,1
+Ch 11_167_en,Ch 11,rāst,True,chg,en,word,1
+Ch 11_167_kk,Ch 11,rāst,рас,chg,kk,word,1
+Ch 11_167_ru,Ch 11,rāst,правда,chg,ru,word,1
+Ch 11_167_uz,Ch 11,rāst,rost,chg,uz,word,1
+Ch 11_167_tr,Ch 11,rāst,gerçek,chg,tr,word,1
+Ch 11_168_en,Ch 11,rāst,correct,chg,en,word,1
+Ch 11_168_kk,Ch 11,rāst,дұрыс,chg,kk,word,1
+Ch 11_168_ru,Ch 11,rāst,правильный,chg,ru,word,1
+Ch 11_168_uz,Ch 11,rāst,toʻgʻri,chg,uz,word,1
+Ch 11_168_tr,Ch 11,rāst,doğru,chg,tr,word,1
+Ch 11_177_en,Ch 11,Herāt,Herat,chg,en,word,1
+Ch 11_177_kk,Ch 11,Herāt,Герат,chg,kk,word,1
+Ch 11_177_ru,Ch 11,Herāt,Герат,chg,ru,word,1
+Ch 11_177_uz,Ch 11,Herāt,Hirot,chg,uz,word,1
+Ch 11_177_tr,Ch 11,Herāt,Herat,chg,tr,word,1
+Ch 11_178_en,Ch 11,til,language,chg,en,word,1
+Ch 11_178_kk,Ch 11,til,тіл,chg,kk,word,1
+Ch 11_178_ru,Ch 11,til,язык,chg,ru,word,1
+Ch 11_178_uz,Ch 11,til,til,chg,uz,word,1
+Ch 11_178_tr,Ch 11,til,dil,chg,tr,word,1
+Ch 11_179_en,Ch 11,til,tongue,chg,en,word,1
+Ch 11_179_ru,Ch 11,til,язык (орган),chg,ru,word,1
+Ch 11_184_en,Ch 11,ḥüsn,beauty,chg,en,word,1
+Ch 11_184_kk,Ch 11,ḥüsn,көркемдік,chg,kk,word,1
+Ch 11_184_ru,Ch 11,ḥüsn,красота,chg,ru,word,1
+Ch 11_184_uz,Ch 11,ḥüsn,husn,chg,uz,word,1
+Ch 11_184_tr,Ch 11,ḥüsn,güzellik,chg,tr,word,1
+Ch 11_204_en,Ch 11,aḥādis̱,sayings,chg,en,word,1
+Ch 11_204_kk,Ch 11,aḥādis̱,хадистер,chg,kk,word,1
+Ch 11_204_ru,Ch 11,aḥādis̱,хадисы,chg,ru,word,1
+Ch 11_204_uz,Ch 11,aḥādis̱,hadislar,chg,uz,word,1
+Ch 11_204_tr,Ch 11,aḥādis̱,hadisler,chg,tr,word,1
+Ch 11_213_en,Ch 11,Sulṭān Maḥmūd Ḫan,Sultan Mahmud Khan,chg,en,phrase,3
+Ch 11_213_kk,Ch 11,Sulṭān Maḥmūd Ḫan,Сұлтан Махмұд хан,chg,kk,phrase,3
+Ch 11_213_ru,Ch 11,Sulṭān Maḥmūd Ḫan,Султан Махмуд-хан,chg,ru,phrase,3
+Ch 11_213_uz,Ch 11,Sulṭān Maḥmūd Ḫan,Sulton Mahmudxon,chg,uz,phrase,3
+Ch 11_213_tr,Ch 11,Sulṭān Maḥmūd Ḫan,Sultan Mahmud Han,chg,tr,phrase,3
+Ch 11_214_en,Ch 11,ḥucra,chamber,chg,en,word,1
+Ch 11_214_kk,Ch 11,ḥucra,бөлме,chg,kk,word,1
+Ch 11_214_ru,Ch 11,ḥucra,комната,chg,ru,word,1
+Ch 11_214_uz,Ch 11,ḥucra,hujra,chg,uz,word,1
+Ch 11_214_tr,Ch 11,ḥucra,oda,chg,tr,word,1
+Ch 11_215_en,Ch 11,ḥucra,pavilion,chg,en,word,1
+Ch 11_215_kk,Ch 11,ḥucra,павильон,chg,kk,word,1
+Ch 11_215_ru,Ch 11,ḥucra,павильон,chg,ru,word,1
+Ch 11_215_uz,Ch 11,ḥucra,shiypon,chg,uz,word,1
+Ch 11_215_tr,Ch 11,ḥucra,köşk,chg,tr,word,1
+Ch 11_230_en,Ch 11,muşrif,overlooking,chg,en,word,1
+Ch 11_230_kk,Ch 11,muşrif,қарайтын,chg,kk,word,1
+Ch 11_230_ru,Ch 11,muşrif,выходящий на,chg,ru,word,1
+Ch 11_230_uz,Ch 11,muşrif,qaragan,chg,uz,word,1
+Ch 11_230_tr,Ch 11,muşrif,bakan,chg,tr,word,1
+Ch 11_231_en,Ch 11,binafşa,violet,chg,en,word,1
+Ch 11_231_kk,Ch 11,binafşa,шегіргүл,chg,kk,word,1
+Ch 11_231_ru,Ch 11,binafşa,фиалка,chg,ru,word,1
+Ch 11_231_uz,Ch 11,binafşa,binafsha,chg,uz,word,1
+Ch 11_231_tr,Ch 11,binafşa,menekşe,chg,tr,word,1
+Ch 11_240_en,Ch 11,cawzā,the constellation of Gemini,chg,en,word,1
+Ch 11_240_kk,Ch 11,cawzā,Егіздер,chg,kk,word,1
+Ch 11_240_ru,Ch 11,cawzā,Близнецы,chg,ru,word,1
+Ch 11_240_uz,Ch 11,cawzā,Javzo,chg,uz,word,1
+Ch 11_240_tr,Ch 11,cawzā,İkizler,chg,tr,word,1
+Ch 11_243_en,Ch 11,şah,royal,chg,en,word,1
+Ch 11_243_kk,Ch 11,şah,корольдік,chg,kk,word,1
+Ch 11_243_ru,Ch 11,şah,королевский,chg,ru,word,1
+Ch 11_243_uz,Ch 11,şah,shohona,chg,uz,word,1
+Ch 11_243_tr,Ch 11,şah,kraliyet,chg,tr,word,1
+Ch 11_254_en,Ch 11,ṣafālıq,pleasant,chg,en,word,1
+Ch 11_254_kk,Ch 11,ṣafālıq,жайлы,chg,kk,word,1
+Ch 11_254_ru,Ch 11,ṣafālıq,приятный,chg,ru,word,1
+Ch 11_254_uz,Ch 11,ṣafālıq,yoqimli,chg,uz,word,1
+Ch 11_254_tr,Ch 11,ṣafālıq,hoş,chg,tr,word,1
+Ch 12_1_en,Ch 12,ibtidā,beginning,chg,en,word,1
+Ch 12_1_kk,Ch 12,ibtidā,бастау,chg,kk,word,1
+Ch 12_1_ru,Ch 12,ibtidā,начало,chg,ru,word,1
+Ch 12_1_uz,Ch 12,ibtidā,ibtido,chg,uz,word,1
+Ch 12_1_tr,Ch 12,ibtidā,başlangıç,chg,tr,word,1
+Ch 12_19_en,Ch 12,ḫātimat,end,chg,en,word,1
+Ch 12_19_kk,Ch 12,ḫātimat,соңы,chg,kk,word,1
+Ch 12_19_ru,Ch 12,ḫātimat,завершение,chg,ru,word,1
+Ch 12_19_uz,Ch 12,ḫātimat,hotima,chg,uz,word,1
+Ch 12_19_tr,Ch 12,ḫātimat,son,chg,tr,word,1
+Ch 12_20_en,Ch 12,ḫātimat,the seal,chg,en,word,1
+Ch 12_20_kk,Ch 12,ḫātimat,мөр,chg,kk,word,1
+Ch 12_20_ru,Ch 12,ḫātimat,печать,chg,ru,word,1
+Ch 12_20_tr,Ch 12,ḫātimat,mühür,chg,tr,word,1
+Ch 12_25_en,Ch 12,Muḥammad Muṣṭafā,the Prophet Muhammad,chg,en,phrase,2
+Ch 12_25_kk,Ch 12,Muḥammad Muṣṭafā,Мұхаммед Мұстафа,chg,kk,phrase,2
+Ch 12_25_ru,Ch 12,Muḥammad Muṣṭafā,Мухаммад Мустафа,chg,ru,phrase,2
+Ch 12_25_uz,Ch 12,Muḥammad Muṣṭafā,Muhammad Mustafo,chg,uz,phrase,2
+Ch 12_25_tr,Ch 12,Muḥammad Muṣṭafā,Muhammed Mustafa,chg,tr,phrase,2
+Ch 12_26_en,Ch 12,Muḥammad Muṣṭafā,the chosen,chg,en,phrase,2
+Ch 12_26_kk,Ch 12,Muḥammad Muṣṭafā,таңдаулы,chg,kk,phrase,2
+Ch 12_26_ru,Ch 12,Muḥammad Muṣṭafā,избранный,chg,ru,phrase,2
+Ch 12_26_uz,Ch 12,Muḥammad Muṣṭafā,tanlangan,chg,uz,phrase,2
+Ch 12_26_tr,Ch 12,Muḥammad Muṣṭafā,seçilmiş,chg,tr,phrase,2
+Ch 12_27_en,Ch 12,durūd,praise,chg,en,word,1
+Ch 12_27_kk,Ch 12,durūd,мадақ,chg,kk,word,1
+Ch 12_27_ru,Ch 12,durūd,хвала,chg,ru,word,1
+Ch 12_27_uz,Ch 12,durūd,durud,chg,uz,word,1
+Ch 12_27_tr,Ch 12,durūd,övgü,chg,tr,word,1
+Ch 12_28_en,Ch 12,durūd,prayer,chg,en,word,1
+Ch 12_28_kk,Ch 12,durūd,дұға,chg,kk,word,1
+Ch 12_28_ru,Ch 12,durūd,молитва,chg,ru,word,1
+Ch 12_28_uz,Ch 12,durūd,duo,chg,uz,word,1
+Ch 12_28_tr,Ch 12,durūd,dua,chg,tr,word,1
+Ch 12_30_en,Ch 12,ʿArab Muḥammad Ḫan,Arab Muhammad Khan,chg,en,phrase,3
+Ch 12_30_kk,Ch 12,ʿArab Muḥammad Ḫan,Араб Мұхаммед хан,chg,kk,phrase,3
+Ch 12_30_ru,Ch 12,ʿArab Muḥammad Ḫan,Араб Мухаммад-хан,chg,ru,phrase,3
+Ch 12_30_uz,Ch 12,ʿArab Muḥammad Ḫan,Arab Muhammadxon,chg,uz,phrase,3
+Ch 12_30_tr,Ch 12,ʿArab Muḥammad Ḫan,Arap Muhammed Han,chg,tr,phrase,3
+Ch 12_43_en,Ch 12,tuǧ-,to bear,chg,en,word,1
+Ch 12_43_kk,Ch 12,tuǧ-,ту-,chg,kk,word,1
+Ch 12_43_ru,Ch 12,tuǧ-,родить,chg,ru,word,1
+Ch 12_43_uz,Ch 12,tuǧ-,tug'-,chg,uz,word,1
+Ch 12_43_tr,Ch 12,tuǧ-,doğ-,chg,tr,word,1
+Ch 12_44_en,Ch 12,tuǧ-,to give birth to,chg,en,word,1
+Ch 12_44_kk,Ch 12,tuǧ-,туу,chg,kk,word,1
+Ch 12_44_ru,Ch 12,tuǧ-,рожать,chg,ru,word,1
+Ch 12_44_uz,Ch 12,tuǧ-,tug'moq,chg,uz,word,1
+Ch 12_44_tr,Ch 12,tuǧ-,doğurmak,chg,tr,word,1
+Ch 12_45_en,Ch 12,-siz,without,chg,en,word,1
+Ch 12_45_kk,Ch 12,-siz,-сыз/-сіз,chg,kk,word,1
+Ch 12_45_ru,Ch 12,-siz,без,chg,ru,word,1
+Ch 12_45_uz,Ch 12,-siz,-siz,chg,uz,word,1
+Ch 12_45_tr,Ch 12,-siz,-sız,chg,tr,word,1
+Ch 12_54_en,Ch 12,Kél,Come,chg,en,word,1
+Ch 12_54_kk,Ch 12,Kél,Кел,chg,kk,word,1
+Ch 12_54_ru,Ch 12,Kél,Приди,chg,ru,word,1
+Ch 12_54_uz,Ch 12,Kél,Kel,chg,uz,word,1
+Ch 12_54_tr,Ch 12,Kél,Gel,chg,tr,word,1
+Ch 12_56_en,Ch 12,oltura alamen,I can sit,chg,en,phrase,2
+Ch 12_56_kk,Ch 12,oltura alamen,отыра аламын,chg,kk,phrase,2
+Ch 12_56_ru,Ch 12,oltura alamen,я могу сидеть,chg,ru,phrase,2
+Ch 12_56_uz,Ch 12,oltura alamen,o'tira olaman,chg,uz,phrase,2
+Ch 12_56_tr,Ch 12,oltura alamen,oturabilirim,chg,tr,phrase,2
+Ch 12_74_en,Ch 12,atıǧa,to his name,chg,en,word,1
+Ch 12_74_kk,Ch 12,atıǧa,атына,chg,kk,word,1
+Ch 12_74_ru,Ch 12,atıǧa,к его имени,chg,ru,word,1
+Ch 12_74_uz,Ch 12,atıǧa,otiga,chg,uz,word,1
+Ch 12_74_tr,Ch 12,atıǧa,adına,chg,tr,word,1
+Ch 12_82_en,Ch 12,bı̇̄-parwā,inattentive,chg,en,word,1
+Ch 12_82_kk,Ch 12,bı̇̄-parwā,бейқам,chg,kk,word,1
+Ch 12_82_ru,Ch 12,bı̇̄-parwā,невнимательный,chg,ru,word,1
+Ch 12_82_uz,Ch 12,bı̇̄-parwā,beparvo,chg,uz,word,1
+Ch 12_82_tr,Ch 12,bı̇̄-parwā,umursamaz,chg,tr,word,1
+Ch 12_83_en,Ch 12,pärwā,attention,chg,en,word,1
+Ch 12_83_kk,Ch 12,pärwā,назар,chg,kk,word,1
+Ch 12_83_ru,Ch 12,pärwā,внимание,chg,ru,word,1
+Ch 12_83_uz,Ch 12,pärwā,parvo,chg,uz,word,1
+Ch 12_83_tr,Ch 12,pärwā,perva,chg,tr,word,1
+Ch 12_84_en,Ch 12,at,name,chg,en,word,1
+Ch 12_84_kk,Ch 12,at,ат,chg,kk,word,1
+Ch 12_84_ru,Ch 12,at,имя,chg,ru,word,1
+Ch 12_84_uz,Ch 12,at,ot,chg,uz,word,1
+Ch 12_84_tr,Ch 12,at,ad,chg,tr,word,1
+Ch 12_91_en,Ch 12,paydā bol-,to appear,chg,en,phrase,2
+Ch 12_91_kk,Ch 12,paydā bol-,пайда болу,chg,kk,phrase,2
+Ch 12_91_ru,Ch 12,paydā bol-,появляться,chg,ru,phrase,2
+Ch 12_91_uz,Ch 12,paydā bol-,paydo bo'lmoq,chg,uz,phrase,2
+Ch 12_91_tr,Ch 12,paydā bol-,peyda olmak,chg,tr,phrase,2
+Ch 12_92_en,Ch 12,paydā bol-,to come into being,chg,en,phrase,2
+Ch 12_92_kk,Ch 12,paydā bol-,жаралу,chg,kk,phrase,2
+Ch 12_92_ru,Ch 12,paydā bol-,возникать,chg,ru,phrase,2
+Ch 12_92_tr,Ch 12,paydā bol-,meydana gelmek,chg,tr,phrase,2
+Ch 12_97_en,Ch 12,Tūrān,Turan,chg,en,word,1
+Ch 12_97_kk,Ch 12,Tūrān,Тұран,chg,kk,word,1
+Ch 12_97_ru,Ch 12,Tūrān,Туран,chg,ru,word,1
+Ch 12_97_uz,Ch 12,Tūrān,Turon,chg,uz,word,1
+Ch 12_97_tr,Ch 12,Tūrān,Turan,chg,tr,word,1
+Ch 12_98_en,Ch 12,Tūrān,the land to the east of Iran,chg,en,word,1
+Ch 12_98_kk,Ch 12,Tūrān,Иранның шығысындағы жер,chg,kk,word,1
+Ch 12_98_ru,Ch 12,Tūrān,земли к востоку от Ирана,chg,ru,word,1
+Ch 12_98_uz,Ch 12,Tūrān,Eronning sharqidagi yerlar,chg,uz,word,1
+Ch 12_98_tr,Ch 12,Tūrān,İran'ın doğusundaki topraklar,chg,tr,word,1
+Ch 12_109_en,Ch 12,camāʿat,group,chg,en,word,1
+Ch 12_109_kk,Ch 12,camāʿat,жамағат,chg,kk,word,1
+Ch 12_109_ru,Ch 12,camāʿat,группа,chg,ru,word,1
+Ch 12_109_uz,Ch 12,camāʿat,jamoat,chg,uz,word,1
+Ch 12_109_tr,Ch 12,camāʿat,cemaat,chg,tr,word,1
+Ch 12_119_en,Ch 12,münāsib,appropriate,chg,en,word,1
+Ch 12_119_kk,Ch 12,münāsib,мүнәсіп,chg,kk,word,1
+Ch 12_119_ru,Ch 12,münāsib,подходящий,chg,ru,word,1
+Ch 12_119_uz,Ch 12,münāsib,munosib,chg,uz,word,1
+Ch 12_119_tr,Ch 12,münāsib,münasip,chg,tr,word,1
+Ch 12_124_en,Ch 12,kes-,to cut,chg,en,word,1
+Ch 12_124_kk,Ch 12,kes-,кес-,chg,kk,word,1
+Ch 12_124_ru,Ch 12,kes-,резать,chg,ru,word,1
+Ch 12_124_uz,Ch 12,kes-,kes-,chg,uz,word,1
+Ch 12_124_tr,Ch 12,kes-,kes-,chg,tr,word,1
+Ch 12_133_en,Ch 12,yalǧan,lie,chg,en,word,1
+Ch 12_133_kk,Ch 12,yalǧan,жалған,chg,kk,word,1
+Ch 12_133_ru,Ch 12,yalǧan,ложь,chg,ru,word,1
+Ch 12_133_uz,Ch 12,yalǧan,yolg'on,chg,uz,word,1
+Ch 12_133_tr,Ch 12,yalǧan,yalan,chg,tr,word,1
+Ch 12_134_en,Ch 12,yalǧan,falsehood,chg,en,word,1
+Ch 12_134_kk,Ch 12,yalǧan,өтірік,chg,kk,word,1
+Ch 12_134_ru,Ch 12,yalǧan,неправда,chg,ru,word,1
+Ch 12_145_en,Ch 12,Märyäm bala tuǧǧunça éşekǧa minip yürer érdiler,Maryam used to ride around on a donkey until she bore a child,chg,en,sentence,7
+Ch 12_145_kk,Ch 12,Märyäm bala tuǧǧunça éşekǧa minip yürer érdiler,Мәриям бала туғанша есекке мініп жүрер еді,chg,kk,sentence,7
+Ch 12_145_ru,Ch 12,Märyäm bala tuǧǧunça éşekǧa minip yürer érdiler,Марьям до рождения ребенка ездила верхом на осле,chg,ru,sentence,7
+Ch 12_145_uz,Ch 12,Märyäm bala tuǧǧunça éşekǧa minip yürer érdiler,Maryam bola tug'guncha eshakka minib yurar edilar,chg,uz,sentence,7
+Ch 12_145_tr,Ch 12,Märyäm bala tuǧǧunça éşekǧa minip yürer érdiler,Meryem çocuk doğuruncaya kadar eşeğe binip gezérdi,chg,tr,sentence,7
+Ch 12_149_en,Ch 12,şol yergeçe kelip tüştiler,They came all the way here and then dismounted,chg,en,phrase,4
+Ch 12_149_kk,Ch 12,şol yergeçe kelip tüştiler,сол жерге дейін келіп түсті,chg,kk,phrase,4
+Ch 12_149_ru,Ch 12,şol yergeçe kelip tüştiler,"доехав до этого места, они спешились",chg,ru,phrase,4
+Ch 12_149_uz,Ch 12,şol yergeçe kelip tüştiler,shul yergacha kelib tushdilar,chg,uz,phrase,4
+Ch 12_149_tr,Ch 12,şol yergeçe kelip tüştiler,şu yere kadar gelip indiler,chg,tr,phrase,4
+Ch 12_154_en,Ch 12,yosun,manner,chg,en,word,1
+Ch 12_154_kk,Ch 12,yosun,жосын,chg,kk,word,1
+Ch 12_154_ru,Ch 12,yosun,манера,chg,ru,word,1
+Ch 12_154_uz,Ch 12,yosun,yo'sin,chg,uz,word,1
+Ch 12_154_tr,Ch 12,yosun,tarz,chg,tr,word,1
+Ch 12_155_en,Ch 12,yosun,custom,chg,en,word,1
+Ch 12_155_kk,Ch 12,yosun,салт,chg,kk,word,1
+Ch 12_155_ru,Ch 12,yosun,обычай,chg,ru,word,1
+Ch 12_155_uz,Ch 12,yosun,rasm-rusum,chg,uz,word,1
+Ch 12_155_tr,Ch 12,yosun,usul,chg,tr,word,1
+Ch 12_169_en,Ch 12,muqaṭṭaʿāt,short poems,chg,en,word,1
+Ch 12_169_kk,Ch 12,muqaṭṭaʿāt,үзінділер,chg,kk,word,1
+Ch 12_169_ru,Ch 12,muqaṭṭaʿāt,мукатта,chg,ru,word,1
+Ch 12_169_uz,Ch 12,muqaṭṭaʿāt,muqattaot,chg,uz,word,1
+Ch 12_169_tr,Ch 12,muqaṭṭaʿāt,mukattaat,chg,tr,word,1
+Ch 12_175_en,Ch 12,dam,moment,chg,en,word,1
+Ch 12_175_kk,Ch 12,dam,сәт,chg,kk,word,1
+Ch 12_175_ru,Ch 12,dam,миг,chg,ru,word,1
+Ch 12_175_tr,Ch 12,dam,an,chg,tr,word,1
+Ch 12_176_tr,Ch 12,dam,nefes,chg,tr,word,1
+Ch 12_177_en,Ch 12,Moǧulistān,Moghulistan,chg,en,word,1
+Ch 12_177_kk,Ch 12,Moǧulistān,Моғолстан,chg,kk,word,1
+Ch 12_177_ru,Ch 12,Moǧulistān,Могулистан,chg,ru,word,1
+Ch 12_177_uz,Ch 12,Moǧulistān,Mog'uliston,chg,uz,word,1
+Ch 12_177_tr,Ch 12,Moǧulistān,Moğolistan,chg,tr,word,1
+Ch 12_178_en,Ch 12,Moǧulistān,land of the Mongols,chg,en,word,1
+Ch 12_178_kk,Ch 12,Moǧulistān,Моңғол жері,chg,kk,word,1
+Ch 12_178_ru,Ch 12,Moǧulistān,земля моголов,chg,ru,word,1
+Ch 12_178_uz,Ch 12,Moǧulistān,Mo'g'ullar yurti,chg,uz,word,1
+Ch 12_178_tr,Ch 12,Moǧulistān,Moğol diyarı,chg,tr,word,1
+Ch 12_180_en,Ch 12,salṭanat,kingship,chg,en,word,1
+Ch 12_180_kk,Ch 12,salṭanat,патшалық,chg,kk,word,1
+Ch 12_180_ru,Ch 12,salṭanat,султанат,chg,ru,word,1
+Ch 12_180_uz,Ch 12,salṭanat,saltanat,chg,uz,word,1
+Ch 12_180_tr,Ch 12,salṭanat,saltanat,chg,tr,word,1
+Ch 12_181_en,Ch 12,käm wa ziyād,more or less,chg,en,phrase,3
+Ch 12_181_kk,Ch 12,käm wa ziyād,азды-көпті,chg,kk,phrase,3
+Ch 12_181_ru,Ch 12,käm wa ziyād,более или менее,chg,ru,phrase,3
+Ch 12_181_uz,Ch 12,käm wa ziyād,kam-ko'st,chg,uz,phrase,3
+Ch 12_181_tr,Ch 12,käm wa ziyād,az çok,chg,tr,phrase,3
+Ch 12_182_en,Ch 12,käm wa ziyād,approximation,chg,en,phrase,3
+Ch 12_182_kk,Ch 12,käm wa ziyād,шамамен,chg,kk,phrase,3
+Ch 12_182_ru,Ch 12,käm wa ziyād,приблизительно,chg,ru,phrase,3
+Ch 12_182_uz,Ch 12,käm wa ziyād,taqriban,chg,uz,phrase,3
+Ch 12_182_tr,Ch 12,käm wa ziyād,takriben,chg,tr,phrase,3
+Ch 12_191_en,Ch 12,yüz,face,chg,en,word,1
+Ch 12_191_ru,Ch 12,yüz,лицо,chg,ru,word,1
+Ch 12_192_en,Ch 12,yüz,surface,chg,en,word,1
+Ch 12_192_kk,Ch 12,yüz,беті,chg,kk,word,1
+Ch 12_192_ru,Ch 12,yüz,поверхность,chg,ru,word,1
+Ch 12_192_uz,Ch 12,yüz,sirt,chg,uz,word,1
+Ch 12_192_tr,Ch 12,yüz,yüzey,chg,tr,word,1
+Ch 12_204_en,Ch 12,Quyaşdék yüzleri wa nūrdék saçlarını kördük,We saw his sun-like face and his light-like hair,chg,en,sentence,6
+Ch 12_204_kk,Ch 12,Quyaşdék yüzleri wa nūrdék saçlarını kördük,Күндей жүздерін және нұрдай шаштарын көрдік,chg,kk,sentence,6
+Ch 12_204_ru,Ch 12,Quyaşdék yüzleri wa nūrdék saçlarını kördük,"Мы видели его лицо, подобное солнцу, и волосы, подобные свету",chg,ru,sentence,6
+Ch 12_204_uz,Ch 12,Quyaşdék yüzleri wa nūrdék saçlarını kördük,Quyoshdek yuzlari va nurdek sochlarini ko'rdik,chg,uz,sentence,6
+Ch 12_204_tr,Ch 12,Quyaşdék yüzleri wa nūrdék saçlarını kördük,Güneş gibi yüzlerini ve nur gibi saçlarını gördük,chg,tr,sentence,6
+Ch 12_207_en,Ch 12,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,In the Name of God the Compassionate and the Merciful,chg,en,word,1
+Ch 12_207_kk,Ch 12,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Бисмиллаһир-Рахманир-Рахим,chg,kk,word,1
+Ch 12_207_ru,Ch 12,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,"Во имя Аллаха Милостивого, Милосердного",chg,ru,word,1
+Ch 12_207_uz,Ch 12,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Bismillohir Rahmonir Rahim,chg,uz,word,1
+Ch 12_207_tr,Ch 12,bismillāhiʾr-raḥmaniʾr-raḥı̇̄m,Bismillâhirrahmânirrahîm,chg,tr,word,1
+Ch 12_234_en,Ch 12,Yer yüzi keñ turur,The world is a big place,chg,en,phrase,4
+Ch 12_234_kk,Ch 12,Yer yüzi keñ turur,Жер жүзі кең,chg,kk,phrase,4
+Ch 12_234_ru,Ch 12,Yer yüzi keñ turur,Лик земли широк,chg,ru,phrase,4
+Ch 12_234_uz,Ch 12,Yer yüzi keñ turur,Yer yuzi keng turur,chg,uz,phrase,4
+Ch 12_234_tr,Ch 12,Yer yüzi keñ turur,Yeryüzü geniştir,chg,tr,phrase,4
+Ch 12_237_en,Ch 12,Tārı̇̄ḫ-i hicrı̇̄ mıñ taqı yetmiş tört érdi kim biz kitābnı ibtidā qılduq,in the Hijri year one thousand seventy-four I began this book,chg,en,sentence,12
+Ch 12_237_kk,Ch 12,Tārı̇̄ḫ-i hicrı̇̄ mıñ taqı yetmiş tört érdi kim biz kitābnı ibtidā qılduq,"Хижра тарихы мың да жетпіс төрт еді, біз кітапты бастадық",chg,kk,sentence,12
+Ch 12_237_ru,Ch 12,Tārı̇̄ḫ-i hicrı̇̄ mıñ taqı yetmiş tört érdi kim biz kitābnı ibtidā qılduq,"Был одна тысяча семьдесят четвертый год хиджры, когда мы начали книгу",chg,ru,sentence,12
+Ch 12_237_uz,Ch 12,Tārı̇̄ḫ-i hicrı̇̄ mıñ taqı yetmiş tört érdi kim biz kitābnı ibtidā qılduq,"Tarixi hijriy ming tag'i yetmish to'rt érdikim, biz kitobni ibtido qildik",chg,uz,sentence,12
+Ch 12_237_tr,Ch 12,Tārı̇̄ḫ-i hicrı̇̄ mıñ taqı yetmiş tört érdi kim biz kitābnı ibtidā qılduq,Hicri tarih bin yetmiş dört idi ki biz kitaba başladık,chg,tr,sentence,12
+Ch 12_238_en,Ch 12,Taqı şecere-yi Türk tép at qoyduq,And I called it the Shajara-ye Turk,chg,en,sentence,6
+Ch 12_238_kk,Ch 12,Taqı şecere-yi Türk tép at qoyduq,Және «Шежіре-и Түрік» деп ат қойдық,chg,kk,sentence,6
+Ch 12_238_ru,Ch 12,Taqı şecere-yi Türk tép at qoyduq,И дали имя «Шаджара-и тюрк»,chg,ru,sentence,6
+Ch 12_238_uz,Ch 12,Taqı şecere-yi Türk tép at qoyduq,"Tag'i ""Shajarayi Turk"" deb ot qo'ydik",chg,uz,sentence,6
+Ch 12_238_tr,Ch 12,Taqı şecere-yi Türk tép at qoyduq,"Ve ""Şecere-i Türk"" diye ad koyduk",chg,tr,sentence,6
+Ch 13_8_en,Ch 13,mülk,kingdom,chg,en,word,1
+Ch 13_8_ru,Ch 13,mülk,владение,chg,ru,word,1
+Ch 13_12_en,Ch 13,cäbbār,mighty,chg,en,word,1
+Ch 13_12_kk,Ch 13,cäbbār,жаббар (зорлықшыл),chg,kk,word,1
+Ch 13_12_ru,Ch 13,cäbbār,могущественный,chg,ru,word,1
+Ch 13_12_uz,Ch 13,cäbbār,jabbor,chg,uz,word,1
+Ch 13_12_tr,Ch 13,cäbbār,cebbar,chg,tr,word,1
+Ch 13_13_en,Ch 13,cäbbār,powerful,chg,en,word,1
+Ch 13_13_kk,Ch 13,cäbbār,құдіретті,chg,kk,word,1
+Ch 13_13_ru,Ch 13,cäbbār,мощный,chg,ru,word,1
+Ch 13_13_tr,Ch 13,cäbbār,kudretli,chg,tr,word,1
+Ch 13_14_en,Ch 13,cäbbār,tyrannical,chg,en,word,1
+Ch 13_14_kk,Ch 13,cäbbār,қатыгез,chg,kk,word,1
+Ch 13_14_ru,Ch 13,cäbbār,тираничный,chg,ru,word,1
+Ch 13_14_tr,Ch 13,cäbbār,zalim,chg,tr,word,1
+Ch 13_15_en,Ch 13,ulūhiyyät,divinity,chg,en,word,1
+Ch 13_15_kk,Ch 13,ulūhiyyät,құдайлық,chg,kk,word,1
+Ch 13_15_ru,Ch 13,ulūhiyyät,божественность,chg,ru,word,1
+Ch 13_15_uz,Ch 13,ulūhiyyät,ulohiyat,chg,uz,word,1
+Ch 13_15_tr,Ch 13,ulūhiyyät,uluhiyet,chg,tr,word,1
+Ch 13_19_en,Ch 13,yaşurun,clear,chg,en,word,1
+Ch 13_19_kk,Ch 13,yaşurun,жасырын,chg,kk,word,1
+Ch 13_19_ru,Ch 13,yaşurun,тайно,chg,ru,word,1
+Ch 13_19_uz,Ch 13,yaşurun,yashirin,chg,uz,word,1
+Ch 13_19_tr,Ch 13,yaşurun,gizli,chg,tr,word,1
+Ch 13_20_en,Ch 13,yaşurun,open,chg,en,word,1
+Ch 13_20_kk,Ch 13,yaşurun,құпия,chg,kk,word,1
+Ch 13_20_ru,Ch 13,yaşurun,скрытно,chg,ru,word,1
+Ch 13_20_tr,Ch 13,yaşurun,saklı,chg,tr,word,1
+Ch 13_21_en,Ch 13,yaşurun,openly,chg,en,word,1
+Ch 13_21_kk,Ch 13,yaşurun,жасырын түрде,chg,kk,word,1
+Ch 13_21_ru,Ch 13,yaşurun,тайком,chg,ru,word,1
+Ch 13_21_tr,Ch 13,yaşurun,gizlice,chg,tr,word,1
+Ch 13_25_en,Ch 13,Tūrān ḫalqı Täñrige ʿibādat qılmamışlar,It seems that the people of Turan did not worship God,chg,en,sentence,5
+Ch 13_25_kk,Ch 13,Tūrān ḫalqı Täñrige ʿibādat qılmamışlar,Тұран халқы Тәңірге ғибадат қылмаған екен,chg,kk,sentence,5
+Ch 13_25_ru,Ch 13,Tūrān ḫalqı Täñrige ʿibādat qılmamışlar,"Кажется, народ Турана не поклонялся Богу",chg,ru,sentence,5
+Ch 13_25_uz,Ch 13,Tūrān ḫalqı Täñrige ʿibādat qılmamışlar,Turon xalqi Tangriga ibodat qilmamishlar,chg,uz,sentence,5
+Ch 13_25_tr,Ch 13,Tūrān ḫalqı Täñrige ʿibādat qılmamışlar,Turan halkı Tanrı'ya ibodat etmemişler,chg,tr,sentence,5
+Ch 13_41_en,Ch 13,ǧār,cave,chg,en,word,1
+Ch 13_41_kk,Ch 13,ǧār,үңгір,chg,kk,word,1
+Ch 13_41_ru,Ch 13,ǧār,пещера,chg,ru,word,1
+Ch 13_41_uz,Ch 13,ǧār,g'or,chg,uz,word,1
+Ch 13_41_tr,Ch 13,ǧār,mağara,chg,tr,word,1
+Ch 13_44_en,Ch 13,taqdı̇̄r,fate,chg,en,word,1
+Ch 13_44_kk,Ch 13,taqdı̇̄r,тағдыр,chg,kk,word,1
+Ch 13_44_ru,Ch 13,taqdı̇̄r,судьба,chg,ru,word,1
+Ch 13_44_uz,Ch 13,taqdı̇̄r,taqdir,chg,uz,word,1
+Ch 13_44_tr,Ch 13,taqdı̇̄r,takdir,chg,tr,word,1
+Ch 13_50_en,Ch 13,ḫudāperest,worshipper of God,chg,en,word,1
+Ch 13_50_kk,Ch 13,ḫudāperest,құдайшыл,chg,kk,word,1
+Ch 13_50_ru,Ch 13,ḫudāperest,богомольный,chg,ru,word,1
+Ch 13_50_uz,Ch 13,ḫudāperest,xudoparast,chg,uz,word,1
+Ch 13_50_tr,Ch 13,ḫudāperest,hudaperest,chg,tr,word,1
+Ch 13_65_en,Ch 13,mutaḥayyir,astonished,chg,en,word,1
+Ch 13_65_kk,Ch 13,mutaḥayyir,таңғалған,chg,kk,word,1
+Ch 13_65_ru,Ch 13,mutaḥayyir,изумленный,chg,ru,word,1
+Ch 13_65_uz,Ch 13,mutaḥayyir,mutahayyir,chg,uz,word,1
+Ch 13_65_tr,Ch 13,mutaḥayyir,mütehayyir,chg,tr,word,1
+Ch 13_69_en,Ch 13,mācerā,event,chg,en,word,1
+Ch 13_69_kk,Ch 13,mācerā,оқиға,chg,kk,word,1
+Ch 13_69_ru,Ch 13,mācerā,происшествие,chg,ru,word,1
+Ch 13_69_uz,Ch 13,mācerā,mojaro,chg,uz,word,1
+Ch 13_69_tr,Ch 13,mācerā,macera,chg,tr,word,1
+Ch 13_85_en,Ch 13,başla-,to lead,chg,en,word,1
+Ch 13_85_kk,Ch 13,başla-,бастау,chg,kk,word,1
+Ch 13_85_ru,Ch 13,başla-,возглавлять,chg,ru,word,1
+Ch 13_85_uz,Ch 13,başla-,boshlamoq,chg,uz,word,1
+Ch 13_85_tr,Ch 13,başla-,başlamak,chg,tr,word,1
+Ch 13_86_en,Ch 13,başla-,to guide,chg,en,word,1
+Ch 13_86_kk,Ch 13,başla-,жол көрсету,chg,kk,word,1
+Ch 13_86_ru,Ch 13,başla-,направлять,chg,ru,word,1
+Ch 13_86_tr,Ch 13,başla-,yol göstermek,chg,tr,word,1
+Ch 13_91_en,Ch 13,şükr,gratitude,chg,en,word,1
+Ch 13_91_kk,Ch 13,şükr,шүкір,chg,kk,word,1
+Ch 13_91_ru,Ch 13,şükr,благодарность,chg,ru,word,1
+Ch 13_91_uz,Ch 13,şükr,shukr,chg,uz,word,1
+Ch 13_91_tr,Ch 13,şükr,şükür,chg,tr,word,1
+Ch 13_94_en,Ch 13,arwāḥ,spirits,chg,en,word,1
+Ch 13_94_kk,Ch 13,arwāḥ,аруақтар,chg,kk,word,1
+Ch 13_94_ru,Ch 13,arwāḥ,духи,chg,ru,word,1
+Ch 13_94_uz,Ch 13,arwāḥ,arvoh,chg,uz,word,1
+Ch 13_94_tr,Ch 13,arwāḥ,ervah,chg,tr,word,1
+Ch 13_96_en,Ch 13,qabż,grasping,chg,en,word,1
+Ch 13_96_kk,Ch 13,qabż,алу,chg,kk,word,1
+Ch 13_96_ru,Ch 13,qabż,хватание,chg,ru,word,1
+Ch 13_96_uz,Ch 13,qabż,qabz,chg,uz,word,1
+Ch 13_96_tr,Ch 13,qabż,kabz,chg,tr,word,1
+Ch 13_97_en,Ch 13,qabż,seizing,chg,en,word,1
+Ch 13_97_kk,Ch 13,qabż,ұстау,chg,kk,word,1
+Ch 13_97_ru,Ch 13,qabż,захват,chg,ru,word,1
+Ch 13_97_tr,Ch 13,qabż,tutma,chg,tr,word,1
+Ch 13_105_en,Ch 13,maʿbad,place of worship,chg,en,word,1
+Ch 13_105_kk,Ch 13,maʿbad,ғибадатхана,chg,kk,word,1
+Ch 13_105_ru,Ch 13,maʿbad,место поклонения,chg,ru,word,1
+Ch 13_105_uz,Ch 13,maʿbad,ma'bad,chg,uz,word,1
+Ch 13_105_tr,Ch 13,maʿbad,mabet,chg,tr,word,1
+Ch 13_106_en,Ch 13,tawārı̇̄ḫ,histories,chg,en,word,1
+Ch 13_106_kk,Ch 13,tawārı̇̄ḫ,тарихтар,chg,kk,word,1
+Ch 13_106_ru,Ch 13,tawārı̇̄ḫ,истории,chg,ru,word,1
+Ch 13_106_uz,Ch 13,tawārı̇̄ḫ,avorix,chg,uz,word,1
+Ch 13_106_tr,Ch 13,tawārı̇̄ḫ,tarihler,chg,tr,word,1
+Ch 13_119_en,Ch 13,katabtuhu,I wrote,chg,en,word,1
+Ch 13_119_kk,Ch 13,katabtuhu,жаздым,chg,kk,word,1
+Ch 13_119_ru,Ch 13,katabtuhu,я написал,chg,ru,word,1
+Ch 13_119_uz,Ch 13,katabtuhu,katabtuhu,chg,uz,word,1
+Ch 13_119_tr,Ch 13,katabtuhu,yazdım,chg,tr,word,1
+Ch 13_120_en,Ch 13,waqf,pious endowment,chg,en,word,1
+Ch 13_120_kk,Ch 13,waqf,уақып,chg,kk,word,1
+Ch 13_120_ru,Ch 13,waqf,благотворительный фонд,chg,ru,word,1
+Ch 13_120_uz,Ch 13,waqf,vaqf,chg,uz,word,1
+Ch 13_120_tr,Ch 13,waqf,vakıф,chg,tr,word,1
+Ch 13_132_en,Ch 13,"Muḫtaṣarı budur, kim Yūnān mülkide Afsūs şaharıdı Daqyānūs atlıǧ mälik-i cäbbār bar érmiş","The long and short of it is, in the kingdom of Greece, in the city of Ephesus, there was a tyrannical king named Decius",chg,en,sentence,13
+Ch 13_132_kk,Ch 13,"Muḫtaṣarı budur, kim Yūnān mülkide Afsūs şaharıdı Daqyānūs atlıǧ mälik-i cäbbār bar érmiş","Қысқасы мынау: Грек елінде, Эфес қаласында Дақиянус атты қатыгез патша бар екен",chg,kk,sentence,13
+Ch 13_132_ru,Ch 13,"Muḫtaṣarı budur, kim Yūnān mülkide Afsūs şaharıdı Daqyānūs atlıǧ mälik-i cäbbār bar érmiş","Вкратце так: в Греческом царстве, в городе Эфес, был тираничный царь по имени Деций",chg,ru,sentence,13
+Ch 13_132_uz,Ch 13,"Muḫtaṣarı budur, kim Yūnān mülkide Afsūs şaharıdı Daqyānūs atlıǧ mälik-i cäbbār bar érmiş","Muxtasari budurkim, Yunon mulkida, Afsus shahrida Daqyonus otli zolim podshoh bor emish",chg,uz,sentence,13
+Ch 13_132_tr,Ch 13,"Muḫtaṣarı budur, kim Yūnān mülkide Afsūs şaharıdı Daqyānūs atlıǧ mälik-i cäbbār bar érmiş","Özeti şudur ki, Yunan mülkünde, Efes şehrinde Dakyanus adlı zalim bir melik varmış",chg,tr,sentence,13
+Ch 13_141_en,Ch 13,"qoyçınıñ iti häm qoşulup, Raqim atlıǧ ǧārǧa kirmişler",and so did the shepherd’s dog. They went into a cave called “Raqim”,chg,en,sentence,8
+Ch 13_141_kk,Ch 13,"qoyçınıñ iti häm qoşulup, Raqim atlıǧ ǧārǧa kirmişler","қойшының иті де қосылып, Рақим атты үңгірге кірген екен",chg,kk,sentence,8
+Ch 13_141_ru,Ch 13,"qoyçınıñ iti häm qoşulup, Raqim atlıǧ ǧārǧa kirmişler","и собака пастуха тоже присоединилась, и они вошли в пещеру под названием Раким",chg,ru,sentence,8
+Ch 13_141_uz,Ch 13,"qoyçınıñ iti häm qoşulup, Raqim atlıǧ ǧārǧa kirmişler","qo'ychining iti ham qo'shilib, Raqim otli g'orga kirmishlar",chg,uz,sentence,8
+Ch 13_141_tr,Ch 13,"qoyçınıñ iti häm qoşulup, Raqim atlıǧ ǧārǧa kirmişler","çobanın iti de katılıp, Rakim adlı mağaraya girmişler",chg,tr,sentence,8
+Ch 13_142_en,Ch 13,wa alarnıñ ʿadédide täräddüd bar,And one hesitates with regard to their number,chg,en,sentence,5
+Ch 13_142_kk,Ch 13,wa alarnıñ ʿadédide täräddüd bar,және олардың санында күмән бар,chg,kk,sentence,5
+Ch 13_142_ru,Ch 13,wa alarnıñ ʿadédide täräddüd bar,и насчет их числа есть сомнения,chg,ru,sentence,5
+Ch 13_142_uz,Ch 13,wa alarnıñ ʿadédide täräddüd bar,va ularning adadida taraddud bor,chg,uz,sentence,5
+Ch 13_142_tr,Ch 13,wa alarnıñ ʿadédide täräddüd bar,ve onların adédinde tereddüt var,chg,tr,sentence,5
+Ch 13_145_en,Ch 13,bir ḫudā-perest ʿābid pādişāhǧa salṭanat yetkende,and when the throne came to a God-worshipping king,chg,en,sentence,6
+Ch 13_145_kk,Ch 13,bir ḫudā-perest ʿābid pādişāhǧa salṭanat yetkende,бір құдайшыл ғибадат етуші патшаға салтанат жеткенде,chg,kk,sentence,6
+Ch 13_145_ru,Ch 13,bir ḫudā-perest ʿābid pādişāhǧa salṭanat yetkende,когда власть дошла до одного набожного царя-богомольца,chg,ru,sentence,6
+Ch 13_145_uz,Ch 13,bir ḫudā-perest ʿābid pādişāhǧa salṭanat yetkende,bir xudoparast obid podshohga saltanat yetganda,chg,uz,sentence,6
+Ch 13_145_tr,Ch 13,bir ḫudā-perest ʿābid pādişāhǧa salṭanat yetkende,bir hudaperest abid padişaha saltanat eriştiğinde,chg,tr,sentence,6
+Ch 13_165_en,Ch 13,"alarnı medfūn qılıp, ol yer ḫalāyıqqa ʿaẓı̇̄m maʿbed bolmış",and buried them there. That place came to be a great place of worship for the people,chg,en,sentence,9
+Ch 13_165_kk,Ch 13,"alarnı medfūn qılıp, ol yer ḫalāyıqqa ʿaẓı̇̄m maʿbed bolmış","оларды жерлеп, ол жер халыққа зор ғибадатхана болған екен",chg,kk,sentence,9
+Ch 13_165_ru,Ch 13,"alarnı medfūn qılıp, ol yer ḫalāyıqqa ʿaẓı̇̄m maʿbed bolmış","похоронив их, сделал это место великим храмом для народа",chg,ru,sentence,9
+Ch 13_165_uz,Ch 13,"alarnı medfūn qılıp, ol yer ḫalāyıqqa ʿaẓı̇̄m maʿbed bolmış","ularni madfun qilib, ul yer xaloyiqqa azim ma'bad bo'lmish",chg,uz,sentence,9
+Ch 13_165_tr,Ch 13,"alarnı medfūn qılıp, ol yer ḫalāyıqqa ʿaẓı̇̄m maʿbed bolmış","onları defnedip, o yer halka azim mabet olmuş",chg,tr,sentence,9
+Ch 13_166_en,Ch 13,Bu qıṣṣa täwārı̇̄ḫ wa täfāsı̇̄rda mabsūṭ bar,This story is detailed in histories and commentaries,chg,en,sentence,7
+Ch 13_166_kk,Ch 13,Bu qıṣṣa täwārı̇̄ḫ wa täfāsı̇̄rda mabsūṭ bar,бұл қисса тарихтар мен тәпсірлерде егжей-тегжейлі бар,chg,kk,sentence,7
+Ch 13_166_ru,Ch 13,Bu qıṣṣa täwārı̇̄ḫ wa täfāsı̇̄rda mabsūṭ bar,эта история подробно изложена в исторических хрониках и комментариях,chg,ru,sentence,7
+Ch 13_166_uz,Ch 13,Bu qıṣṣa täwārı̇̄ḫ wa täfāsı̇̄rda mabsūṭ bar,bu qissa tavorix va tafosirda mabsut bor,chg,uz,sentence,7
+Ch 13_166_tr,Ch 13,Bu qıṣṣa täwārı̇̄ḫ wa täfāsı̇̄rda mabsūṭ bar,bu kıssa tarihler ve tefsirlerde mabsut var,chg,tr,sentence,7
+Ch 14_24_en,Ch 14,qaṭʿ qıl-,to travel across,chg,en,phrase,2
+Ch 14_24_kk,Ch 14,qaṭʿ qıl-,кесіп өту,chg,kk,phrase,2
+Ch 14_24_ru,Ch 14,qaṭʿ qıl-,переправляться,chg,ru,phrase,2
+Ch 14_24_uz,Ch 14,qaṭʿ qıl-,qat’ qil-,chg,uz,phrase,2
+Ch 14_24_tr,Ch 14,qaṭʿ qıl-,katet-,chg,tr,phrase,2
+Ch 14_44_en,Ch 14,"Bu ékawlän qofup, şaharige kirdiler",These two got up and entered the city,chg,en,sentence,5
+Ch 14_44_kk,Ch 14,"Bu ékawlän qofup, şaharige kirdiler","Бұл екеуі тұрып, қалаға кірді",chg,kk,sentence,5
+Ch 14_44_ru,Ch 14,"Bu ékawlän qofup, şaharige kirdiler",Эти двое встали и вошли в город,chg,ru,sentence,5
+Ch 14_44_uz,Ch 14,"Bu ékawlän qofup, şaharige kirdiler","Bu ikkovlon qo‘pib, shaharga kirdilar",chg,uz,sentence,5
+Ch 14_44_tr,Ch 14,"Bu ékawlän qofup, şaharige kirdiler",Bu ikisi kalkıp şehre girdiler,chg,tr,sentence,5
+Ch 14_64_en,Ch 14,be-naẓar-ı taḥammul,with patient observation,chg,en,phrase,2
+Ch 14_64_kk,Ch 14,be-naẓar-ı taḥammul,сабырмен қарау,chg,kk,phrase,2
+Ch 14_64_ru,Ch 14,be-naẓar-ı taḥammul,терпеливое наблюдение,chg,ru,phrase,2
+Ch 14_64_uz,Ch 14,be-naẓar-ı taḥammul,nazar-i tahammul,chg,uz,phrase,2
+Ch 14_64_tr,Ch 14,be-naẓar-ı taḥammul,sabırlı bakış,chg,tr,phrase,2
+Ch 14_77_en,Ch 14,ṭāʿat,obedience,chg,en,word,1
+Ch 14_77_kk,Ch 14,ṭāʿat,ғибадат,chg,kk,word,1
+Ch 14_77_ru,Ch 14,ṭāʿat,покорность,chg,ru,word,1
+Ch 14_77_uz,Ch 14,ṭāʿat,toat,chg,uz,word,1
+Ch 14_77_tr,Ch 14,ṭāʿat,itaat,chg,tr,word,1
+Ch 14_106_en,Ch 14,"Bir ṭarafkä keteli, mundaǧ yerde turmaylı","Let’s go somewhere else, let’s not stay in a place like this",chg,en,sentence,6
+Ch 14_106_kk,Ch 14,"Bir ṭarafkä keteli, mundaǧ yerde turmaylı","басқа жаққа кетелік, мұндай жерде тұрмайық",chg,kk,sentence,6
+Ch 14_106_ru,Ch 14,"Bir ṭarafkä keteli, mundaǧ yerde turmaylı","давайте пойдем в другое место, не будем оставаться здесь",chg,ru,sentence,6
+Ch 14_106_uz,Ch 14,"Bir ṭarafkä keteli, mundaǧ yerde turmaylı","bir tarafga ketaylik, mundoq yerda turmaylik",chg,uz,sentence,6
+Ch 14_106_tr,Ch 14,"Bir ṭarafkä keteli, mundaǧ yerde turmaylı","bir tarafa gidelim, böyle yerde durmayalım",chg,tr,sentence,6
+Ch 14_113_en,Ch 14,Tā sabāḥǧaça Qurʾān oqudılar.,They read the Qur’ān until the early morning,chg,en,phrase,4
+Ch 14_113_kk,Ch 14,Tā sabāḥǧaça Qurʾān oqudılar.,таңға дейін Құран оқыды,chg,kk,phrase,4
+Ch 14_113_ru,Ch 14,Tā sabāḥǧaça Qurʾān oqudılar.,читали Коран до самого утра,chg,ru,phrase,4
+Ch 14_113_uz,Ch 14,Tā sabāḥǧaça Qurʾān oqudılar.,to subhgacha Qur’on o‘qidilar,chg,uz,phrase,4
+Ch 14_113_tr,Ch 14,Tā sabāḥǧaça Qurʾān oqudılar.,sabaha kadar Kur’an okudular,chg,tr,phrase,4
+Ch 14_127_en,Ch 14,"Bir kişini çarlap alıp kelip, söz sordılar","They invited someone back to theirs, and they asked him",chg,en,sentence,7
+Ch 14_127_kk,Ch 14,"Bir kişini çarlap alıp kelip, söz sordılar","бір кісіні шақырып алып келіп, сөз сұрады",chg,kk,sentence,7
+Ch 14_127_ru,Ch 14,"Bir kişini çarlap alıp kelip, söz sordılar","пригласив одного человека, они спросили",chg,ru,sentence,7
+Ch 14_127_uz,Ch 14,"Bir kişini çarlap alıp kelip, söz sordılar","bir kishini chorlab olib kelib, so‘z so‘radilar",chg,uz,sentence,7
+Ch 14_127_tr,Ch 14,"Bir kişini çarlap alıp kelip, söz sordılar",bir kişiyi çağırıp getirip söz sordular,chg,tr,sentence,7
+Ch 14_130_en,Ch 14,ʿĀlimiñizler häm bar mu dép sordılar,Do you have scholars,chg,en,sentence,6
+Ch 14_130_kk,Ch 14,ʿĀlimiñizler häm bar mu dép sordılar,ғалымдарыңыз бар ма деп сұрады,chg,kk,sentence,6
+Ch 14_130_ru,Ch 14,ʿĀlimiñizler häm bar mu dép sordılar,"есть ли у вас ученые, спросили они",chg,ru,sentence,6
+Ch 14_130_uz,Ch 14,ʿĀlimiñizler häm bar mu dép sordılar,"olimingizlar ham bormi, deb so‘radilar",chg,uz,sentence,6
+Ch 14_130_tr,Ch 14,ʿĀlimiñizler häm bar mu dép sordılar,âlimleriniz de var mı deyip sordular,chg,tr,sentence,6
+Ch 14_145_en,Ch 14,ḫayra,beneficent,chg,en,word,1
+Ch 14_145_kk,Ch 14,ḫayra,қайырлы,chg,kk,word,1
+Ch 14_145_ru,Ch 14,ḫayra,благой,chg,ru,word,1
+Ch 14_145_uz,Ch 14,ḫayra,xayrli,chg,uz,word,1
+Ch 14_145_tr,Ch 14,ḫayra,hayırlı,chg,tr,word,1
+Ch 14_151_en,Ch 14,çarla-,to invite,chg,en,word,1
+Ch 14_151_kk,Ch 14,çarla-,шақыру,chg,kk,word,1
+Ch 14_151_ru,Ch 14,çarla-,звать,chg,ru,word,1
+Ch 14_151_uz,Ch 14,çarla-,chorla-,chg,uz,word,1
+Ch 14_151_tr,Ch 14,çarla-,çağırmak,chg,tr,word,1
+Ch 14_174_en,Ch 14,"Mundaǧ yerde turmaylı, dép maṣlaḥat qıldılar","Let’s not stay in a place like this, they decided",chg,en,sentence,6
+Ch 14_174_kk,Ch 14,"Mundaǧ yerde turmaylı, dép maṣlaḥat qıldılar",мұндай жерде тұрмайық деп кеңесті,chg,kk,sentence,6
+Ch 14_174_ru,Ch 14,"Mundaǧ yerde turmaylı, dép maṣlaḥat qıldılar",решили: не будем оставаться в таком месте,chg,ru,sentence,6
+Ch 14_174_uz,Ch 14,"Mundaǧ yerde turmaylı, dép maṣlaḥat qıldılar","mundoq yerda turmaylik, deb maslahat qildilar",chg,uz,sentence,6
+Ch 14_174_tr,Ch 14,"Mundaǧ yerde turmaylı, dép maṣlaḥat qıldılar",böyle yerde durmayalım deyip meşveret ettiler,chg,tr,sentence,6
+Ch 14_189_en,Ch 14,maḫlūq,creation of God,chg,en,word,1
+Ch 14_189_kk,Ch 14,maḫlūq,мақұлық,chg,kk,word,1
+Ch 14_189_ru,Ch 14,maḫlūq,творение,chg,ru,word,1
+Ch 14_189_uz,Ch 14,maḫlūq,maxluq,chg,uz,word,1
+Ch 14_189_tr,Ch 14,maḫlūq,mahluk,chg,tr,word,1
+Ch 14_190_en,Ch 14,maḫlūq,living creature,chg,en,word,1
+Ch 14_190_kk,Ch 14,maḫlūq,тіршілік иесі,chg,kk,word,1
+Ch 14_190_ru,Ch 14,maḫlūq,живое существо,chg,ru,word,1
+Ch 14_190_tr,Ch 14,maḫlūq,yaratık,chg,tr,word,1
+Ch 15_12_en,Ch 15,"çahār yār bolsañ, fähwuʾl-murād","If you become a Sunni, that will be the desired outcome",chg,en,phrase,4
+Ch 15_12_kk,Ch 15,"çahār yār bolsañ, fähwuʾl-murād",Шәрияр (сүннит) болсаң – мақсаттың орындалғаны,chg,kk,phrase,4
+Ch 15_12_ru,Ch 15,"çahār yār bolsañ, fähwuʾl-murād","Если станешь чахарьяри (суннитом), это и есть желаемое",chg,ru,phrase,4
+Ch 15_12_uz,Ch 15,"çahār yār bolsañ, fähwuʾl-murād","Choryori bo‘lsang, fahvu-l-murod",chg,uz,phrase,4
+Ch 15_12_tr,Ch 15,"çahār yār bolsañ, fähwuʾl-murād","Çaryari (Sünni) olursan, murat hasıl olur",chg,tr,phrase,4
+Ch 15_13_en,Ch 15,"Yoq érse, duʿā-yı bäd qılurmız","Otherwise, we will curse you",chg,en,sentence,5
+Ch 15_13_kk,Ch 15,"Yoq érse, duʿā-yı bäd qılurmız","Жоқ есе, теріс бата қыламыз",chg,kk,sentence,5
+Ch 15_13_ru,Ch 15,"Yoq érse, duʿā-yı bäd qılurmız",В противном случае мы проклянем,chg,ru,sentence,5
+Ch 15_13_uz,Ch 15,"Yoq érse, duʿā-yı bäd qılurmız","Yo‘q ersa, duoyi bad qilurmiz",chg,uz,sentence,5
+Ch 15_13_tr,Ch 15,"Yoq érse, duʿā-yı bäd qılurmız","Yoksa, beddua ederiz",chg,tr,sentence,5
+Ch 15_34_en,Ch 15,mäsnäd-nişn,in the seat of honor,chg,en,word,1
+Ch 15_34_kk,Ch 15,mäsnäd-nişn,Төрде отырушы,chg,kk,word,1
+Ch 15_34_ru,Ch 15,mäsnäd-nişn,Восседающий на почетном месте,chg,ru,word,1
+Ch 15_34_uz,Ch 15,mäsnäd-nişn,Masnadnishin,chg,uz,word,1
+Ch 15_34_tr,Ch 15,mäsnäd-nişn,Başköşede oturan,chg,tr,word,1
+Ch 15_39_en,Ch 15,maqṣūd,goal,chg,en,word,1
+Ch 15_39_kk,Ch 15,maqṣūd,Мақсат,chg,kk,word,1
+Ch 15_39_ru,Ch 15,maqṣūd,Цель,chg,ru,word,1
+Ch 15_39_uz,Ch 15,maqṣūd,Maqsud,chg,uz,word,1
+Ch 15_39_tr,Ch 15,maqṣūd,Maksat,chg,tr,word,1
+Ch 15_40_en,Ch 15,maqṣūd,intention,chg,en,word,1
+Ch 15_40_kk,Ch 15,maqṣūd,Ниет,chg,kk,word,1
+Ch 15_40_ru,Ch 15,maqṣūd,Намерение,chg,ru,word,1
+Ch 15_40_tr,Ch 15,maqṣūd,Niyet,chg,tr,word,1
+Ch 15_62_en,Ch 15,-ǧaysızlar,you shall,chg,en,word,1
+Ch 15_62_kk,Ch 15,-ǧaysızlar,-ғайсыздар,chg,kk,word,1
+Ch 15_62_ru,Ch 15,-ǧaysızlar,"вы (мн.ч., будущее время)",chg,ru,word,1
+Ch 15_62_uz,Ch 15,-ǧaysızlar,-g‘aysizlar,chg,uz,word,1
+Ch 15_62_tr,Ch 15,-ǧaysızlar,-asınızlar,chg,tr,word,1
+Ch 15_63_en,Ch 15,-ǧaysen,you shall,chg,en,word,1
+Ch 15_63_kk,Ch 15,-ǧaysen,-ғайсың,chg,kk,word,1
+Ch 15_63_ru,Ch 15,-ǧaysen,ты (будущее время),chg,ru,word,1
+Ch 15_63_uz,Ch 15,-ǧaysen,-g‘aysan,chg,uz,word,1
+Ch 15_63_tr,Ch 15,-ǧaysen,-asın,chg,tr,word,1
+Ch 15_69_en,Ch 15,-geymiz,we shall,chg,en,word,1
+Ch 15_69_kk,Ch 15,-geymiz,-гейміз,chg,kk,word,1
+Ch 15_69_ru,Ch 15,-geymiz,мы (будущее время),chg,ru,word,1
+Ch 15_69_uz,Ch 15,-geymiz,-gaymiz,chg,uz,word,1
+Ch 15_69_tr,Ch 15,-geymiz,-elim,chg,tr,word,1
+Ch 15_70_en,Ch 15,-geysiz,you shall,chg,en,word,1
+Ch 15_70_kk,Ch 15,-geysiz,-гейсіз,chg,kk,word,1
+Ch 15_70_ru,Ch 15,-geysiz,вы (будущее время),chg,ru,word,1
+Ch 15_70_uz,Ch 15,-geysiz,-gaysiz,chg,uz,word,1
+Ch 15_70_tr,Ch 15,-geysiz,-esiniz,chg,tr,word,1
+Ch 15_72_en,Ch 15,-geysen,you shall,chg,en,word,1
+Ch 15_72_kk,Ch 15,-geysen,-гейсің,chg,kk,word,1
+Ch 15_72_ru,Ch 15,-geysen,ты (будущее время),chg,ru,word,1
+Ch 15_72_uz,Ch 15,-geysen,-gaysan,chg,uz,word,1
+Ch 15_72_tr,Ch 15,-geysen,-esin,chg,tr,word,1
+Ch 15_88_en,Ch 15,Bu şahristān tā sär-i Türkistān köründi,One could see all the way from this town to Turkistan,chg,en,sentence,6
+Ch 15_88_kk,Ch 15,Bu şahristān tā sär-i Türkistān köründi,Бұл шаһарстан Түркістан шетіне дейін көрінді,chg,kk,sentence,6
+Ch 15_88_ru,Ch 15,Bu şahristān tā sär-i Türkistān köründi,Этот город был виден до самого Туркестана,chg,ru,sentence,6
+Ch 15_88_uz,Ch 15,Bu şahristān tā sär-i Türkistān köründi,Bu shahriston to sari Turkiston ko‘rindi,chg,uz,sentence,6
+Ch 15_88_tr,Ch 15,Bu şahristān tā sär-i Türkistān köründi,Bu şehristan Türkistan sınırına kadar göründü,chg,tr,sentence,6
+Ch 15_97_en,Ch 15,"bulardın bir neçe qadam yıraq barıp, murāqabada olturup édiler",He stepped a little ways away from them and sat down in a trance,chg,en,sentence,9
+Ch 15_97_kk,Ch 15,"bulardın bir neçe qadam yıraq barıp, murāqabada olturup édiler","Олардан бірнеше қадам жырақ барып, мұрақабада (ойға шомып) отырды",chg,kk,sentence,9
+Ch 15_97_ru,Ch 15,"bulardın bir neçe qadam yıraq barıp, murāqabada olturup édiler","Отойдя от них на несколько шагов, он сел в медитацию (муракаба)",chg,ru,sentence,9
+Ch 15_97_uz,Ch 15,"bulardın bir neçe qadam yıraq barıp, murāqabada olturup édiler","Bulardan bir necha qadam yiroq borib, muroqabada o‘tirib edilar",chg,uz,sentence,9
+Ch 15_97_tr,Ch 15,"bulardın bir neçe qadam yıraq barıp, murāqabada olturup édiler","Onlardan birkaç adım uzağa gidip, murakabede (derin düşüncede) oturdular",chg,tr,sentence,9
+Ch 15_108_kk,Ch 15,qaysı,Қайсы,chg,kk,word,1
+Ch 15_108_ru,Ch 15,qaysı,Какой,chg,ru,word,1
+Ch 15_108_uz,Ch 15,qaysı,Qaysi,chg,uz,word,1
+Ch 15_108_tr,Ch 15,qaysı,Hangi (kaysı),chg,tr,word,1
+Ch 15_116_en,Ch 15,ruḫṣat,permission,chg,en,word,1
+Ch 15_116_kk,Ch 15,ruḫṣat,Рұқсат,chg,kk,word,1
+Ch 15_116_ru,Ch 15,ruḫṣat,Разрешение,chg,ru,word,1
+Ch 15_116_uz,Ch 15,ruḫṣat,Ruxsat,chg,uz,word,1
+Ch 15_116_tr,Ch 15,ruḫṣat,Ruhsat (izin),chg,tr,word,1
+Ch 15_134_en,Ch 15,camāluʾd-dı̇̄n atıñnı Calāluʾd-dı̇̄n qoyduq,"In place of your name Jamal ud-Din, we have named you Jalal ud-Din",chg,en,phrase,4
+Ch 15_134_kk,Ch 15,camāluʾd-dı̇̄n atıñnı Calāluʾd-dı̇̄n qoyduq,Жамалуддин атыңызды Жалалуддин қойдық,chg,kk,phrase,4
+Ch 15_134_ru,Ch 15,camāluʾd-dı̇̄n atıñnı Calāluʾd-dı̇̄n qoyduq,Мы нарекли тебя Джалалуддином вместо имени Джамалуддин,chg,ru,phrase,4
+Ch 15_134_uz,Ch 15,camāluʾd-dı̇̄n atıñnı Calāluʾd-dı̇̄n qoyduq,Jamoliddin otingni Jaloliddin qo‘yduq,chg,uz,phrase,4
+Ch 15_134_tr,Ch 15,camāluʾd-dı̇̄n atıñnı Calāluʾd-dı̇̄n qoyduq,Cemaleddin adını Celaleddin koyduk,chg,tr,phrase,4
+Ch 15_136_en,Ch 15,Quṭbiyat märtebesi ḥāṣil boldı,You have achieved the station of being a pole,chg,en,phrase,4
+Ch 15_136_kk,Ch 15,Quṭbiyat märtebesi ḥāṣil boldı,Құтбылық мәртебесі хасыл болды (бұйырды),chg,kk,phrase,4
+Ch 15_136_ru,Ch 15,Quṭbiyat märtebesi ḥāṣil boldı,Достигнута степень Кутба (Полюса),chg,ru,phrase,4
+Ch 15_136_uz,Ch 15,Quṭbiyat märtebesi ḥāṣil boldı,Qutbiyat martabasi hosil bo‘ldi,chg,uz,phrase,4
+Ch 15_136_tr,Ch 15,Quṭbiyat märtebesi ḥāṣil boldı,Kutbiyet mertebesi hasıl oldu,chg,tr,phrase,4
+Ch 15_169_en,Ch 15,sizler Ardawı̇̄l şaharıge barıñlar,Go to the city of Erdabil,chg,en,phrase,4
+Ch 15_169_kk,Ch 15,sizler Ardawı̇̄l şaharıge barıñlar,Енді сіздер Ардебил шаһарына барыңыздар,chg,kk,phrase,4
+Ch 15_169_ru,Ch 15,sizler Ardawı̇̄l şaharıge barıñlar,Идите в город Ардебиль,chg,ru,phrase,4
+Ch 15_169_uz,Ch 15,sizler Ardawı̇̄l şaharıge barıñlar,Sizlar Ardabil shahriga boringlar,chg,uz,phrase,4
+Ch 15_169_tr,Ch 15,sizler Ardawı̇̄l şaharıge barıñlar,Sizler Erdebil şehrine varın,chg,tr,phrase,4
+Ch 15_171_en,Ch 15,sizler meniñ üyümde uyqulañlar,"All of you, sleep in my house",chg,en,phrase,4
+Ch 15_171_kk,Ch 15,sizler meniñ üyümde uyqulañlar,Сіздер менің үйімде ұйықтаңыздар,chg,kk,phrase,4
+Ch 15_171_ru,Ch 15,sizler meniñ üyümde uyqulañlar,Спите в моем доме,chg,ru,phrase,4
+Ch 15_171_uz,Ch 15,sizler meniñ üyümde uyqulañlar,Sizlar mening uyimda uyqulanglar,chg,uz,phrase,4
+Ch 15_171_tr,Ch 15,sizler meniñ üyümde uyqulañlar,Sizler benim evimde uyuyun,chg,tr,phrase,4
+Ch 15_173_en,Ch 15,Sünnetni tärk tutmañlar,Do not abandon tradition,chg,en,phrase,3
+Ch 15_173_kk,Ch 15,Sünnetni tärk tutmañlar,Сүннетті тәрк етпеңіздер (тастамаңыздар),chg,kk,phrase,3
+Ch 15_173_ru,Ch 15,Sünnetni tärk tutmañlar,Не оставляйте Сунну,chg,ru,phrase,3
+Ch 15_173_uz,Ch 15,Sünnetni tärk tutmañlar,Sunnatni tark tutmanglar,chg,uz,phrase,3
+Ch 15_173_tr,Ch 15,Sünnetni tärk tutmañlar,Sünneti terk etmeyin,chg,tr,phrase,3
+Ch 15_174_en,Ch 15,"Musulmān bolsañ, Qurʾān oquşnı toḫtamañ","If you are a Muslim, do not stop reading the Qur’ān",chg,en,sentence,5
+Ch 15_174_kk,Ch 15,"Musulmān bolsañ, Qurʾān oquşnı toḫtamañ","Мұсылман болсаң, Құран оқуды тоқтатпа",chg,kk,sentence,5
+Ch 15_174_ru,Ch 15,"Musulmān bolsañ, Qurʾān oquşnı toḫtamañ","Если ты мусульманин, не прекращай читать Коран",chg,ru,sentence,5
+Ch 15_174_uz,Ch 15,"Musulmān bolsañ, Qurʾān oquşnı toḫtamañ","Musulmon bo‘lsang, Qur'on o‘qishni to‘xtatma",chg,uz,sentence,5
+Ch 15_174_tr,Ch 15,"Musulmān bolsañ, Qurʾān oquşnı toḫtamañ","Müslüman isen, Kur'an okumayı durdurma",chg,tr,sentence,5
+Ch 15_195_en,Ch 15,şukufta,blooming,chg,en,word,1
+Ch 15_195_kk,Ch 15,şukufta,Гүлдеген,chg,kk,word,1
+Ch 15_195_ru,Ch 15,şukufta,Цветущий,chg,ru,word,1
+Ch 15_195_uz,Ch 15,şukufta,Shukufta,chg,uz,word,1
+Ch 15_195_tr,Ch 15,şukufta,Çiçek açmış,chg,tr,word,1
+Ch 15_196_en,Ch 15,qaş,eyebrow,chg,en,word,1
+Ch 15_196_kk,Ch 15,qaş,Қас,chg,kk,word,1
+Ch 15_196_ru,Ch 15,qaş,Бровь,chg,ru,word,1
+Ch 15_196_uz,Ch 15,qaş,Qosh,chg,uz,word,1
+Ch 15_196_tr,Ch 15,qaş,Kaş,chg,tr,word,1
+Ch 15_197_en,Ch 15,qaş,side,chg,en,word,1
+Ch 15_197_kk,Ch 15,qaş,Жақ,chg,kk,word,1
+Ch 15_197_ru,Ch 15,qaş,Сторона,chg,ru,word,1
+Ch 15_197_tr,Ch 15,qaş,Yan,chg,tr,word,1
+Ch 15_198_en,Ch 15,qaş,presence,chg,en,word,1
+Ch 15_198_kk,Ch 15,qaş,Құзыр,chg,kk,word,1
+Ch 15_198_ru,Ch 15,qaş,Присутствие,chg,ru,word,1
+Ch 15_198_tr,Ch 15,qaş,Huzur,chg,tr,word,1
+Ch 15_199_en,Ch 15,qaş,place,chg,en,word,1
+Ch 15_199_kk,Ch 15,qaş,Орын,chg,kk,word,1
+Ch 15_199_ru,Ch 15,qaş,Место,chg,ru,word,1
+Ch 15_199_tr,Ch 15,qaş,Yer,chg,tr,word,1
+Ch 15_201_kk,Ch 15,qaṭʿ qıl-,Кесіп өту,chg,kk,phrase,2
+Ch 15_201_ru,Ch 15,qaṭʿ qıl-,Пересекать,chg,ru,phrase,2
+Ch 15_201_uz,Ch 15,qaṭʿ qıl-,Qat' qil-,chg,uz,phrase,2
+Ch 15_201_tr,Ch 15,qaṭʿ qıl-,Katetmek,chg,tr,phrase,2
+Ch 15_203_en,Ch 15,Ay Köl,Moon Lake,chg,en,phrase,2
+Ch 15_203_kk,Ch 15,Ay Köl,Айкөл,chg,kk,phrase,2
+Ch 15_203_ru,Ch 15,Ay Köl,Ай-Куль,chg,ru,phrase,2
+Ch 15_203_uz,Ch 15,Ay Köl,Oykӯl,chg,uz,phrase,2
+Ch 15_203_tr,Ch 15,Ay Köl,Ay Göl,chg,tr,phrase,2
+Ch 15_214_en,Ch 15,"Al-qiṣṣa. Andaǧ autıpdurlar kim, Tuǧluq Temür Ḫan Moǧulistānǧa töre érdi",Back to our story. They say that Tughluq Temür Khan was the Tora of Moghulistan,chg,en,sentence,10
+Ch 15_214_kk,Ch 15,"Al-qiṣṣa. Andaǧ autıpdurlar kim, Tuǧluq Temür Ḫan Moǧulistānǧa töre érdi","Қысқасы, былай айтыпты: Тоғлық Темір хан Моғолстанға төре еді",chg,kk,sentence,10
+Ch 15_214_ru,Ch 15,"Al-qiṣṣa. Andaǧ autıpdurlar kim, Tuǧluq Temür Ḫan Moǧulistānǧa töre érdi","Короче говоря, рассказывают так: Туглук-Тимур-хан был правителем Моголистана",chg,ru,sentence,10
+Ch 15_214_uz,Ch 15,"Al-qiṣṣa. Andaǧ autıpdurlar kim, Tuǧluq Temür Ḫan Moǧulistānǧa töre érdi","Alqissa, andog‘ aytibdurlarkim, Tug‘luq Temurxon Mog‘ulistonga to‘ra érdi",chg,uz,sentence,10
+Ch 15_214_tr,Ch 15,"Al-qiṣṣa. Andaǧ autıpdurlar kim, Tuǧluq Temür Ḫan Moǧulistānǧa töre érdi","Elhasıl, şöyle anlatırlar ki, Tuğluk Timur Han Moğolistan’a töre (hükümdar) idi",chg,tr,sentence,10
+Ch 15_220_en,Ch 15,Ḫānqada şayḫ Şahābuʾd-dı̇̄n azān oqudı,"At the lodge, Shaykh Shahab ud-Din made the call to prayer",chg,en,sentence,5
+Ch 15_220_kk,Ch 15,Ḫānqada şayḫ Şahābuʾd-dı̇̄n azān oqudı,Ханакада Шейх Шаһабуддин азан оқыды,chg,kk,sentence,5
+Ch 15_220_ru,Ch 15,Ḫānqada şayḫ Şahābuʾd-dı̇̄n azān oqudı,В ханаке шейх Шахабуддин читал азан,chg,ru,sentence,5
+Ch 15_220_uz,Ch 15,Ḫānqada şayḫ Şahābuʾd-dı̇̄n azān oqudı,Xonaqoda Shayx Shahobiddin azon o‘qidi,chg,uz,sentence,5
+Ch 15_220_tr,Ch 15,Ḫānqada şayḫ Şahābuʾd-dı̇̄n azān oqudı,Hankahda Şeyh Şehabeddin ezan okudu,chg,tr,sentence,5
+Ch 15_224_en,Ch 15,Köñli yumşadı,His heart softened,chg,en,phrase,2
+Ch 15_224_kk,Ch 15,Köñli yumşadı,Көңілі жұмсарды,chg,kk,phrase,2
+Ch 15_224_ru,Ch 15,Köñli yumşadı,Сердце его смягчилось,chg,ru,phrase,2
+Ch 15_224_uz,Ch 15,Köñli yumşadı,Ko‘ngli yumshadi,chg,uz,phrase,2
+Ch 15_224_tr,Ch 15,Köñli yumşadı,Gönlü yumuşadı,chg,tr,phrase,2
+Ch 15_230_en,Ch 15,"Érse rikāb-dār barıp, aydı ki, ""Ay . . . lar! sizlerni Töre çarlaydur,"" dédi","So then the stirrup-holder went and said, ""Oh, . . . s! The Tora calls for you!""",chg,en,sentence,14
+Ch 15_230_kk,Ch 15,"Érse rikāb-dār barıp, aydı ki, ""Ay . . . lar! sizlerni Töre çarlaydur,"" dédi","Сонда рікәбдар барып айтты: «Ей ... -лар! Сіздерді Төре шақырып жатыр», – деді",chg,kk,sentence,14
+Ch 15_230_ru,Ch 15,"Érse rikāb-dār barıp, aydı ki, ""Ay . . . lar! sizlerni Töre çarlaydur,"" dédi",Тогда стремянный пошел и сказал: «Эй ...! Вас зовет Торе»,chg,ru,sentence,14
+Ch 15_230_uz,Ch 15,"Érse rikāb-dār barıp, aydı ki, ""Ay . . . lar! sizlerni Töre çarlaydur,"" dédi","Ersa rikobdor borib aydiki: ""Ey ...lar! Sizlarni To‘ra chorlaydur,"" dédi",chg,uz,sentence,14
+Ch 15_230_tr,Ch 15,"Érse rikāb-dār barıp, aydı ki, ""Ay . . . lar! sizlerni Töre çarlaydur,"" dédi","Bunun üzerine rikabdar varıp dédi ki: ""Ey ...lar! Sizleri Töre çağırıyor,"" dédi",chg,tr,sentence,14
+Ch 15_232_en,Ch 15,"""Bu kāfir bāñ-ı namāzǧa oquǧan azānnıñ ünini eşitip, şunıñ barsıdın söz sorar bolǧay!""","""This nonbeliever must have heard the sound of the call to prayer, and now wants to ask all about it!""",chg,en,sentence,13
+Ch 15_232_kk,Ch 15,"""Bu kāfir bāñ-ı namāzǧa oquǧan azānnıñ ünini eşitip, şunıñ barsıdın söz sorar bolǧay!""","«Бұл кәпір намазға оқыған азанның үнін естіп, соның жайынан сөз сұрар болғай»",chg,kk,sentence,13
+Ch 15_232_ru,Ch 15,"""Bu kāfir bāñ-ı namāzǧa oquǧan azānnıñ ünini eşitip, şunıñ barsıdın söz sorar bolǧay!""","«Этот неверный, услышав звук азана на молитву, должно быть, хочет спросить об этом»",chg,ru,sentence,13
+Ch 15_232_uz,Ch 15,"""Bu kāfir bāñ-ı namāzǧa oquǧan azānnıñ ünini eşitip, şunıñ barsıdın söz sorar bolǧay!""","""Bu kofir bangi namozga o‘qug‘on azonning unini eshitib, shuning borasidin so‘z so‘rar bo‘lg‘ay.""",chg,uz,sentence,13
+Ch 15_232_tr,Ch 15,"""Bu kāfir bāñ-ı namāzǧa oquǧan azānnıñ ünini eşitip, şunıñ barsıdın söz sorar bolǧay!""","""Bu kâfir namaz için okunan ezanın sesini işitip, onun hakkında söz soracak olsa gerek.""",chg,tr,sentence,13
+Ch 15_234_en,Ch 15,töre,title,chg,en,word,1
+Ch 15_234_kk,Ch 15,töre,Төре,chg,kk,word,1
+Ch 15_234_ru,Ch 15,töre,Титул (правитель),chg,ru,word,1
+Ch 15_234_uz,Ch 15,töre,To‘ra,chg,uz,word,1
+Ch 15_234_tr,Ch 15,töre,Töre (unvan),chg,tr,word,1
+Ch 15_236_en,Ch 15,Balasaǧun,Balasaghun,chg,en,word,1
+Ch 15_236_kk,Ch 15,Balasaǧun,Баласағұн,chg,kk,word,1
+Ch 15_236_ru,Ch 15,Balasaǧun,Баласагун,chg,ru,word,1
+Ch 15_236_uz,Ch 15,Balasaǧun,Bolosog‘un,chg,uz,word,1
+Ch 15_236_tr,Ch 15,Balasaǧun,Balasagun,chg,tr,word,1
+Ch 15_238_en,Ch 15,Kōs-kiyān,Caucasian,chg,en,word,1
+Ch 15_238_kk,Ch 15,Kōs-kiyān,Кавказ (Кус Киян),chg,kk,word,1
+Ch 15_238_ru,Ch 15,Kōs-kiyān,Кавказ (Кус-Киян),chg,ru,word,1
+Ch 15_238_uz,Ch 15,Kōs-kiyān,Ko‘s-Kiyon,chg,uz,word,1
+Ch 15_238_tr,Ch 15,Kōs-kiyān,Kûs-Keyan,chg,tr,word,1
+Ch 15_249_en,Ch 15,azān,the call to prayer,chg,en,word,1
+Ch 15_249_kk,Ch 15,azān,Азан,chg,kk,word,1
+Ch 15_249_ru,Ch 15,azān,Азан (призыв к молитве),chg,ru,word,1
+Ch 15_249_uz,Ch 15,azān,Azon,chg,uz,word,1
+Ch 15_249_tr,Ch 15,azān,Ezan,chg,tr,word,1
+Ch 15_256_en,Ch 15,ḫoş,pleasant,chg,en,word,1
+Ch 15_256_kk,Ch 15,ḫoş,Жағымды,chg,kk,word,1
+Ch 15_256_ru,Ch 15,ḫoş,Приятный,chg,ru,word,1
+Ch 15_256_uz,Ch 15,ḫoş,Xush,chg,uz,word,1
+Ch 15_256_tr,Ch 15,ḫoş,Hoş,chg,tr,word,1
+Ch 15_257_en,Ch 15,ḫoş,well,chg,en,word,1
+Ch 15_257_kk,Ch 15,ḫoş,Жақсы,chg,kk,word,1
+Ch 15_257_ru,Ch 15,ḫoş,Хороший,chg,ru,word,1
+Ch 15_257_tr,Ch 15,ḫoş,Güzel,chg,tr,word,1
+Ch 15_260_en,Ch 15,aşk,tear,chg,en,word,1
+Ch 15_260_kk,Ch 15,aşk,Көз жасы,chg,kk,word,1
+Ch 15_260_ru,Ch 15,aşk,Слеза,chg,ru,word,1
+Ch 15_260_uz,Ch 15,aşk,Ashk,chg,uz,word,1
+Ch 15_260_tr,Ch 15,aşk,Eşk (gözyaşı),chg,tr,word,1
+Ch 15_261_en,Ch 15,aşk,teardrop,chg,en,word,1
+Ch 15_261_kk,Ch 15,aşk,Тамшы,chg,kk,word,1
+Ch 15_261_ru,Ch 15,aşk,Слезинка,chg,ru,word,1
+Ch 15_261_tr,Ch 15,aşk,Gözyaşı damlası,chg,tr,word,1
+Ch 15_262_en,Ch 15,nedāmet,regret,chg,en,word,1
+Ch 15_262_kk,Ch 15,nedāmet,Өкініш,chg,kk,word,1
+Ch 15_262_ru,Ch 15,nedāmet,Сожаление,chg,ru,word,1
+Ch 15_262_uz,Ch 15,nedāmet,Nadomat,chg,uz,word,1
+Ch 15_262_tr,Ch 15,nedāmet,Nedamet (pişmanlık),chg,tr,word,1
+Ch 15_291_en,Ch 15,baqış,tent gear,chg,en,word,1
+Ch 15_291_kk,Ch 15,baqış,Бау-шу (жабдық),chg,kk,word,1
+Ch 15_291_ru,Ch 15,baqış,Снаряжение шатра,chg,ru,word,1
+Ch 15_291_uz,Ch 15,baqış,Boqish,chg,uz,word,1
+Ch 15_291_tr,Ch 15,baqış,Bakış (çadır donanımı),chg,tr,word,1
+Ch 15_294_en,Ch 15,qoñ,bottom,chg,en,word,1
+Ch 15_294_kk,Ch 15,qoñ,Құйрық,chg,kk,word,1
+Ch 15_294_ru,Ch 15,qoñ,Зад,chg,ru,word,1
+Ch 15_294_uz,Ch 15,qoñ,Qo‘ng,chg,uz,word,1
+Ch 15_294_tr,Ch 15,qoñ,Kıç (kaba et),chg,tr,word,1
+Ch 15_295_en,Ch 15,qoñ,guest,chg,en,word,1
+Ch 15_295_kk,Ch 15,qoñ,Арт,chg,kk,word,1
+Ch 15_295_ru,Ch 15,qoñ,Задница,chg,ru,word,1
+Ch 15_295_tr,Ch 15,qoñ,Arka,chg,tr,word,1
+Ch 15_302_en,Ch 15,rū-ba-rū,face-to-face,chg,en,word,1
+Ch 15_302_kk,Ch 15,rū-ba-rū,Бетпе-бет,chg,kk,word,1
+Ch 15_302_ru,Ch 15,rū-ba-rū,Лицом к лицу,chg,ru,word,1
+Ch 15_302_uz,Ch 15,rū-ba-rū,Ro‘baro‘,chg,uz,word,1
+Ch 15_302_tr,Ch 15,rū-ba-rū,Yüz yüze (ruberu),chg,tr,word,1
+Ch 15_308_en,Ch 15,"""Eger ı̇̄mān iṭde bolsa, iṭ äwlā.","""If the dog has faith, then the dog is better.""",chg,en,sentence,6
+Ch 15_308_kk,Ch 15,"""Eger ı̇̄mān iṭde bolsa, iṭ äwlā.","«Егер иман итте болса, ит артық»",chg,kk,sentence,6
+Ch 15_308_ru,Ch 15,"""Eger ı̇̄mān iṭde bolsa, iṭ äwlā.","«Если вера в собаке, собака лучше»",chg,ru,sentence,6
+Ch 15_308_uz,Ch 15,"""Eger ı̇̄mān iṭde bolsa, iṭ äwlā.","""Agar iymon itda bo‘lsa, it avlo.""",chg,uz,sentence,6
+Ch 15_308_tr,Ch 15,"""Eger ı̇̄mān iṭde bolsa, iṭ äwlā.","""Eğer iman itte ise, it evladır.""",chg,tr,sentence,6
+Ch 15_315_en,Ch 15,aṣ-ṣalawāt ḫayrun minaʾn-nawm,prayers are better than sleep,chg,en,phrase,3
+Ch 15_315_kk,Ch 15,aṣ-ṣalawāt ḫayrun minaʾn-nawm,Намаз ұйқыдан артық,chg,kk,phrase,3
+Ch 15_315_ru,Ch 15,aṣ-ṣalawāt ḫayrun minaʾn-nawm,Молитва лучше сна,chg,ru,phrase,3
+Ch 15_315_uz,Ch 15,aṣ-ṣalawāt ḫayrun minaʾn-nawm,As-salovatu xayrun mina-n-navm,chg,uz,phrase,3
+Ch 15_315_tr,Ch 15,aṣ-ṣalawāt ḫayrun minaʾn-nawm,Namaz uykudan hayırlıdır,chg,tr,phrase,3
+Ch 16_5_en,Ch 16,ʿādı̇̄,member of the tribe of Ad,chg,en,word,1
+Ch 16_5_kk,Ch 16,ʿādı̇̄,адтық,chg,kk,word,1
+Ch 16_5_ru,Ch 16,ʿādı̇̄,адит,chg,ru,word,1
+Ch 16_5_uz,Ch 16,ʿādı̇̄,odiy,chg,uz,word,1
+Ch 16_5_tr,Ch 16,ʿādı̇̄,Ad kavminden,chg,tr,word,1
+Ch 16_6_en,Ch 16,ʿādı̇̄,giant in stature,chg,en,word,1
+Ch 16_6_kk,Ch 16,ʿādı̇̄,дәу,chg,kk,word,1
+Ch 16_6_ru,Ch 16,ʿādı̇̄,великан,chg,ru,word,1
+Ch 16_6_uz,Ch 16,ʿādı̇̄,bahaybat,chg,uz,word,1
+Ch 16_6_tr,Ch 16,ʿādı̇̄,dev,chg,tr,word,1
+Ch 16_12_en,Ch 16,ḫorāk,food,chg,en,word,1
+Ch 16_12_kk,Ch 16,ḫorāk,қорек,chg,kk,word,1
+Ch 16_12_ru,Ch 16,ḫorāk,пища,chg,ru,word,1
+Ch 16_12_uz,Ch 16,ḫorāk,xurak,chg,uz,word,1
+Ch 16_12_tr,Ch 16,ḫorāk,yiyecek,chg,tr,word,1
+Ch 16_13_en,Ch 16,ḫorāk,sustenance,chg,en,word,1
+Ch 16_13_kk,Ch 16,ḫorāk,азық,chg,kk,word,1
+Ch 16_13_ru,Ch 16,ḫorāk,пропитание,chg,ru,word,1
+Ch 16_13_uz,Ch 16,ḫorāk,ozuqa,chg,uz,word,1
+Ch 16_13_tr,Ch 16,ḫorāk,azık,chg,tr,word,1
+Ch 16_36_en,Ch 16,şahardeki,in the city,chg,en,word,1
+Ch 16_36_kk,Ch 16,şahardeki,қаладағы,chg,kk,word,1
+Ch 16_36_ru,Ch 16,şahardeki,находящийся в городе,chg,ru,word,1
+Ch 16_36_uz,Ch 16,şahardeki,shahardagi,chg,uz,word,1
+Ch 16_36_tr,Ch 16,şahardeki,şehirdeki,chg,tr,word,1
+Ch 16_37_ru,Ch 16,şahardeki,который в городе,chg,ru,word,1
+Ch 16_47_en,Ch 16,hälāk,destroyed,chg,en,word,1
+Ch 16_47_kk,Ch 16,hälāk,қираған,chg,kk,word,1
+Ch 16_47_ru,Ch 16,hälāk,уничтоженный,chg,ru,word,1
+Ch 16_47_uz,Ch 16,hälāk,halok,chg,uz,word,1
+Ch 16_47_tr,Ch 16,hälāk,helak,chg,tr,word,1
+Ch 16_48_en,Ch 16,hälāk,killed,chg,en,word,1
+Ch 16_48_kk,Ch 16,hälāk,өлген,chg,kk,word,1
+Ch 16_48_ru,Ch 16,hälāk,погибший,chg,ru,word,1
+Ch 16_48_uz,Ch 16,hälāk,o'lgan,chg,uz,word,1
+Ch 16_48_tr,Ch 16,hälāk,ölmüş,chg,tr,word,1
+Ch 16_54_en,Ch 16,yaman,very much,chg,en,word,1
+Ch 16_54_kk,Ch 16,yaman,қатты,chg,kk,word,1
+Ch 16_54_ru,Ch 16,yaman,очень,chg,ru,word,1
+Ch 16_54_uz,Ch 16,yaman,juda,chg,uz,word,1
+Ch 16_54_tr,Ch 16,yaman,yaman,chg,tr,word,1
+Ch 16_55_en,Ch 16,künle-,to be jealous,chg,en,word,1
+Ch 16_55_kk,Ch 16,künle-,қызғану,chg,kk,word,1
+Ch 16_55_ru,Ch 16,künle-,ревновать,chg,ru,word,1
+Ch 16_55_uz,Ch 16,künle-,rashk qilmoq,chg,uz,word,1
+Ch 16_55_tr,Ch 16,künle-,kıskanmak,chg,tr,word,1
+Ch 16_78_en,Ch 16,mama,old woman,chg,en,word,1
+Ch 16_78_kk,Ch 16,mama,кемпір,chg,kk,word,1
+Ch 16_78_ru,Ch 16,mama,старуха,chg,ru,word,1
+Ch 16_78_uz,Ch 16,mama,kampir,chg,uz,word,1
+Ch 16_78_tr,Ch 16,mama,yaşlı kadın,chg,tr,word,1
+Ch 16_81_en,Ch 16,ṣanduq,box,chg,en,word,1
+Ch 16_81_kk,Ch 16,ṣanduq,сандық,chg,kk,word,1
+Ch 16_81_ru,Ch 16,ṣanduq,сундук,chg,ru,word,1
+Ch 16_81_uz,Ch 16,ṣanduq,sandiq,chg,uz,word,1
+Ch 16_81_tr,Ch 16,ṣanduq,sandık,chg,tr,word,1
+Ch 16_82_en,Ch 16,éttür-,to cause to make,chg,en,word,1
+Ch 16_82_kk,Ch 16,éttür-,жасатқызу,chg,kk,word,1
+Ch 16_82_ru,Ch 16,éttür-,заставить сделать,chg,ru,word,1
+Ch 16_82_uz,Ch 16,éttür-,yasattirmoq,chg,uz,word,1
+Ch 16_82_tr,Ch 16,éttür-,yaptırmak,chg,tr,word,1
+Ch 16_83_en,Ch 16,éttür-,to have something made,chg,en,word,1
+Ch 16_83_kk,Ch 16,éttür-,жасату,chg,kk,word,1
+Ch 16_83_ru,Ch 16,éttür-,заказать изготовление,chg,ru,word,1
+Ch 16_95_en,Ch 16,aǧız,mouth,chg,en,word,1
+Ch 16_95_kk,Ch 16,aǧız,ауыз,chg,kk,word,1
+Ch 16_95_ru,Ch 16,aǧız,рот,chg,ru,word,1
+Ch 16_95_uz,Ch 16,aǧız,og'iz,chg,uz,word,1
+Ch 16_95_tr,Ch 16,aǧız,ağız,chg,tr,word,1
+Ch 16_100_en,Ch 16,be-yekpāra,together,chg,en,word,1
+Ch 16_100_kk,Ch 16,be-yekpāra,кенеттен,chg,kk,word,1
+Ch 16_100_ru,Ch 16,be-yekpāra,внезапно,chg,ru,word,1
+Ch 16_100_uz,Ch 16,be-yekpāra,birdaniga,chg,uz,word,1
+Ch 16_100_tr,Ch 16,be-yekpāra,birdenbire,chg,tr,word,1
+Ch 16_108_en,Ch 16,ʿĀc dégen  anıñ uǧlı érdi.,Aj was her son.,chg,en,sentence,5
+Ch 16_108_kk,Ch 16,ʿĀc dégen  anıñ uǧlı érdi.,Адж деген оның ұлы еді.,chg,kk,sentence,5
+Ch 16_108_ru,Ch 16,ʿĀc dégen  anıñ uǧlı érdi.,Адж был ее сыном.,chg,ru,sentence,5
+Ch 16_108_uz,Ch 16,ʿĀc dégen  anıñ uǧlı érdi.,Oj degan uning o'g'li edi.,chg,uz,sentence,5
+Ch 16_108_tr,Ch 16,ʿĀc dégen  anıñ uǧlı érdi.,Ac deyen onun oğlu idi.,chg,tr,sentence,5
+Ch 16_111_en,Ch 16,Ḫorāgi çengeldaqı alqat érdi.,His food was the scrub of the wastelands.,chg,en,phrase,4
+Ch 16_111_kk,Ch 16,Ḫorāgi çengeldaqı alqat érdi.,Қорегі тоғайдағы алқа еді.,chg,kk,phrase,4
+Ch 16_111_ru,Ch 16,Ḫorāgi çengeldaqı alqat érdi.,Пищей его были дикие ягоды в зарослях.,chg,ru,phrase,4
+Ch 16_111_uz,Ch 16,Ḫorāgi çengeldaqı alqat érdi.,Xuragi changaldagi alqor edi.,chg,uz,phrase,4
+Ch 16_111_tr,Ch 16,Ḫorāgi çengeldaqı alqat érdi.,Yiyeceği çalılıktaki yaban meyvesi idi.,chg,tr,phrase,4
+Ch 16_113_en,Ch 16,"daryādın uluǧ balıqlarnı tutup alıp, āftābǧa tutup, fişürüp, yer érdi.","He would take great fish from the sea, hold them up to the sun, cook them, and eat them.",chg,en,sentence,10
+Ch 16_113_kk,Ch 16,"daryādın uluǧ balıqlarnı tutup alıp, āftābǧa tutup, fişürüp, yer érdi.","Дариядан ұлы балықтарды ұстап алып, күнге тұтып, пісіріп, жер еді.",chg,kk,sentence,10
+Ch 16_113_ru,Ch 16,"daryādın uluǧ balıqlarnı tutup alıp, āftābǧa tutup, fişürüp, yer érdi.","Ловил он в море огромных рыб, держал их на солнце, жарил и ел.",chg,ru,sentence,10
+Ch 16_113_uz,Ch 16,"daryādın uluǧ balıqlarnı tutup alıp, āftābǧa tutup, fişürüp, yer érdi.","Daryodan ulug' baliqlarni tutib olib, oftobga tutib, pishirib, yer edi.",chg,uz,sentence,10
+Ch 16_113_tr,Ch 16,"daryādın uluǧ balıqlarnı tutup alıp, āftābǧa tutup, fişürüp, yer érdi.","Deryadan ulu balıkları tutup alıp, güneşe tutup, pişirip, yer idi.",chg,tr,sentence,10
+Ch 16_121_en,Ch 16,ḫatunını yaman künler érdi.,He would be very jealous about his wives.,chg,en,phrase,4
+Ch 16_121_kk,Ch 16,ḫatunını yaman künler érdi.,Қатынын жаман қызғанар еді.,chg,kk,phrase,4
+Ch 16_121_ru,Ch 16,ḫatunını yaman künler érdi.,Он очень сильно ревновал свою жену.,chg,ru,phrase,4
+Ch 16_121_uz,Ch 16,ḫatunını yaman künler érdi.,Xotinini yomon rashk qilar edi.,chg,uz,phrase,4
+Ch 16_121_tr,Ch 16,ḫatunını yaman künler érdi.,Hatununu yaman kıskanır idi.,chg,tr,phrase,4
+Ch 16_122_en,Ch 16,"Bir qızını alıp, taǧqa çıqıp, üstünide kişi körmes yerde qoydı.",One of these girls he took and placed up on top of a mountain where no one could see.,chg,en,sentence,10
+Ch 16_122_kk,Ch 16,"Bir qızını alıp, taǧqa çıqıp, üstünide kişi körmes yerde qoydı.","Бір қызын алып, тауға шығып, үстінде кісі көрмес жерде қойды.",chg,kk,sentence,10
+Ch 16_122_ru,Ch 16,"Bir qızını alıp, taǧqa çıqıp, üstünide kişi körmes yerde qoydı.","Взяв одну дочь, поднялся на гору и оставил ее там, где никто не видел.",chg,ru,sentence,10
+Ch 16_122_uz,Ch 16,"Bir qızını alıp, taǧqa çıqıp, üstünide kişi körmes yerde qoydı.","Bir qizini olib, toqqa chiqib, ustida kishi ko'rmas yerda qo'ydi.",chg,uz,sentence,10
+Ch 16_122_tr,Ch 16,"Bir qızını alıp, taǧqa çıqıp, üstünide kişi körmes yerde qoydı.","Bir kızını alıp, dağa çıkıp, üstünde kişi görmez yerde koydu.",chg,tr,sentence,10
+Ch 16_123_en,Ch 16,Quş häm körmes érdi.,Not even the birds could see her.,chg,en,phrase,4
+Ch 16_123_kk,Ch 16,Quş häm körmes érdi.,Құс та көрмес еді.,chg,kk,phrase,4
+Ch 16_123_ru,Ch 16,Quş häm körmes érdi.,Даже птицы не видели ее.,chg,ru,phrase,4
+Ch 16_123_uz,Ch 16,Quş häm körmes érdi.,Qush ham ko'rmas edi.,chg,uz,phrase,4
+Ch 16_123_tr,Ch 16,Quş häm körmes érdi.,Kuş hem görmez idi.,chg,tr,phrase,4
+Ch 16_132_en,Ch 16,Bir-birde bolmaqǧa hiç ḥıyla tapalmadı.,They could find no way to be together.,chg,en,sentence,5
+Ch 16_132_kk,Ch 16,Bir-birde bolmaqǧa hiç ḥıyla tapalmadı.,Бірге болуға еш айла таппады.,chg,kk,sentence,5
+Ch 16_132_ru,Ch 16,Bir-birde bolmaqǧa hiç ḥıyla tapalmadı.,Они не нашли никакой возможности быть вместе.,chg,ru,sentence,5
+Ch 16_132_uz,Ch 16,Bir-birde bolmaqǧa hiç ḥıyla tapalmadı.,Birga bo'lmoqqa hech hiyla topmadi.,chg,uz,sentence,5
+Ch 16_132_tr,Ch 16,Bir-birde bolmaqǧa hiç ḥıyla tapalmadı.,Birlikte olmaklığa hiç çare bulmadı.,chg,tr,sentence,5
+Ch 16_139_en,Ch 16,Şunı sén saqlap berseñ?,Would you keep it for me?,chg,en,phrase,4
+Ch 16_139_kk,Ch 16,Şunı sén saqlap berseñ?,Соны сен сақтап берсең?,chg,kk,phrase,4
+Ch 16_139_ru,Ch 16,Şunı sén saqlap berseñ?,Сохранишь ли ты это для меня?,chg,ru,phrase,4
+Ch 16_139_uz,Ch 16,Şunı sén saqlap berseñ?,Shuni sen saqlab bersang?,chg,uz,phrase,4
+Ch 16_139_tr,Ch 16,Şunı sén saqlap berseñ?,Şunu sen saklayıversen?,chg,tr,phrase,4
+Ch 16_141_en,Ch 16,"ʿĀc alıp barıp, üyde qoydı.",Aj took it and put it in his house.,chg,en,sentence,5
+Ch 16_141_kk,Ch 16,"ʿĀc alıp barıp, üyde qoydı.","Адж алып барып, үйде қойды.",chg,kk,sentence,5
+Ch 16_141_ru,Ch 16,"ʿĀc alıp barıp, üyde qoydı.",Адж взял его и оставил дома.,chg,ru,sentence,5
+Ch 16_141_uz,Ch 16,"ʿĀc alıp barıp, üyde qoydı.","Oj olib borib, uyda qo'ydi.",chg,uz,sentence,5
+Ch 16_141_tr,Ch 16,"ʿĀc alıp barıp, üyde qoydı.","Ac alıp varıp, evde koydu.",chg,tr,sentence,5
+Ch 16_142_en,Ch 16,Här küni çıqıp ketedür.,He would go out every day.,chg,en,phrase,4
+Ch 16_142_kk,Ch 16,Här küni çıqıp ketedür.,Әр күні шығып кетеді.,chg,kk,phrase,4
+Ch 16_142_ru,Ch 16,Här küni çıqıp ketedür.,Каждый день он уходил.,chg,ru,phrase,4
+Ch 16_142_uz,Ch 16,Här küni çıqıp ketedür.,Har kuni chiqib ketadir.,chg,uz,phrase,4
+Ch 16_142_tr,Ch 16,Här küni çıqıp ketedür.,Her gün çıkıp gider.,chg,tr,phrase,4
+Ch 16_145_en,Ch 16,Ba-yekpāra uşbu ḥālde ʿĀc yetip keldi.,"Just as they were together in this manner, Aj returned.",chg,en,sentence,6
+Ch 16_145_kk,Ch 16,Ba-yekpāra uşbu ḥālde ʿĀc yetip keldi.,Кенеттен осы халде Адж жетіп келді.,chg,kk,sentence,6
+Ch 16_145_ru,Ch 16,Ba-yekpāra uşbu ḥālde ʿĀc yetip keldi.,Внезапно в этот момент подоспел Адж.,chg,ru,sentence,6
+Ch 16_145_uz,Ch 16,Ba-yekpāra uşbu ḥālde ʿĀc yetip keldi.,To'satdan ushbu holda Oj yetib keldi.,chg,uz,sentence,6
+Ch 16_145_tr,Ch 16,Ba-yekpāra uşbu ḥālde ʿĀc yetip keldi.,Ansızın işbu halde Ac yetip geldi.,chg,tr,sentence,6
+Ch 16_146_en,Ch 16,"Körer kim, bir kişi turadur.",He saw that there was someone there.,chg,en,sentence,5
+Ch 16_146_kk,Ch 16,"Körer kim, bir kişi turadur.","Көреді кім, бір кісі тұр.",chg,kk,sentence,5
+Ch 16_146_ru,Ch 16,"Körer kim, bir kişi turadur.","Видит, что стоит какой-то человек.",chg,ru,sentence,5
+Ch 16_146_uz,Ch 16,"Körer kim, bir kişi turadur.","Ko'radikim, bir kishi turadir.",chg,uz,sentence,5
+Ch 16_146_tr,Ch 16,"Körer kim, bir kişi turadur.","Görür ki, bir kişi durur.",chg,tr,sentence,5

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ run.run_name }}</h1>
+
+    <p>
+        <b>Status:</b>
+        <span class="status {{ run.status }}">{{ run.status }}</span>
+    </p>
+
+    <p><b>Run ID:</b> <span class="mono">{{ run.run_id }}</span></p>
+
+    <h3>Config</h3>
+    <pre>{{ run.config }}</pre>
+
+    <h3>Files</h3>
+
+    <a class="button gray" href="/logs/{{ run.run_id }}" target="_blank">Logs</a>
+    <a class="button green" href="/table/{{ run.run_id }}/metrics" target="_blank">Metrics table</a>
+    <a class="button" href="/table/{{ run.run_id }}/predictions" target="_blank">Predictions table</a>
+    <a class="button orange" href="/prompts/{{ run.run_id }}" target="_blank">Prompts viewer</a>
+    <a class="button orange" href="/requests/{{ run.run_id }}" target="_blank">Requests viewer</a>
+</div>
+
+<script>
+    setTimeout(() => {
+        window.location.reload();
+    }, 5000);
+</script>
+{% endblock %}

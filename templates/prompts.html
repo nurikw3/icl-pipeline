@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h1>Prompts viewer</h1>
+    <p class="small">{{ path }}</p>
+    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+</div>
+
+{% if records %}
+    {% for rec in records %}
+        <div class="card">
+            <h3>Prompt #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+
+            <p><b>Source:</b> {{ rec.source_text }}</p>
+            <p><b>Reference:</b> {{ rec.reference }}</p>
+
+            <details>
+                <summary>Retrieved examples</summary>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Source</th>
+                                <th>Target</th>
+                                <th>Lang</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for ex in rec.retrieved_examples %}
+                            <tr>
+                                <td>{{ ex.source_text }}</td>
+                                <td>{{ ex.target_text }}</td>
+                                <td>{{ ex.target_lang }}</td>
+                                <td>{{ ex.type }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </details>
+
+            <details open>
+                <summary>Full prompt</summary>
+                <pre>{{ rec.prompt }}</pre>
+            </details>
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="card">
+        <p>No prompts found yet.</p>
+    </div>
+{% endif %}
+{% endblock %}

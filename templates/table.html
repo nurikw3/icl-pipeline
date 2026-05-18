@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ file_type|capitalize }} table</h1>
+    <p class="small">{{ path }}</p>
+    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+</div>
+
+<div class="card">
+    {% if rows %}
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        {% for col in columns %}
+                            <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows %}
+                        <tr>
+                            {% for col in columns %}
+                                <td>{{ row[col] }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p>File not found or empty.</p>
+    {% endif %}
+</div>
+{% endblock %}

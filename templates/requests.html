@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h1>Requests viewer</h1>
+    <p class="small">{{ path }}</p>
+    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+</div>
+
+{% if records %}
+    {% for rec in records %}
+        <div class="card">
+            <h3>Request #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+
+            <div class="grid">
+                <div>
+                    <p><b>Model:</b> {{ rec.model }}</p>
+                    <p><b>Temperature:</b> {{ rec.temperature }}</p>
+                    <p><b>Max tokens:</b> {{ rec.max_tokens }}</p>
+                </div>
+                <div>
+                    <p><b>Source:</b> {{ rec.source_text }}</p>
+                    <p><b>Reference:</b> {{ rec.reference }}</p>
+                    <p><b>Error:</b> {{ rec.error }}</p>
+                </div>
+            </div>
+
+            <details>
+                <summary>Request content</summary>
+                <pre>{{ rec.request_content }}</pre>
+            </details>
+
+            <details open>
+                <summary>Prediction</summary>
+                <pre>{{ rec.prediction }}</pre>
+            </details>
+
+            <details>
+                <summary>Usage</summary>
+                <pre>{{ rec.usage }}</pre>
+            </details>
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="card">
+        <p>No requests found yet.</p>
+    </div>
+{% endif %}
+{% endblock %}
