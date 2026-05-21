@@ -1,36 +1,102 @@
 import csv
 import json
-import uuid
 import subprocess
-from pathlib import Path
+import uuid
 from datetime import datetime
+from pathlib import Path
 
-from fastapi import FastAPI, Request, Form, BackgroundTasks
-from fastapi.responses import HTMLResponse, RedirectResponse, PlainTextResponse
+from fastapi import BackgroundTasks, FastAPI, Form, Request
+from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 
+from experiment_config import (
+    DEFAULT_EMBEDDING_MODEL,
+    EMBEDDING_MODELS,
+    RETRIEVAL_BACKENDS,
+    RETRIEVAL_STRATEGIES,
+)
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 OUTPUT_DIR = Path("outputs")
 LOG_DIR = OUTPUT_DIR / "web_logs"
+RUNS_PATH = OUTPUT_DIR / "web_runs.json"
 
 OUTPUT_DIR.mkdir(exist_ok=True)
 LOG_DIR.mkdir(exist_ok=True)
 
-RUNS = {}
+
+def load_runs():
+    if not RUNS_PATH.exists():
+        return {}
+
+    try:
+        runs = json.loads(RUNS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    for run in runs.values():
+        if run.get("status") in {"queued", "running", "evaluating"}:
+            run["status"] = "interrupted"
+
+    return runs
+
+
+def save_runs():
+    RUNS_PATH.write_text(
+        json.dumps(RUNS, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+RUNS = load_runs()
 
 
 def parse_k_list(k_text: str):
-    return [int(x.strip()) for x in k_text.split(",") if x.strip()]
+    values = [int(x.strip()) for x in k_text.split(",") if x.strip()]
+    if not values:
+        raise ValueError("k_list must contain at least one positive integer.")
+    if any(value < 1 for value in values):
+        raise ValueError("k_list values must be positive integers.")
+    return values
+
+
+def parse_positive_int(text: str, default: int) -> int:
+    if not str(text).strip():
+        return default
+
+    value = int(str(text).strip())
+    if value < 1:
+        raise ValueError("Value must be positive.")
+    return value
+
+
+def parse_non_negative_int(text: str, default: int) -> int:
+    if not str(text).strip():
+        return default
+
+    value = int(str(text).strip())
+    if value < 0:
+        raise ValueError("Value cannot be negative.")
+    return value
+
+
+def make_safe_name(text: str) -> str:
+    return (
+        str(text)
+        .replace("/", "_")
+        .replace(":", "_")
+        .replace(".", "_")
+        .replace(" ", "_")
+    )
 
 
 def read_csv_preview(path: Path, limit: int = 200):
     if not path.exists():
         return [], []
 
-    with open(path, "r", encoding="utf-8-sig") as f:
+    with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         rows = []
         for i, row in enumerate(reader):
@@ -47,7 +113,7 @@ def read_jsonl_preview(path: Path, limit: int = 100):
 
     rows = []
 
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         for i, line in enumerate(f):
             if i >= limit:
                 break
@@ -81,6 +147,11 @@ def run_experiment_process(run_id: str, config: dict):
         "--strategies", *config["strategies"],
         "--k_list", *[str(k) for k in config["k_list"]],
         "--run_name", run_name,
+        "--retrieval_backend", config["retrieval_backend"],
+        "--embedding_model", config["embedding_model"],
+        "--max_tokens", str(config["max_tokens"]),
+        "--empty_retries", str(config["empty_retries"]),
+        "--max_tokens_cap", str(config["max_tokens_cap"]),
     ]
 
     if config["only_sentences"]:
@@ -92,8 +163,12 @@ def run_experiment_process(run_id: str, config: dict):
     if config["print_prompts"]:
         cmd.append("--print_prompts")
 
+    if config.get("resume"):
+        cmd.append("--resume")
+
     RUNS[run_id]["status"] = "running"
     RUNS[run_id]["command"] = " ".join(cmd)
+    save_runs()
 
     with open(log_path, "w", encoding="utf-8") as log_file:
         log_file.write(f"RUN ID: {run_id}\n")
@@ -110,10 +185,12 @@ def run_experiment_process(run_id: str, config: dict):
         )
 
         RUNS[run_id]["pid"] = process.pid
+        save_runs()
         code = process.wait()
 
         RUNS[run_id]["return_code"] = code
         RUNS[run_id]["status"] = "finished" if code == 0 else "failed"
+        save_runs()
 
         log_file.write("\n" + "=" * 80 + "\n")
         log_file.write(f"PROCESS FINISHED WITH CODE: {code}\n")
@@ -121,12 +198,14 @@ def run_experiment_process(run_id: str, config: dict):
     predictions_path = OUTPUT_DIR / f"predictions_{run_name}.csv"
     metrics_path = OUTPUT_DIR / f"metrics_{run_name}.csv"
 
-    if predictions_path.exists():
+    if code == 0 and predictions_path.exists():
         eval_cmd = [
             "uv", "run", "evaluate.py",
             "--predictions_path", str(predictions_path),
             "--output_path", str(metrics_path),
         ]
+        RUNS[run_id]["status"] = "evaluating"
+        save_runs()
 
         with open(log_path, "a", encoding="utf-8") as log_file:
             log_file.write("\n\nRUNNING EVALUATION\n")
@@ -142,6 +221,8 @@ def run_experiment_process(run_id: str, config: dict):
 
             eval_code = eval_process.wait()
             RUNS[run_id]["eval_return_code"] = eval_code
+            RUNS[run_id]["status"] = "finished" if eval_code == 0 else "eval_failed"
+            save_runs()
 
             log_file.write("\n" + "=" * 80 + "\n")
             log_file.write(f"EVALUATION FINISHED WITH CODE: {eval_code}\n")
@@ -154,6 +235,8 @@ def index(request: Request):
         "index.html",
         {
             "runs": RUNS,
+            "embedding_models": EMBEDDING_MODELS,
+            "default_embedding_model": DEFAULT_EMBEDDING_MODEL,
         },
     )
 
@@ -162,20 +245,60 @@ def index(request: Request):
 def run_experiment(
     background_tasks: BackgroundTasks,
     target_lang: str = Form(...),
-    strategies: list[str] = Form(...),
+    strategies: list[str] = Form(default=[]),
     k_list: str = Form(...),
     max_examples: str = Form(""),
+    retrieval_backend: str = Form("dense"),
+    embedding_model: str = Form(DEFAULT_EMBEDDING_MODEL),
+    max_tokens: str = Form("700"),
+    empty_retries: str = Form("2"),
+    max_tokens_cap: str = Form("1500"),
     only_sentences: bool = Form(False),
     print_prompts: bool = Form(False),
 ):
     run_id = str(uuid.uuid4())[:8]
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    clean_strategies = strategies
-    clean_k_list = parse_k_list(k_list)
+    try:
+        clean_strategies = [strategy.strip().lower() for strategy in strategies]
+        clean_strategies = [strategy for strategy in clean_strategies if strategy]
+
+        if not clean_strategies:
+            raise ValueError("Choose at least one retrieval strategy.")
+
+        bad_strategies = sorted(set(clean_strategies) - set(RETRIEVAL_STRATEGIES))
+        if bad_strategies:
+            raise ValueError(f"Unknown strategies: {', '.join(bad_strategies)}")
+
+        clean_k_list = parse_k_list(k_list)
+        clean_retrieval_backend = retrieval_backend.strip().lower()
+
+        if clean_retrieval_backend not in RETRIEVAL_BACKENDS:
+            raise ValueError("Unknown retrieval backend.")
+
+        clean_embedding_model = embedding_model.strip() or DEFAULT_EMBEDDING_MODEL
+        clean_max_tokens = parse_positive_int(max_tokens, default=700)
+        clean_empty_retries = parse_non_negative_int(empty_retries, default=2)
+        clean_max_tokens_cap = parse_positive_int(max_tokens_cap, default=1500)
+        if clean_max_tokens_cap < clean_max_tokens:
+            raise ValueError("Max tokens cap must be >= max tokens.")
+
+        clean_max_examples = (
+            parse_positive_int(max_examples, default=0)
+            if max_examples.strip()
+            else None
+        )
+    except ValueError as exc:
+        return PlainTextResponse(str(exc), status_code=400)
+    retriever_name = (
+        "bm25"
+        if clean_retrieval_backend == "bm25"
+        else make_safe_name(clean_embedding_model)
+    )
 
     run_name = (
         f"{target_lang}_"
+        f"{retriever_name}_"
         f"{'-'.join(clean_strategies)}_"
         f"k{'-'.join(str(k) for k in clean_k_list)}_"
         f"{timestamp}"
@@ -185,9 +308,15 @@ def run_experiment(
         "target_lang": target_lang,
         "strategies": clean_strategies,
         "k_list": clean_k_list,
-        "max_examples": int(max_examples) if max_examples.strip() else None,
+        "retrieval_backend": clean_retrieval_backend,
+        "embedding_model": clean_embedding_model,
+        "max_tokens": clean_max_tokens,
+        "empty_retries": clean_empty_retries,
+        "max_tokens_cap": clean_max_tokens_cap,
+        "max_examples": clean_max_examples,
         "only_sentences": only_sentences,
         "print_prompts": print_prompts,
+        "resume": False,
         "run_name": run_name,
     }
 
@@ -203,7 +332,33 @@ def run_experiment(
         "requests_path": str(OUTPUT_DIR / f"requests_{run_name}.jsonl"),
         "retrieved_path": str(OUTPUT_DIR / f"retrieved_examples_{run_name}.jsonl"),
         "metrics_path": str(OUTPUT_DIR / f"metrics_{run_name}.csv"),
+        "manifest_path": str(OUTPUT_DIR / f"manifest_{run_name}.json"),
+        "status_path": str(OUTPUT_DIR / f"status_{run_name}.json"),
     }
+    save_runs()
+
+    background_tasks.add_task(run_experiment_process, run_id, config)
+
+    return RedirectResponse(url=f"/run/{run_id}", status_code=303)
+
+
+@app.post("/resume/{run_id}")
+def resume_run(background_tasks: BackgroundTasks, run_id: str):
+    run = RUNS.get(run_id)
+
+    if not run:
+        return PlainTextResponse("Run not found", status_code=404)
+
+    if run.get("status") in {"queued", "running", "evaluating"}:
+        return PlainTextResponse("Run is already active", status_code=400)
+
+    config = dict(run["config"])
+    config["resume"] = True
+    run["config"] = config
+    run["status"] = "queued"
+    run["return_code"] = None
+    run["eval_return_code"] = None
+    save_runs()
 
     background_tasks.add_task(run_experiment_process, run_id, config)
 
@@ -234,7 +389,11 @@ def logs_page(request: Request, run_id: str):
         return PlainTextResponse("Run not found", status_code=404)
 
     path = Path(run["log_path"])
-    text = path.read_text(encoding="utf-8") if path.exists() else "Log file not created yet."
+    text = (
+        path.read_text(encoding="utf-8")
+        if path.exists()
+        else "Log file not created yet."
+    )
 
     return templates.TemplateResponse(
         request,
@@ -261,7 +420,11 @@ def table_page(request: Request, run_id: str, file_type: str):
     if file_type not in key_map:
         return PlainTextResponse("Unknown table type", status_code=400)
 
-    path = Path(run[key_map[file_type]])
+    path_value = run.get(key_map[file_type])
+    if not path_value:
+        return PlainTextResponse("File not available for this run", status_code=404)
+
+    path = Path(path_value)
     columns, rows = read_csv_preview(path, limit=500)
 
     return templates.TemplateResponse(
@@ -354,15 +517,76 @@ def requests_page(request: Request, run_id: str):
     )
 
 
+@app.get("/artifact/{run_id}/{file_type}", response_class=PlainTextResponse)
+def artifact_page(run_id: str, file_type: str):
+    run = RUNS.get(run_id)
+
+    if not run:
+        return PlainTextResponse("Run not found", status_code=404)
+
+    key_map = {
+        "manifest": "manifest_path",
+        "status": "status_path",
+        "retrieved": "retrieved_path",
+    }
+
+    if file_type not in key_map:
+        return PlainTextResponse("Unknown artifact type", status_code=400)
+
+    path_value = run.get(key_map[file_type])
+    if not path_value:
+        return PlainTextResponse("Artifact not available for this run", status_code=404)
+
+    path = Path(path_value)
+    text = (
+        path.read_text(encoding="utf-8")
+        if path.exists()
+        else "Artifact not created yet."
+    )
+
+    return PlainTextResponse(text)
+
+
 @app.post("/clear_outputs")
 def clear_outputs():
-    for folder in [OUTPUT_DIR, Path("embeddings")]:
-        folder.mkdir(exist_ok=True)
-
-        for path in folder.glob("*"):
-            if path.is_file():
-                path.unlink()
+    for path in OUTPUT_DIR.glob("*"):
+        if path.is_file():
+            path.unlink()
 
     RUNS.clear()
+    save_runs()
+
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.post("/clear_run/{run_id}")
+def clear_run(run_id: str):
+    run = RUNS.get(run_id)
+
+    if not run:
+        return PlainTextResponse("Run not found", status_code=404)
+
+    file_keys = [
+        "log_path",
+        "predictions_path",
+        "prompts_path",
+        "requests_path",
+        "retrieved_path",
+        "metrics_path",
+        "manifest_path",
+        "status_path",
+    ]
+
+    for key in file_keys:
+        path_value = run.get(key)
+        if not path_value:
+            continue
+
+        path = Path(path_value)
+        if path.exists() and path.is_file():
+            path.unlink()
+
+    RUNS.pop(run_id, None)
+    save_runs()
 
     return RedirectResponse(url="/", status_code=303)

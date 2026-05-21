@@ -1,6 +1,5 @@
 from sacrebleu.metrics import BLEU, CHRF
 
-
 bleu_metric = BLEU()
 chrf_metric = CHRF(word_order=2)
 
@@ -34,13 +33,14 @@ def compute_bertscore(
 ) -> float:
     """
     BERTScore F1 using multilingual BERT.
-    Skips empty prediction/reference pairs because bert-score can crash on empty strings.
+    Skips empty prediction/reference pairs because bert-score can crash on
+    empty strings.
     """
     from bert_score import score
 
     clean_pairs = []
 
-    for pred, ref in zip(predictions, references):
+    for pred, ref in zip(predictions, references, strict=False):
         pred = str(pred).strip()
         ref = str(ref).strip()
 

@@ -21,6 +21,18 @@
     <a class="button" href="/table/{{ run.run_id }}/predictions" target="_blank">Predictions table</a>
     <a class="button orange" href="/prompts/{{ run.run_id }}" target="_blank">Prompts viewer</a>
     <a class="button orange" href="/requests/{{ run.run_id }}" target="_blank">Requests viewer</a>
+    <a class="button gray" href="/artifact/{{ run.run_id }}/manifest" target="_blank">Manifest</a>
+    <a class="button gray" href="/artifact/{{ run.run_id }}/status" target="_blank">Status</a>
+
+    {% if run.status not in ["queued", "running", "evaluating"] %}
+        <form action="/resume/{{ run.run_id }}" method="post" style="margin-top: 16px;">
+            <button type="submit">Resume run</button>
+        </form>
+    {% endif %}
+
+    <form action="/clear_run/{{ run.run_id }}" method="post" style="margin-top: 16px;">
+        <button class="danger" type="submit">Clear this run</button>
+    </form>
 </div>
 
 <script>

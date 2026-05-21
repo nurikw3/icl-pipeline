@@ -31,6 +31,38 @@
                 <input type="text" name="max_examples" value="5">
                 <div class="small">Leave empty for full test set</div>
             </div>
+
+            <div>
+                <h3>Retriever</h3>
+                <label>Backend</label><br>
+                <select name="retrieval_backend">
+                    <option value="dense">Dense embeddings</option>
+                    <option value="bm25">BM25</option>
+                </select>
+            </div>
+
+            <div>
+                <h3>Embedding</h3>
+                <label>Model</label><br>
+                <select name="embedding_model">
+                    {% for model_name, model in embedding_models.items() %}
+                        <option value="{{ model_name }}" {% if model_name == default_embedding_model %}selected{% endif %}>
+                            {{ model_name }} - {{ model.label }}
+                        </option>
+                    {% endfor %}
+                </select>
+                <div class="small">Used only with dense embeddings</div>
+            </div>
+
+            <div>
+                <h3>Generation</h3>
+                <label>Max tokens</label><br>
+                <input type="text" name="max_tokens" value="700">
+                <label>Empty retries</label><br>
+                <input type="text" name="empty_retries" value="2">
+                <label>Max tokens cap</label><br>
+                <input type="text" name="max_tokens_cap" value="1500">
+            </div>
         </div>
 
         <h3>Strategies</h3>
@@ -73,8 +105,9 @@
 
 <div class="card">
     <form action="/clear_outputs" method="post">
-        <button class="danger" type="submit">Clear outputs and embeddings</button>
+        <button class="danger" type="submit">Clear output registry</button>
     </form>
+    <div class="small">Embeddings cache is kept. Clear a single run from its run page.</div>
 </div>
 
 <div class="card">
