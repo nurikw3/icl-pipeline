@@ -14,11 +14,12 @@ from tqdm import tqdm
 
 from experiment_config import (
     DEFAULT_EMBEDDING_MODEL,
+    GRAPH_RETRIEVAL_STRATEGIES,
     RETRIEVAL_BACKENDS,
     RETRIEVAL_STRATEGIES,
 )
 from prompts import build_prompt
-from retrieval import BM25ICLRetriever, ICLRetriever
+from retrieval import BM25ICLRetriever, GraphICLRetriever, ICLRetriever
 
 
 def parse_args():
@@ -73,6 +74,15 @@ def parse_args():
     parser.add_argument("--candidate_n", type=int, default=40)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max_examples", type=int, default=None)
+    parser.add_argument(
+        "--sample_fraction",
+        type=float,
+        default=None,
+        help=(
+            "Deterministically sample this fraction of filtered train/test. "
+            "Use 0.1 for a quick 10 percent smoke run."
+        ),
+    )
 
     parser.add_argument(
         "--only_sentences",
@@ -185,6 +195,25 @@ def validate_args(args):
     if args.retrieval_backend not in RETRIEVAL_BACKENDS:
         raise ValueError(f"Unknown retrieval backend: {args.retrieval_backend}")
 
+    selected_graph_strategies = set(args.strategies) & set(GRAPH_RETRIEVAL_STRATEGIES)
+    if selected_graph_strategies and args.retrieval_backend != "graph":
+        raise ValueError(
+            "Graph strategies require --retrieval_backend graph: "
+            f"{', '.join(sorted(selected_graph_strategies))}"
+        )
+
+    if args.retrieval_backend == "graph":
+        unsupported = (
+            set(args.strategies)
+            - set(GRAPH_RETRIEVAL_STRATEGIES)
+            - {"random"}
+        )
+        if unsupported:
+            raise ValueError(
+                "Graph backend supports random plus graph strategies only: "
+                f"{', '.join(sorted(unsupported))}"
+            )
+
     if args.max_tokens < 1:
         raise ValueError("--max_tokens must be positive.")
 
@@ -201,6 +230,9 @@ def validate_args(args):
 
     if args.candidate_n < 1:
         raise ValueError("--candidate_n must be positive.")
+
+    if args.sample_fraction is not None and not (0 < args.sample_fraction <= 1):
+        raise ValueError("--sample_fraction must be in the interval (0, 1].")
 
 
 def load_api_settings(args):
@@ -368,6 +400,40 @@ def filter_data(
         test_df = test_df[test_df["type"].isin(allowed_types)].reset_index(drop=True)
 
     return train_df, test_df
+
+
+def sample_df_fraction(
+    df: pd.DataFrame,
+    fraction: float | None,
+    seed: int,
+) -> pd.DataFrame:
+    if fraction is None or fraction >= 1:
+        return df.reset_index(drop=True)
+
+    sampled_parts = []
+
+    for _, group_df in df.groupby("type", sort=False):
+        n = max(1, int(round(len(group_df) * fraction)))
+        n = min(n, len(group_df))
+        sampled_parts.append(group_df.sample(n=n, random_state=seed))
+
+    if not sampled_parts:
+        return df.head(0).copy().reset_index(drop=True)
+
+    sampled_df = pd.concat(sampled_parts).sort_index()
+    return sampled_df.reset_index(drop=True)
+
+
+def sample_dataframes(
+    train_df: pd.DataFrame,
+    test_df: pd.DataFrame,
+    fraction: float | None,
+    seed: int,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    return (
+        sample_df_fraction(train_df, fraction=fraction, seed=seed),
+        sample_df_fraction(test_df, fraction=fraction, seed=seed + 1),
+    )
 
 
 def build_request_payload(
@@ -553,6 +619,7 @@ def print_run_header(
     print("k_list:", args.k_list)
     print("Only sentences:", args.only_sentences)
     print("Max examples:", args.max_examples)
+    print("Sample fraction:", args.sample_fraction)
     print("Model:", model)
     print("Base URL:", base_url or "(default)")
     print("Temperature:", args.temperature)
@@ -649,6 +716,13 @@ def main():
         only_sentences=args.only_sentences,
     )
 
+    train_df, test_df = sample_dataframes(
+        train_df=train_df,
+        test_df=test_df,
+        fraction=args.sample_fraction,
+        seed=args.seed,
+    )
+
     if args.max_examples is not None:
         test_df = test_df.head(args.max_examples).reset_index(drop=True)
 
@@ -741,6 +815,25 @@ def main():
             return retriever
 
         safe_embedding_name = make_safe_name(args.embedding_model)
+
+        if args.retrieval_backend == "graph":
+            cache_name = (
+                f"graph_dense_"
+                f"{args.target_lang}_"
+                f"{safe_embedding_name}_"
+                f"{data_fingerprint}_"
+                f"{'sentences' if args.only_sentences else 'all'}"
+                f".npy"
+            )
+
+            retriever = GraphICLRetriever(
+                train_df=train_df,
+                embedding_model_name=args.embedding_model,
+                cache_dir="embeddings",
+                cache_name=cache_name,
+            )
+            return retriever
+
         cache_name = (
             f"train_"
             f"{args.target_lang}_"
@@ -798,14 +891,19 @@ def main():
                         test_id=test_idx,
                     )
                 else:
-                    examples = get_retriever().retrieve(
-                        query=source_text,
-                        strategy=strategy,
-                        k=k,
-                        seed=args.seed,
-                        test_id=test_idx,
-                        candidate_n=args.candidate_n,
-                    )
+                    retrieve_kwargs = {
+                        "query": source_text,
+                        "strategy": strategy,
+                        "k": k,
+                        "seed": args.seed,
+                        "test_id": test_idx,
+                        "candidate_n": args.candidate_n,
+                    }
+
+                    if args.retrieval_backend == "graph":
+                        retrieve_kwargs["query_metadata"] = row.to_dict()
+
+                    examples = get_retriever().retrieve(**retrieve_kwargs)
 
                 prompt = build_prompt(
                     examples=examples,

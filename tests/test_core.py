@@ -7,11 +7,13 @@ from unittest.mock import patch
 import pandas as pd
 
 from prompts import build_prompt
+from retrieval import GraphICLRetriever
 from run_baseline import (
     call_openai,
     make_data_fingerprint,
     make_output_paths,
     retrieve_random_examples,
+    sample_df_fraction,
 )
 
 
@@ -160,6 +162,64 @@ class CoreTests(unittest.TestCase):
 
         self.assertEqual(first.index.tolist(), second.index.tolist())
         self.assertEqual(len(first), 3)
+
+    def test_sample_fraction_is_deterministic_and_stratified_by_type(self):
+        df = pd.DataFrame(
+            {
+                "source_text": [f"x{i}" for i in range(20)],
+                "type": ["word"] * 10 + ["phrase"] * 10,
+            }
+        )
+
+        first = sample_df_fraction(df, fraction=0.2, seed=42)
+        second = sample_df_fraction(df, fraction=0.2, seed=42)
+
+        self.assertEqual(first["source_text"].tolist(), second["source_text"].tolist())
+        self.assertEqual(first["type"].value_counts().to_dict(), {
+            "word": 2,
+            "phrase": 2,
+        })
+
+    def test_graph_common_retrieves_structurally_related_examples(self):
+        train_df = pd.DataFrame(
+            [
+                {
+                    "source_text": "tuz aççıqdur",
+                    "target_text": "salt is bitter",
+                    "type": "phrase",
+                    "length": 2,
+                    "sheet": "Ch 1",
+                },
+                {
+                    "source_text": "qand aqdur",
+                    "target_text": "sugar is white",
+                    "type": "phrase",
+                    "length": 2,
+                    "sheet": "Ch 1",
+                },
+                {
+                    "source_text": "kitab",
+                    "target_text": "book",
+                    "type": "word",
+                    "length": 1,
+                    "sheet": "Ch 2",
+                },
+            ]
+        )
+        retriever = GraphICLRetriever(train_df)
+
+        result = retriever.retrieve(
+            query="muz qattıqdur",
+            strategy="graph_common",
+            k=2,
+            query_metadata={
+                "type": "phrase",
+                "length": 2,
+                "sheet": "Ch 1",
+            },
+        )
+
+        self.assertEqual(result["type"].tolist(), ["phrase", "phrase"])
 
     def test_call_openai_retries_and_strips_prediction(self):
         completions = FlakyCompletions(failures_before_success=2)

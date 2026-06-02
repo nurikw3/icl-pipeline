@@ -34,6 +34,18 @@ BM25 retrieval:
 uv run run_baseline.py --target_lang en --retrieval_backend bm25 --strategies similarity diversity --k_list 8
 ```
 
+Graph-aware retrieval comparison on a 10% sample:
+
+```bash
+uv run run_baseline.py \
+  --target_lang en \
+  --retrieval_backend graph \
+  --strategies graph_common graph_ppr hybrid_graph \
+  --k_list 8 \
+  --sample_fraction 0.1 \
+  --only_sentences
+```
+
 Resume an interrupted run:
 
 ```bash
@@ -53,6 +65,11 @@ OPENAI_BASE_URL=...
 `OPENAI_BASE_URL` is optional. Outputs are written to `outputs/`; dense
 embedding caches are written to `embeddings/` and are keyed by model and data
 fingerprint.
+
+The graph backend uses an in-memory feature graph over the filtered train split.
+`hybrid_graph` lazily uses the same local cached embedding store as dense
+retrieval, so no external vector database or graph database is required for the
+first comparison.
 
 ## Data schema
 

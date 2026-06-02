@@ -12,6 +12,7 @@ from fastapi.templating import Jinja2Templates
 from experiment_config import (
     DEFAULT_EMBEDDING_MODEL,
     EMBEDDING_MODELS,
+    GRAPH_RETRIEVAL_STRATEGIES,
     RETRIEVAL_BACKENDS,
     RETRIEVAL_STRATEGIES,
 )
@@ -79,6 +80,16 @@ def parse_non_negative_int(text: str, default: int) -> int:
     value = int(str(text).strip())
     if value < 0:
         raise ValueError("Value cannot be negative.")
+    return value
+
+
+def parse_sample_fraction(text: str):
+    if not str(text).strip():
+        return None
+
+    value = float(str(text).strip())
+    if value <= 0 or value > 1:
+        raise ValueError("Sample fraction must be in the interval (0, 1].")
     return value
 
 
@@ -153,6 +164,9 @@ def run_experiment_process(run_id: str, config: dict):
         "--empty_retries", str(config["empty_retries"]),
         "--max_tokens_cap", str(config["max_tokens_cap"]),
     ]
+
+    if config["sample_fraction"] is not None:
+        cmd.extend(["--sample_fraction", str(config["sample_fraction"])])
 
     if config["only_sentences"]:
         cmd.append("--only_sentences")
@@ -253,6 +267,7 @@ def run_experiment(
     max_tokens: str = Form("700"),
     empty_retries: str = Form("2"),
     max_tokens_cap: str = Form("1500"),
+    sample_fraction: str = Form(""),
     only_sentences: bool = Form(False),
     print_prompts: bool = Form(False),
 ):
@@ -276,6 +291,23 @@ def run_experiment(
         if clean_retrieval_backend not in RETRIEVAL_BACKENDS:
             raise ValueError("Unknown retrieval backend.")
 
+        selected_graph_strategies = set(clean_strategies) & set(
+            GRAPH_RETRIEVAL_STRATEGIES
+        )
+        if selected_graph_strategies and clean_retrieval_backend != "graph":
+            raise ValueError("Graph strategies require graph backend.")
+
+        if clean_retrieval_backend == "graph":
+            unsupported = (
+                set(clean_strategies)
+                - set(GRAPH_RETRIEVAL_STRATEGIES)
+                - {"random"}
+            )
+            if unsupported:
+                raise ValueError(
+                    "Graph backend supports random plus graph strategies only."
+                )
+
         clean_embedding_model = embedding_model.strip() or DEFAULT_EMBEDDING_MODEL
         clean_max_tokens = parse_positive_int(max_tokens, default=700)
         clean_empty_retries = parse_non_negative_int(empty_retries, default=2)
@@ -283,6 +315,7 @@ def run_experiment(
         if clean_max_tokens_cap < clean_max_tokens:
             raise ValueError("Max tokens cap must be >= max tokens.")
 
+        clean_sample_fraction = parse_sample_fraction(sample_fraction)
         clean_max_examples = (
             parse_positive_int(max_examples, default=0)
             if max_examples.strip()
@@ -296,11 +329,17 @@ def run_experiment(
         else make_safe_name(clean_embedding_model)
     )
 
+    sample_name = ""
+    if clean_sample_fraction:
+        sample_value = str(clean_sample_fraction).replace(".", "_")
+        sample_name = f"sample{sample_value}_"
+
     run_name = (
         f"{target_lang}_"
         f"{retriever_name}_"
         f"{'-'.join(clean_strategies)}_"
         f"k{'-'.join(str(k) for k in clean_k_list)}_"
+        f"{sample_name}"
         f"{timestamp}"
     )
 
@@ -313,6 +352,7 @@ def run_experiment(
         "max_tokens": clean_max_tokens,
         "empty_retries": clean_empty_retries,
         "max_tokens_cap": clean_max_tokens_cap,
+        "sample_fraction": clean_sample_fraction,
         "max_examples": clean_max_examples,
         "only_sentences": only_sentences,
         "print_prompts": print_prompts,
