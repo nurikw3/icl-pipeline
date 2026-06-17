@@ -2,9 +2,15 @@
 
 {% block content %}
 <div class="card">
-    <h1>{{ file_type|capitalize }} table</h1>
-    <p class="small">{{ path }}</p>
-    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+    <div class="page-head">
+        <div>
+            <h1>{{ file_type|capitalize }} table</h1>
+            <p class="small path-text">{{ path }}</p>
+        </div>
+        <div class="actions">
+            <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+        </div>
+    </div>
 </div>
 
 <div class="card">

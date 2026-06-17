@@ -32,6 +32,30 @@ is still performed by the LLM.
 test source_text -> graph retrieval -> 8 train examples -> prompt -> LLM
 ```
 
+## Кратко: какие подходы сравниваются
+
+Все подходы решают одну и ту же задачу: выбрать `k=8` train examples для
+in-context prompt. LLM, test set и prompt template остаются одинаковыми;
+меняется только retriever.
+
+| Подход | Что делает |
+|---|---|
+| BGE-M3 dense similarity | Кодирует `source_text` в dense embeddings и выбирает ближайшие train-примеры по cosine similarity. |
+| BM25 similarity | Лексический baseline: выбирает примеры по совпадению токенов и BM25 score. |
+| graph_common | Строит двудольный граф `train example <-> feature` и выбирает примеры по прямому weighted feature overlap. |
+| graph_ppr | На том же графе запускает Personalized PageRank: probability mass идет от query features к train examples и обратно. |
+| hybrid_graph | Смешивает dense similarity, graph_ppr и graph_common: `0.55*dense + 0.30*ppr + 0.15*common`. |
+
+В prompt попадают только выбранные пары:
+
+```text
+Chagatai: <source_text>
+English: <target_text>
+```
+
+Graph features, PageRank probabilities and dense scores are used only for
+ranking before prompt construction; they are not inserted into the prompt.
+
 ## Code locations
 
 The graph retriever is implemented in:
@@ -621,18 +645,42 @@ It is:
 graph-structural relevance score
 ```
 
-## Observed result on the 10 percent smoke test
+## Comparison results on the 10 percent smoke test
 
-Metrics from the saved run:
+All rows below use:
 
-| Strategy | BLEU | chrF | BERTScore | Format error rate | n |
-|---|---:|---:|---:|---:|---:|
-| graph_common | 11.572381 | 35.245552 | 80.761707 | 0.000000 | 14 |
-| graph_ppr | 11.749119 | 31.869322 | 79.799539 | 7.142857 | 14 |
-| hybrid_graph | 15.022431 | 36.727770 | 81.021279 | 0.000000 | 14 |
+```text
+model       = openai/gpt-oss-120b
+target_lang = en
+k           = 8
+n           = 14 test examples
+```
 
-On this small test, `hybrid_graph` performed best. The real example above shows
-why: pure graph strategies over-emphasized high-overlap structural examples,
-while `hybrid_graph` promoted the short and semantically useful example
-`tuz aççıqdur -> salt is bitter`, which helped the LLM produce the exact
-translation pattern for `şorpa göşt wa tuzdur`.
+| Retriever | Strategy | BLEU | chrF | BERTScore | Format error rate | Empty predictions | n |
+|---|---|---:|---:|---:|---:|---:|---:|
+| BGE-M3 dense | similarity | 10.294996 | 35.877459 | 79.059166 | 7.142857 | 0 | 14 |
+| BM25 lexical | similarity | 6.772249 | 34.880287 | 80.980653 | 7.142857 | 0 | 14 |
+| Graph | graph_common | 11.572381 | 35.245552 | 80.761707 | 0.000000 | 0 | 14 |
+| Graph | graph_ppr | 11.749119 | 31.869322 | 79.799539 | 7.142857 | 0 | 14 |
+| Graph + dense | hybrid_graph | 15.022431 | 36.727770 | 81.021279 | 0.000000 | 0 | 14 |
+
+Best row in this comparison:
+
+```text
+hybrid_graph
+```
+
+It has the highest BLEU, chrF and BERTScore, and no format errors. This suggests
+that the graph signal alone is useful but unstable on a small 10 percent sample,
+while the hybrid retriever benefits from combining semantic embedding similarity
+with explicit graph structure.
+
+Additional user-provided row from another `intfloat`/graph_common run:
+
+| Retriever | Strategy | BLEU | chrF | BERTScore | Format error rate | Empty predictions | n |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Intfloat/E5 graph run | graph_common | 2.451427 | 17.452680 | 80.151719 | 0.000000 | 7 | 14 |
+
+This row is not identical to the saved graph metrics above because it contains
+`7` empty predictions. It should be treated as a separate run/configuration
+until its manifest and predictions file are matched exactly.

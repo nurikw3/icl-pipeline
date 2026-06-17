@@ -2,18 +2,28 @@
 
 {% block content %}
 <div class="card">
-    <h1>Prompts viewer</h1>
-    <p class="small">{{ path }}</p>
-    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+    <div class="page-head">
+        <div>
+            <h1>Prompts viewer</h1>
+            <p class="small path-text">{{ path }}</p>
+        </div>
+        <div class="actions">
+            <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+        </div>
+    </div>
 </div>
 
 {% if records %}
     {% for rec in records %}
         <div class="card">
-            <h3>Prompt #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+            <div class="record-head">
+                <h3>Prompt #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+            </div>
 
-            <p><b>Source:</b> {{ rec.source_text }}</p>
-            <p><b>Reference:</b> {{ rec.reference }}</p>
+            <div class="grid">
+                <p><b>Source:</b> {{ rec.source_text }}</p>
+                <p><b>Reference:</b> {{ rec.reference }}</p>
+            </div>
 
             <details>
                 <summary>Retrieved examples</summary>
@@ -41,9 +51,16 @@
                 </div>
             </details>
 
+            {% if rec.input_lexicon_entries %}
+            <details>
+                <summary>Input lexicon entries</summary>
+                <pre>{{ rec.input_lexicon_entries }}</pre>
+            </details>
+            {% endif %}
+
             <details open>
                 <summary>Full prompt</summary>
-                <pre>{{ rec.prompt }}</pre>
+                <pre class="config-dump">{{ rec.prompt }}</pre>
             </details>
         </div>
     {% endfor %}

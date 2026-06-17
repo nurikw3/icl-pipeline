@@ -2,15 +2,23 @@
 
 {% block content %}
 <div class="card">
-    <h1>Requests viewer</h1>
-    <p class="small">{{ path }}</p>
-    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+    <div class="page-head">
+        <div>
+            <h1>Requests viewer</h1>
+            <p class="small path-text">{{ path }}</p>
+        </div>
+        <div class="actions">
+            <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+        </div>
+    </div>
 </div>
 
 {% if records %}
     {% for rec in records %}
         <div class="card">
-            <h3>Request #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+            <div class="record-head">
+                <h3>Request #{{ rec.test_index }} | {{ rec.strategy }} | k={{ rec.k }}</h3>
+            </div>
 
             <div class="grid">
                 <div>
@@ -27,7 +35,7 @@
 
             <details>
                 <summary>Request content</summary>
-                <pre>{{ rec.request_content }}</pre>
+                <pre class="config-dump">{{ rec.request_content }}</pre>
             </details>
 
             <details open>

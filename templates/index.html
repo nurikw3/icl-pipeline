@@ -2,138 +2,218 @@
 
 {% block content %}
 <div class="card">
-    <h1>Run ICL Experiment</h1>
+    <div class="page-head">
+        <div>
+            <h1>Run ICL Experiment</h1>
+            <div class="small">Configure retrieval, prompting, generation, and evaluation.</div>
+        </div>
+    </div>
 
-    <form action="/run" method="post">
-        <div class="grid">
-            <div>
-                <h3>Language</h3>
-                <label>Target language</label><br>
-                <select name="target_lang">
-                    <option value="en">English</option>
-                    <option value="ru">Russian</option>
-                    <option value="kk">Kazakh</option>
-                    <option value="uz">Uzbek</option>
-                    <option value="tr">Turkish</option>
-                </select>
-            </div>
+    <form action="/run" method="post" id="run-form">
+        <div class="stack">
+            <section class="form-section">
+                <div class="form-section-title">Run</div>
+                <div class="field-grid">
+                    <div class="field">
+                        <label for="target_lang">Target language</label>
+                        <select id="target_lang" name="target_lang">
+                            <option value="en">English</option>
+                            <option value="ru">Russian</option>
+                            <option value="kk">Kazakh</option>
+                            <option value="uz">Uzbek</option>
+                            <option value="tr">Turkish</option>
+                        </select>
+                    </div>
 
-            <div>
-                <h3>Shots</h3>
-                <label>k_list</label><br>
-                <input type="text" name="k_list" value="8">
-                <div class="small">Example: 8 or 1,3,5,8,10,15</div>
-            </div>
+                    <div class="field">
+                        <label for="k_list">k list</label>
+                        <input id="k_list" type="text" name="k_list" value="3" inputmode="numeric">
+                        <div class="small">Use comma-separated values for multiple shots.</div>
+                    </div>
 
-            <div>
-                <h3>Debug</h3>
-                <label>Max examples</label><br>
-                <input type="text" name="max_examples" value="">
-                <div class="small">Leave empty for full test set</div>
-                <label>Sample fraction</label><br>
-                <input type="text" name="sample_fraction" value="0.1">
-                <div class="small">0.1 means 10% of filtered train/test</div>
-            </div>
+                    <div class="field">
+                        <label for="max_examples">Max examples</label>
+                        <input id="max_examples" type="number" min="1" name="max_examples" value="">
+                    </div>
 
-            <div>
-                <h3>Retriever</h3>
-                <label>Backend</label><br>
-                <select name="retrieval_backend">
-                    <option value="dense">Dense embeddings</option>
-                    <option value="bm25">BM25</option>
-                    <option value="graph">Graph-aware</option>
-                </select>
-            </div>
+                    <div class="field">
+                        <label for="sample_fraction">Sample fraction</label>
+                        <input id="sample_fraction" type="number" min="0.01" max="1" step="0.01" name="sample_fraction" value="0.1">
+                    </div>
+                </div>
+            </section>
 
-            <div>
-                <h3>Embedding</h3>
-                <label>Model</label><br>
-                <select name="embedding_model">
-                    {% for model_name, model in embedding_models.items() %}
-                        <option value="{{ model_name }}" {% if model_name == default_embedding_model %}selected{% endif %}>
-                            {{ model_name }} - {{ model.label }}
-                        </option>
-                    {% endfor %}
-                </select>
-                <div class="small">Used only with dense embeddings</div>
-            </div>
+            <section class="form-section">
+                <div class="form-section-title">Retrieval</div>
+                <div class="field-grid">
+                    <div class="field">
+                        <label for="retrieval_backend">Backend</label>
+                        <select id="retrieval_backend" name="retrieval_backend">
+                            <option value="dense">Dense embeddings</option>
+                            <option value="bm25" selected>BM25</option>
+                            <option value="graph">Graph-aware</option>
+                        </select>
+                    </div>
 
-            <div>
-                <h3>Generation</h3>
-                <label>Max tokens</label><br>
-                <input type="text" name="max_tokens" value="700">
-                <label>Empty retries</label><br>
-                <input type="text" name="empty_retries" value="2">
-                <label>Max tokens cap</label><br>
-                <input type="text" name="max_tokens_cap" value="1500">
+                    <div class="field">
+                        <label for="embedding_model">Embedding model</label>
+                        <select id="embedding_model" name="embedding_model">
+                            {% for model_name, model in embedding_models.items() %}
+                                <option value="{{ model_name }}" {% if model_name == default_embedding_model %}selected{% endif %}>
+                                    {{ model.label }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="check-grid" style="margin-top: 14px;">
+                    <label class="check-option" data-strategy-option="random">
+                        <input type="checkbox" name="strategies" value="random">
+                        random
+                    </label>
+                    <label class="check-option" data-strategy-option="similarity" data-standard-only="true">
+                        <input type="checkbox" name="strategies" value="similarity" checked>
+                        similarity
+                    </label>
+                    <label class="check-option" data-strategy-option="diversity" data-standard-only="true">
+                        <input type="checkbox" name="strategies" value="diversity">
+                        diversity
+                    </label>
+                    <label class="check-option" data-strategy-option="graph_common" data-graph-only="true">
+                        <input type="checkbox" name="strategies" value="graph_common">
+                        graph_common
+                    </label>
+                    <label class="check-option" data-strategy-option="graph_ppr" data-graph-only="true">
+                        <input type="checkbox" name="strategies" value="graph_ppr">
+                        graph_ppr
+                    </label>
+                    <label class="check-option" data-strategy-option="hybrid_graph" data-graph-only="true">
+                        <input type="checkbox" name="strategies" value="hybrid_graph">
+                        hybrid_graph
+                    </label>
+                    <label class="check-option" data-strategy-option="graph_ppr_bm25_dense" data-graph-only="true">
+                        <input type="checkbox" name="strategies" value="graph_ppr_bm25_dense">
+                        graph_ppr_bm25_dense
+                    </label>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="form-section-title">Prompt</div>
+                <div class="field-grid">
+                    <div class="field">
+                        <label for="prompt_mode">Mode</label>
+                        <select id="prompt_mode" name="prompt_mode">
+                            {% for prompt_mode in prompt_modes %}
+                                <option value="{{ prompt_mode }}" {% if prompt_mode == "dipmt_plus" %}selected{% endif %}>
+                                    {{ prompt_mode }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="dictionary_path">Dictionary CSV</label>
+                        <input id="dictionary_path" type="text" name="dictionary_path" value="" placeholder="Optional path">
+                    </div>
+
+                    <div class="field">
+                        <label for="lexicon_top_n">Translations per word</label>
+                        <input id="lexicon_top_n" type="number" min="1" name="lexicon_top_n" value="2">
+                    </div>
+
+                    <div class="field">
+                        <label for="lexicon_max_entries">Max hint rows</label>
+                        <input id="lexicon_max_entries" type="number" min="1" name="lexicon_max_entries" value="80">
+                    </div>
+
+                    <div class="field">
+                        <label for="fuzzy_strategy">Fuzzy strategy</label>
+                        <select id="fuzzy_strategy" name="fuzzy_strategy">
+                            <option value="max_matching" selected>max_matching</option>
+                            <option value="substring">substring</option>
+                        </select>
+                    </div>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="lexicon_use_fuzzy" checked>
+                        fuzzy matching
+                    </label>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="form-section-title">Generation</div>
+                <div class="field-grid">
+                    <div class="field">
+                        <label for="max_tokens">Max tokens</label>
+                        <input id="max_tokens" type="number" min="1" name="max_tokens" value="700">
+                    </div>
+                    <div class="field">
+                        <label for="empty_retries">Empty retries</label>
+                        <input id="empty_retries" type="number" min="0" name="empty_retries" value="2">
+                    </div>
+                    <div class="field">
+                        <label for="max_tokens_cap">Max tokens cap</label>
+                        <input id="max_tokens_cap" type="number" min="1" name="max_tokens_cap" value="1500">
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="form-section-title">BLI</div>
+                <div class="field-grid">
+                    <label class="check-option">
+                        <input type="checkbox" name="enable_bli">
+                        enable BLI
+                    </label>
+                    <div class="field">
+                        <label for="bli_threshold">Threshold</label>
+                        <input id="bli_threshold" type="number" min="0" step="0.01" name="bli_threshold" value="0.6">
+                    </div>
+                    <div class="field">
+                        <label for="bli_lexicon_path">GIZA++ lexicon TSV</label>
+                        <input id="bli_lexicon_path" type="text" name="bli_lexicon_path" value="">
+                    </div>
+                    <div class="field">
+                        <label for="giza_py_path">giza.py path</label>
+                        <input id="giza_py_path" type="text" name="giza_py_path" value="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="form-section-title">Options</div>
+                <div class="check-grid">
+                    <label class="check-option">
+                        <input type="checkbox" name="only_sentences" checked>
+                        only phrases / sentences
+                    </label>
+                    <label class="check-option">
+                        <input type="checkbox" name="print_prompts" checked>
+                        print prompts in logs
+                    </label>
+                </div>
+            </section>
+
+            <div class="actions">
+                <button type="submit">Run experiment</button>
             </div>
         </div>
-
-        <h3>Strategies</h3>
-
-        <label>
-            <input type="checkbox" name="strategies" value="random">
-            random
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="strategies" value="similarity" checked>
-            similarity
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="strategies" value="diversity">
-            diversity
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="strategies" value="graph_common">
-            graph_common
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="strategies" value="graph_ppr">
-            graph_ppr
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="strategies" value="hybrid_graph">
-            hybrid_graph
-        </label>
-
-        <h3>Options</h3>
-
-        <label>
-            <input type="checkbox" name="only_sentences" checked>
-            only phrases / sentences
-        </label>
-        <br>
-
-        <label>
-            <input type="checkbox" name="print_prompts" checked>
-            print prompts in logs
-        </label>
-
-        <br><br>
-
-        <button type="submit">Run experiment</button>
     </form>
 </div>
 
 <div class="card">
-    <form action="/clear_outputs" method="post">
-        <button class="danger" type="submit">Clear output registry</button>
-    </form>
-    <div class="small">Embeddings cache is kept. Clear a single run from its run page.</div>
-</div>
-
-<div class="card">
-    <h2>Runs</h2>
+    <div class="page-head">
+        <div>
+            <h2>Runs</h2>
+            <div class="small">Latest registered web runs.</div>
+        </div>
+        <form action="/clear_outputs" method="post" onsubmit="return confirm('Clear all output registry files?');">
+            <button class="danger" type="submit">Clear output registry</button>
+        </form>
+    </div>
 
     {% if runs %}
         <div class="table-wrap">
@@ -162,4 +242,39 @@
         <p>No runs yet.</p>
     {% endif %}
 </div>
+
+<script>
+    const backendSelect = document.querySelector("#retrieval_backend");
+    const strategyInputs = Array.from(document.querySelectorAll("input[name='strategies']"));
+    const graphOnlyOptions = Array.from(document.querySelectorAll("[data-graph-only='true']"));
+    const standardOnlyOptions = Array.from(document.querySelectorAll("[data-standard-only='true']"));
+
+    function setOptionEnabled(label, enabled) {
+        const input = label.querySelector("input");
+        input.disabled = !enabled;
+        if (!enabled) {
+            input.checked = false;
+        }
+        label.setAttribute("aria-disabled", String(!enabled));
+    }
+
+    function syncStrategies() {
+        const isGraph = backendSelect.value === "graph";
+        graphOnlyOptions.forEach((label) => {
+            setOptionEnabled(label, isGraph);
+        });
+        standardOnlyOptions.forEach((label) => {
+            setOptionEnabled(label, !isGraph);
+        });
+
+        const similarity = document.querySelector("input[value='similarity']");
+        const graphCommon = document.querySelector("input[value='graph_common']");
+        if (!strategyInputs.some((input) => input.checked && !input.disabled)) {
+            (isGraph ? graphCommon : similarity).checked = true;
+        }
+    }
+
+    backendSelect.addEventListener("change", syncStrategies);
+    syncStrategies();
+</script>
 {% endblock %}

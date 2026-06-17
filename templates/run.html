@@ -2,42 +2,49 @@
 
 {% block content %}
 <div class="card">
-    <h1>{{ run.run_name }}</h1>
-
-    <p>
-        <b>Status:</b>
-        <span class="status {{ run.status }}">{{ run.status }}</span>
-    </p>
-
-    <p><b>Run ID:</b> <span class="mono">{{ run.run_id }}</span></p>
+    <div class="page-head">
+        <div>
+            <h1>{{ run.run_name }}</h1>
+            <div class="run-meta">
+                <div><b>Status:</b> <span class="status {{ run.status }}">{{ run.status }}</span></div>
+                <div><b>Run ID:</b> <span class="mono">{{ run.run_id }}</span></div>
+            </div>
+        </div>
+    </div>
 
     <h3>Config</h3>
-    <pre>{{ run.config }}</pre>
+    <pre class="config-dump">{{ run.config }}</pre>
 
     <h3>Files</h3>
 
-    <a class="button gray" href="/logs/{{ run.run_id }}" target="_blank">Logs</a>
-    <a class="button green" href="/table/{{ run.run_id }}/metrics" target="_blank">Metrics table</a>
-    <a class="button" href="/table/{{ run.run_id }}/predictions" target="_blank">Predictions table</a>
-    <a class="button orange" href="/prompts/{{ run.run_id }}" target="_blank">Prompts viewer</a>
-    <a class="button orange" href="/requests/{{ run.run_id }}" target="_blank">Requests viewer</a>
-    <a class="button gray" href="/artifact/{{ run.run_id }}/manifest" target="_blank">Manifest</a>
-    <a class="button gray" href="/artifact/{{ run.run_id }}/status" target="_blank">Status</a>
+    <div class="actions">
+        <a class="button gray" href="/logs/{{ run.run_id }}" target="_blank">Logs</a>
+        <a class="button green" href="/table/{{ run.run_id }}/metrics" target="_blank">Metrics table</a>
+        <a class="button" href="/table/{{ run.run_id }}/predictions" target="_blank">Predictions table</a>
+        <a class="button orange" href="/prompts/{{ run.run_id }}" target="_blank">Prompts viewer</a>
+        <a class="button orange" href="/requests/{{ run.run_id }}" target="_blank">Requests viewer</a>
+        <a class="button gray" href="/artifact/{{ run.run_id }}/manifest" target="_blank">Manifest</a>
+        <a class="button gray" href="/artifact/{{ run.run_id }}/status" target="_blank">Status</a>
+    </div>
 
-    {% if run.status not in ["queued", "running", "evaluating"] %}
-        <form action="/resume/{{ run.run_id }}" method="post" style="margin-top: 16px;">
+    <div class="actions" style="margin-top: 16px;">
+        {% if run.status not in ["queued", "running", "evaluating"] %}
+        <form action="/resume/{{ run.run_id }}" method="post">
             <button type="submit">Resume run</button>
         </form>
-    {% endif %}
+        {% endif %}
 
-    <form action="/clear_run/{{ run.run_id }}" method="post" style="margin-top: 16px;">
-        <button class="danger" type="submit">Clear this run</button>
-    </form>
+        <form action="/clear_run/{{ run.run_id }}" method="post" onsubmit="return confirm('Clear this run and its files?');">
+            <button class="danger" type="submit">Clear this run</button>
+        </form>
+    </div>
 </div>
 
+{% if run.status in ["queued", "running", "evaluating"] %}
 <script>
     setTimeout(() => {
         window.location.reload();
     }, 5000);
 </script>
+{% endif %}
 {% endblock %}

@@ -13,6 +13,7 @@ from experiment_config import (
     DEFAULT_EMBEDDING_MODEL,
     EMBEDDING_MODELS,
     GRAPH_RETRIEVAL_STRATEGIES,
+    PROMPT_MODES,
     RETRIEVAL_BACKENDS,
     RETRIEVAL_STRATEGIES,
 )
@@ -159,11 +160,36 @@ def run_experiment_process(run_id: str, config: dict):
         "--k_list", *[str(k) for k in config["k_list"]],
         "--run_name", run_name,
         "--retrieval_backend", config["retrieval_backend"],
+        "--prompt_mode", config.get("prompt_mode", "standard"),
         "--embedding_model", config["embedding_model"],
         "--max_tokens", str(config["max_tokens"]),
         "--empty_retries", str(config["empty_retries"]),
         "--max_tokens_cap", str(config["max_tokens_cap"]),
+        "--lexicon_top_n", str(config.get("lexicon_top_n", 2)),
+        "--lexicon_max_entries", str(config.get("lexicon_max_entries", 80)),
     ]
+
+    if config.get("dictionary_path"):
+        cmd.extend(["--dictionary_path", config["dictionary_path"]])
+
+    if config.get("enable_bli"):
+        cmd.extend(
+            [
+                "--enable_bli",
+                "--bli_threshold",
+                str(config.get("bli_threshold", 0.6)),
+            ]
+        )
+        if config.get("bli_lexicon_path"):
+            cmd.extend(["--bli_lexicon_path", config["bli_lexicon_path"]])
+        if config.get("giza_py_path"):
+            cmd.extend(["--giza_py_path", config["giza_py_path"]])
+
+    if not config.get("lexicon_use_fuzzy", True):
+        cmd.append("--disable_lexicon_fuzzy")
+
+    if config.get("fuzzy_strategy"):
+        cmd.extend(["--fuzzy_strategy", config["fuzzy_strategy"]])
 
     if config["sample_fraction"] is not None:
         cmd.extend(["--sample_fraction", str(config["sample_fraction"])])
@@ -251,6 +277,7 @@ def index(request: Request):
             "runs": RUNS,
             "embedding_models": EMBEDDING_MODELS,
             "default_embedding_model": DEFAULT_EMBEDDING_MODEL,
+            "prompt_modes": PROMPT_MODES,
         },
     )
 
@@ -263,10 +290,20 @@ def run_experiment(
     k_list: str = Form(...),
     max_examples: str = Form(""),
     retrieval_backend: str = Form("dense"),
+    prompt_mode: str = Form("standard"),
     embedding_model: str = Form(DEFAULT_EMBEDDING_MODEL),
     max_tokens: str = Form("700"),
     empty_retries: str = Form("2"),
     max_tokens_cap: str = Form("1500"),
+    lexicon_top_n: str = Form("2"),
+    lexicon_max_entries: str = Form("80"),
+    dictionary_path: str = Form(""),
+    fuzzy_strategy: str = Form("max_matching"),
+    lexicon_use_fuzzy: bool = Form(False),
+    enable_bli: bool = Form(False),
+    bli_threshold: str = Form("0.6"),
+    bli_lexicon_path: str = Form(""),
+    giza_py_path: str = Form(""),
     sample_fraction: str = Form(""),
     only_sentences: bool = Form(False),
     print_prompts: bool = Form(False),
@@ -291,6 +328,10 @@ def run_experiment(
         if clean_retrieval_backend not in RETRIEVAL_BACKENDS:
             raise ValueError("Unknown retrieval backend.")
 
+        clean_prompt_mode = prompt_mode.strip().lower()
+        if clean_prompt_mode not in PROMPT_MODES:
+            raise ValueError("Unknown prompt mode.")
+
         selected_graph_strategies = set(clean_strategies) & set(
             GRAPH_RETRIEVAL_STRATEGIES
         )
@@ -312,6 +353,18 @@ def run_experiment(
         clean_max_tokens = parse_positive_int(max_tokens, default=700)
         clean_empty_retries = parse_non_negative_int(empty_retries, default=2)
         clean_max_tokens_cap = parse_positive_int(max_tokens_cap, default=1500)
+        clean_lexicon_top_n = parse_positive_int(lexicon_top_n, default=2)
+        clean_lexicon_max_entries = parse_positive_int(
+            lexicon_max_entries,
+            default=80,
+        )
+        clean_dictionary_path = dictionary_path.strip()
+        clean_fuzzy_strategy = fuzzy_strategy.strip().lower()
+        if clean_fuzzy_strategy not in {"max_matching", "substring"}:
+            raise ValueError("Unknown fuzzy strategy.")
+        clean_bli_threshold = float(bli_threshold)
+        if clean_bli_threshold < 0:
+            raise ValueError("BLI threshold cannot be negative.")
         if clean_max_tokens_cap < clean_max_tokens:
             raise ValueError("Max tokens cap must be >= max tokens.")
 
@@ -334,8 +387,16 @@ def run_experiment(
         sample_value = str(clean_sample_fraction).replace(".", "_")
         sample_name = f"sample{sample_value}_"
 
+    dictionary_name = ""
+    if clean_dictionary_path:
+        dictionary_name = f"dict_{make_safe_name(Path(clean_dictionary_path).stem)}_"
+    bli_name = "bli_" if enable_bli else ""
+
     run_name = (
         f"{target_lang}_"
+        f"{clean_prompt_mode}_"
+        f"{dictionary_name}"
+        f"{bli_name}"
         f"{retriever_name}_"
         f"{'-'.join(clean_strategies)}_"
         f"k{'-'.join(str(k) for k in clean_k_list)}_"
@@ -348,10 +409,20 @@ def run_experiment(
         "strategies": clean_strategies,
         "k_list": clean_k_list,
         "retrieval_backend": clean_retrieval_backend,
+        "prompt_mode": clean_prompt_mode,
         "embedding_model": clean_embedding_model,
         "max_tokens": clean_max_tokens,
         "empty_retries": clean_empty_retries,
         "max_tokens_cap": clean_max_tokens_cap,
+        "lexicon_top_n": clean_lexicon_top_n,
+        "lexicon_max_entries": clean_lexicon_max_entries,
+        "dictionary_path": clean_dictionary_path,
+        "fuzzy_strategy": clean_fuzzy_strategy,
+        "lexicon_use_fuzzy": lexicon_use_fuzzy,
+        "enable_bli": enable_bli,
+        "bli_threshold": clean_bli_threshold,
+        "bli_lexicon_path": bli_lexicon_path.strip(),
+        "giza_py_path": giza_py_path.strip(),
         "sample_fraction": clean_sample_fraction,
         "max_examples": clean_max_examples,
         "only_sentences": only_sentences,
@@ -500,6 +571,8 @@ def prompts_page(request: Request, run_id: str):
             "reference": rec.get("reference", ""),
             "prompt": rec.get("prompt", ""),
             "retrieved_examples": rec.get("retrieved_examples", []),
+            "input_lexicon_entries": rec.get("input_lexicon_entries", []),
+            "example_lexicon_entries": rec.get("example_lexicon_entries", []),
         })
 
     return templates.TemplateResponse(

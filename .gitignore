@@ -1,4 +1,5 @@
 .env
+CLAUDE.MD
 outputs/
 embeddings/
 __pycache__

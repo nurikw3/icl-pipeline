@@ -14,15 +14,24 @@ EMBEDDING_MODELS = {
 }
 
 RETRIEVAL_BACKENDS = ("dense", "bm25", "graph")
+PROMPT_MODES = ("standard", "dipmt_plus")
 RETRIEVAL_STRATEGIES = (
+    "zero",
+    "static",
     "random",
     "similarity",
     "diversity",
     "graph_common",
     "graph_ppr",
     "hybrid_graph",
+    "graph_ppr_bm25_dense",
 )
-GRAPH_RETRIEVAL_STRATEGIES = ("graph_common", "graph_ppr", "hybrid_graph")
+GRAPH_RETRIEVAL_STRATEGIES = (
+    "graph_common",
+    "graph_ppr",
+    "hybrid_graph",
+    "graph_ppr_bm25_dense",
+)
 
 
 def get_embedding_model_config(model_name: str) -> dict:

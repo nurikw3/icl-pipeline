@@ -128,7 +128,26 @@ class LocalDenseVectorStore:
         return np.dot(self.embeddings, q_emb)
 
 
-class ICLRetriever:
+class BaseICLRetriever:
+    """Shared base class for all ICL retriever variants.
+
+    Subclasses must set ``self.train_df`` before calling any inherited method.
+    """
+
+    train_df: pd.DataFrame
+
+    def retrieve_random(
+        self,
+        k: int = 8,
+        seed: int = 42,
+        test_id: int = 0,
+    ) -> pd.DataFrame:
+        rng = random.Random(seed + int(test_id))
+        indices = rng.sample(range(len(self.train_df)), k=min(k, len(self.train_df)))
+        return self.train_df.iloc[indices].copy()
+
+
+class ICLRetriever(BaseICLRetriever):
     """
     Implements the three shot-selection strategies from the article:
 
@@ -201,16 +220,6 @@ class ICLRetriever:
         )[0]
 
         return np.asarray(emb)
-
-    def retrieve_random(
-        self,
-        k: int = 8,
-        seed: int = 42,
-        test_id: int = 0,
-    ) -> pd.DataFrame:
-        rng = random.Random(seed + int(test_id))
-        indices = rng.sample(range(len(self.train_df)), k=min(k, len(self.train_df)))
-        return self.train_df.iloc[indices].copy()
 
     def retrieve_similarity(
         self,
@@ -313,18 +322,20 @@ class ICLRetriever:
         raise ValueError(f"Unknown retrieval strategy: {strategy}")
 
 
-class GraphICLRetriever:
+class GraphICLRetriever(BaseICLRetriever):
     """
     Graph-aware in-context example retriever.
 
     The graph is a lightweight heterogeneous feature graph:
-    source examples connect to lexical, morphology-ish, type, length, and sheet
-    feature nodes. At query time we add a temporary query node via the same
-    feature extraction and rank train examples with one of three strategies:
+    source examples connect to lexical token, prefix/suffix, bigram, type, and
+    length feature nodes. At query time we add a temporary query node via the
+    same feature extraction and rank train examples with one of three
+    strategies:
 
     1. graph_common: weighted common-neighbor score
     2. graph_ppr: personalized PageRank-style walk from query features
     3. hybrid_graph: dense vector score + graph_ppr + graph_common
+    4. graph_ppr_bm25_dense: dense vector score + graph_ppr + BM25
     """
 
     def __init__(
@@ -351,6 +362,11 @@ class GraphICLRetriever:
         self.source_to_features = []
         self.feature_totals = {}
         self.source_totals = []
+        self.bm25_documents = [
+            tokenize_for_bm25(text)
+            for text in self.train_df["source_text"].astype(str).tolist()
+        ]
+        self.bm25_index = BM25Okapi(self.bm25_documents)
 
         self._build_graph()
 
@@ -374,14 +390,10 @@ class GraphICLRetriever:
 
         row_type = str(row.get("type", "")).strip().lower()
         if row_type:
-            features[f"type:{row_type}"] += 0.8
+            features[f"type:{row_type}"] += 1.0
 
         bucket = length_bucket(row.get("length", ""), fallback_tokens=tokens)
-        features[f"length:{bucket}"] += 0.6
-
-        sheet = str(row.get("sheet", "")).strip()
-        if sheet:
-            features[f"sheet:{sheet}"] += 0.4
+        features[f"length:{bucket}"] += 0.8
 
         return dict(features)
 
@@ -441,16 +453,6 @@ class GraphICLRetriever:
         result = self.train_df.iloc[top_indices].copy()
         result["retrieval_score"] = scores[top_indices]
         return result
-
-    def retrieve_random(
-        self,
-        k: int = 8,
-        seed: int = 42,
-        test_id: int = 0,
-    ) -> pd.DataFrame:
-        rng = random.Random(seed + int(test_id))
-        indices = rng.sample(range(len(self.train_df)), k=min(k, len(self.train_df)))
-        return self.train_df.iloc[indices].copy()
 
     def graph_common_scores(
         self,
@@ -542,6 +544,9 @@ class GraphICLRetriever:
 
         return self.vector_store.score(query)
 
+    def _bm25_scores(self, query: str) -> np.ndarray:
+        return np.asarray(self.bm25_index.get_scores(tokenize_for_bm25(query)))
+
     def hybrid_graph_scores(
         self,
         query: str,
@@ -556,6 +561,19 @@ class GraphICLRetriever:
         )
 
         return 0.55 * dense_scores + 0.30 * ppr_scores + 0.15 * common_scores
+
+    def graph_ppr_bm25_dense_scores(
+        self,
+        query: str,
+        query_metadata: dict | None = None,
+    ) -> np.ndarray:
+        dense_scores = normalize_scores(self._dense_scores(query))
+        ppr_scores = normalize_scores(
+            self.graph_ppr_scores(query, query_metadata=query_metadata)
+        )
+        bm25_scores = normalize_scores(self._bm25_scores(query))
+
+        return 0.55 * dense_scores + 0.30 * ppr_scores + 0.15 * bm25_scores
 
     def retrieve_graph_common(
         self,
@@ -582,6 +600,18 @@ class GraphICLRetriever:
         query_metadata: dict | None = None,
     ) -> pd.DataFrame:
         scores = self.hybrid_graph_scores(query, query_metadata=query_metadata)
+        return self._rank_result(scores, k=k)
+
+    def retrieve_graph_ppr_bm25_dense(
+        self,
+        query: str,
+        k: int = 8,
+        query_metadata: dict | None = None,
+    ) -> pd.DataFrame:
+        scores = self.graph_ppr_bm25_dense_scores(
+            query,
+            query_metadata=query_metadata,
+        )
         return self._rank_result(scores, k=k)
 
     def retrieve(
@@ -620,10 +650,17 @@ class GraphICLRetriever:
                 query_metadata=query_metadata,
             )
 
+        if strategy == "graph_ppr_bm25_dense":
+            return self.retrieve_graph_ppr_bm25_dense(
+                query=query,
+                k=k,
+                query_metadata=query_metadata,
+            )
+
         raise ValueError(f"Unknown graph retrieval strategy: {strategy}")
 
 
-class BM25ICLRetriever:
+class BM25ICLRetriever(BaseICLRetriever):
     def __init__(self, train_df: pd.DataFrame):
         self.train_df = train_df.reset_index(drop=True)
         self.documents = [
@@ -635,16 +672,6 @@ class BM25ICLRetriever:
             set(tokenize_for_bm25(text))
             for text in self.train_df["source_text"].astype(str).tolist()
         ]
-
-    def retrieve_random(
-        self,
-        k: int = 8,
-        seed: int = 42,
-        test_id: int = 0,
-    ) -> pd.DataFrame:
-        rng = random.Random(seed + int(test_id))
-        indices = rng.sample(range(len(self.train_df)), k=min(k, len(self.train_df)))
-        return self.train_df.iloc[indices].copy()
 
     def retrieve_similarity(
         self,

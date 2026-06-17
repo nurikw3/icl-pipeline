@@ -2,11 +2,18 @@
 
 {% block content %}
 <div class="card">
-    <h1>Logs</h1>
-    <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+    <div class="page-head">
+        <div>
+            <h1>Logs</h1>
+            <div class="small">{{ run.run_name }}</div>
+        </div>
+        <div class="actions">
+            <a class="button gray" href="/run/{{ run.run_id }}">Back to run</a>
+        </div>
+    </div>
 </div>
 
 <div class="card">
-    <pre>{{ log_text }}</pre>
+    <pre class="log-dump">{{ log_text }}</pre>
 </div>
 {% endblock %}
