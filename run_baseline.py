@@ -5,6 +5,7 @@ import os
 import random
 import shutil
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -323,6 +324,16 @@ def parse_args():
         type=float,
         default=0.1,
         help="Sleep between API calls.",
+    )
+
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help=(
+            "Concurrent LLM workers. Set >1 to parallelise API calls. "
+            "Match LM Studio's n_parallel setting for best results."
+        ),
     )
 
     parser.add_argument(
@@ -1547,14 +1558,17 @@ def main():
             strategy_errors = 0
             strategy_empty_predictions = 0
 
-            for test_idx, row in tqdm(
-                test_df.iterrows(),
-                total=len(test_df),
-                desc=f"{strategy}, k={k}",
-            ):
+            # ── Phase 1: retrieval + prompt building (sequential) ──────────
+            work_items = []
+            prompt_prints = 0
+            for test_idx, row in test_df.iterrows():
                 source_text = str(row["source_text"]).strip()
                 reference = str(row["target_text"]).strip()
                 current_key = (str(strategy), int(k), int(test_idx))
+
+                if current_key in completed_keys:
+                    continue
+
                 langfuse_trace_id = make_langfuse_trace_id(
                     langfuse_client=langfuse_client,
                     session_id=langfuse_session_id,
@@ -1562,9 +1576,6 @@ def main():
                     k=int(k),
                     test_idx=int(test_idx),
                 )
-
-                if current_key in completed_keys:
-                    continue
 
                 if strategy == "zero":
                     examples = train_df.head(0).copy()
@@ -1586,15 +1597,12 @@ def main():
                         "test_id": test_idx,
                         "candidate_n": args.candidate_n,
                     }
-
                     if args.retrieval_backend == "graph":
                         retrieve_kwargs["query_metadata"] = row.to_dict()
-
                     examples = get_retriever().retrieve(**retrieve_kwargs)
 
                 example_lexicon_entries = None
                 input_lexicon_entries = None
-
                 if lexicon is not None:
                     example_lexicon_entries = [
                         lexicon.lookup(str(ex["source_text"]).strip())
@@ -1622,7 +1630,6 @@ def main():
                     max(args.max_tokens, args.max_tokens_cap),
                     max(request_max_tokens * 2, args.max_tokens),
                 )
-
                 request_payload = build_request_payload(
                     prompt=prompt,
                     model=model,
@@ -1631,7 +1638,7 @@ def main():
                     disable_thinking=args.disable_thinking,
                 )
 
-                if args.print_prompts and test_idx < args.print_prompt_limit:
+                if args.print_prompts and prompt_prints < args.print_prompt_limit:
                     print("\n" + "=" * 100)
                     print(
                         f"PROMPT DEBUG | "
@@ -1642,6 +1649,7 @@ def main():
                     print("=" * 100)
                     print(prompt)
                     print("=" * 100 + "\n")
+                    prompt_prints += 1
 
                 retrieved_records = examples[
                     ["source_text", "target_text", "target_lang", "type"]
@@ -1661,22 +1669,74 @@ def main():
                     retrieved_records=retrieved_records,
                 )
 
-                prediction = ""
-                error = ""
-                usage = None
-                response_info = {}
+                work_items.append({
+                    "test_idx": test_idx,
+                    "row": row,
+                    "source_text": source_text,
+                    "reference": reference,
+                    "current_key": current_key,
+                    "langfuse_trace_id": langfuse_trace_id,
+                    "request_payload": request_payload,
+                    "request_max_tokens": request_max_tokens,
+                    "empty_retry_max_tokens": empty_retry_max_tokens,
+                    "prompt": prompt,
+                    "retrieved_records": retrieved_records,
+                    "example_lexicon_entries": example_lexicon_entries,
+                    "input_lexicon_entries": input_lexicon_entries,
+                })
 
+            # ── Phase 2: LLM calls (parallel when workers > 1) ────────────
+            def _call_llm(item):
+                prediction, error, usage, response_info = "", "", None, {}
                 try:
                     prediction, usage, response_info = call_openai(
                         client=client,
-                        request_payload=request_payload,
+                        request_payload=item["request_payload"],
                         max_retries=args.api_retries,
                         retry_delay=args.api_retry_delay,
                         empty_retries=args.empty_retries,
-                        empty_retry_max_tokens=empty_retry_max_tokens,
+                        empty_retry_max_tokens=item["empty_retry_max_tokens"],
                     )
+                    if args.sleep > 0 and args.workers == 1:
+                        time.sleep(args.sleep)
                 except Exception as e:
                     error = str(e)
+                return {**item, "prediction": prediction, "usage": usage,
+                        "response_info": response_info, "error": error}
+
+            if args.workers > 1:
+                with ThreadPoolExecutor(max_workers=args.workers) as executor:
+                    completed_items = list(tqdm(
+                        executor.map(_call_llm, work_items),
+                        total=len(work_items),
+                        desc=f"{strategy}, k={k}",
+                    ))
+            else:
+                completed_items = [
+                    _call_llm(item)
+                    for item in tqdm(work_items, desc=f"{strategy}, k={k}")
+                ]
+
+            # ── Phase 3: write results (sequential) ───────────────────────
+            for result in completed_items:
+                test_idx = result["test_idx"]
+                row = result["row"]
+                source_text = result["source_text"]
+                reference = result["reference"]
+                current_key = result["current_key"]
+                langfuse_trace_id = result["langfuse_trace_id"]
+                request_payload = result["request_payload"]
+                request_max_tokens = result["request_max_tokens"]
+                prompt = result["prompt"]
+                retrieved_records = result["retrieved_records"]
+                example_lexicon_entries = result["example_lexicon_entries"]
+                input_lexicon_entries = result["input_lexicon_entries"]
+                prediction = result["prediction"]
+                usage = result["usage"]
+                response_info = result["response_info"]
+                error = result["error"]
+
+                if error:
                     strategy_errors += 1
                     total_errors += 1
                     print(f"\nLLM error at test_idx={test_idx}: {error}")
@@ -1688,7 +1748,6 @@ def main():
                 prompt_tokens = 0
                 completion_tokens = 0
                 total_tokens = 0
-
                 if usage:
                     prompt_tokens = usage.get("prompt_tokens", 0) or 0
                     completion_tokens = usage.get("completion_tokens", 0) or 0
@@ -1817,9 +1876,6 @@ def main():
                     total_errors=total_errors,
                     total_empty_predictions=total_empty_predictions,
                 )
-
-                if args.sleep > 0:
-                    time.sleep(args.sleep)
 
             print(f"\nFinished strategy={strategy}, k={k}")
             print("Strategy errors:", strategy_errors)
